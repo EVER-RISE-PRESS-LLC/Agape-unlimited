@@ -5,25 +5,29 @@
   "scripts": {
     "dev": "next dev --hostname 0.0.0.0",
     "build": "next build",
-    "start": "next start --hostname 0.0.0.0",
+    "start": "wrangler dev --ip 0.0.0.0",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "deploy": "wrangler deploy",
+    "preview": "wrangler dev",
+    "cf:types": "wrangler types"
   },
   "dependencies": {
+    "lucide-react": "^0.468.0",
     "next": "16.3.8",
     "react": "^19.2.0",
-    "react-dom": "^19.2.0",
-    "lucide-react": "^0.468.0"
+    "react-dom": "^19.2.0"
   },
   "devDependencies": {
+    "@axe-core/playwright": "^4.11.0",
+    "@playwright/test": "^1.58.0",
     "@types/node": "^22",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "typescript": "^5.9.0",
     "eslint": "^9",
     "eslint-config-next": "16.3.8",
-    "@playwright/test": "^1.58.0",
-    "@axe-core/playwright": "^4.11.0"
+    "typescript": "^5.9.0",
+    "wrangler": "4.149.0"
   }
 }

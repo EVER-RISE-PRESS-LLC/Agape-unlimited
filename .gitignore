@@ -1,5 +1,7 @@
 node_modules/
 .next/
+.wrangler/
+worker-configuration.d.ts
 out/
 .env*
 !.env.example

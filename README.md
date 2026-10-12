@@ -15,7 +15,7 @@ Open http://localhost:3000.
 
 ```sh
 npm run build
-npm start
+npm run preview
 ```
 
 ## Content and configuration
@@ -59,6 +59,35 @@ The full development audit currently reports a braces stack-exhaustion advisory 
 
 See `docs/design-direction.md` and `docs/animation-review.md` for the design reasoning and final motion review. The design uses Montserrat and Source Sans 3 with the supplied navy, gold, ivory, and soft-blue palette. Motion is limited to one introductory stagger, press feedback, and the anchored mobile menu. Reduced motion, reduced transparency, high contrast, keyboard focus, and print styles are included.
 
-## Publishing
+## Cloudflare hosting
 
-The project is ready for a Next.js hosting environment after approved contact and donation details are added. Use the platform's Next.js preset, `npm run build`, and the public environment variables above. This task does not publish the site or provision a donation processor.
+This website uses Next.js static export (`output: "export"`) and Cloudflare Workers Static Assets. `npm run build` creates the deployable files in `out/`; `wrangler.jsonc` defines the Worker, asset directory, and custom 404 handling. Wrangler uses your authenticated account; Workers Builds uses the connected Cloudflare account. Images are served directly from the export without a Next.js image server.
+
+```sh
+npm run build
+npm run deploy -- --dry-run
+npm run deploy
+```
+
+To preview the production export locally:
+
+```sh
+npm run preview
+```
+
+Wrangler serves the preview at http://localhost:8787. Run the existing browser checks against that preview or a deployed URL:
+
+```sh
+PLAYWRIGHT_BASE_URL=http://localhost:8787 npm run test:e2e
+```
+
+Cloudflare Workers Builds connects to `EVER-RISE-PRESS-LLC/Agape-unlimited` and deploys production from `main`. Use these build settings:
+
+- Root directory: repository root.
+- Build command: `npm run build`.
+- Deploy command: `npm run deploy`.
+- Public environment variables: `NEXT_PUBLIC_CONTACT_EMAIL`, `NEXT_PUBLIC_DONATION_URL`, and `NEXT_PUBLIC_SITE_URL` as needed. These are build variables; changing them requires a new build.
+
+Keep the Cloudflare application name and the `name` in `wrangler.jsonc` aligned. The current website needs no server, database, or runtime secrets. Adding server actions, API handlers, or other server-dependent features would require changing the hosting setup.
+
+See the [Cloudflare Static Assets guide](https://developers.cloudflare.com/workers/static-assets/get-started/) and [Workers Builds configuration](https://developers.cloudflare.com/workers/ci-cd/builds/configuration/) for deployment and repository integration details.

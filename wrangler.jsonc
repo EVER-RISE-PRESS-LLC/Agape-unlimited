@@ -1,0 +1,17 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "agape-unlimited",
+  "compatibility_date": "2026-10-12",
+  "workers_dev": true,
+  "assets": {
+    "directory": "./out",
+    "not_found_handling": "404-page"
+  },
+  "observability": {
+    "enabled": true,
+    "traces": {
+      "enabled": true,
+      "head_sampling_rate": 0.01
+    }
+  }
+}
