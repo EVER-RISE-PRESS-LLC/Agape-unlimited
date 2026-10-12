@@ -5,5 +5,7 @@ export const site = {
   email: email && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email) ? email : null,
   donationUrl:
     donationUrl && /^https:\/\//.test(donationUrl) ? donationUrl : null,
-  url: process.env.NEXT_PUBLIC_SITE_URL || null,
+  url:
+    process.env.NEXT_PUBLIC_SITE_URL?.trim() ||
+    "https://agape-unlimited.everrisepressdev.workers.dev",
 };

@@ -1,5 +1,43 @@
 import { test, expect } from "@playwright/test";
 import AxeBuilder from "@axe-core/playwright";
+
+test("social metadata points to a valid branded PNG", async ({ page, request }) => {
+  await page.goto("/");
+  const imageUrl = new URL(
+    (await page.locator('meta[property="og:image"]').getAttribute("content"))!,
+  );
+  expect(imageUrl.protocol).toBe("https:");
+  expect(imageUrl.hostname).not.toBe("localhost");
+  expect(imageUrl.pathname).toBe("/opengraph-image");
+  await expect(page.locator('meta[property="og:image:width"]')).toHaveAttribute(
+    "content", "1200",
+  );
+  await expect(page.locator('meta[property="og:image:height"]')).toHaveAttribute(
+    "content", "630",
+  );
+  await expect(page.locator('meta[property="og:image:alt"]')).toHaveAttribute(
+    "content", /Agape Unlimited Foundation/,
+  );
+  await expect(page.locator('meta[name="twitter:card"]')).toHaveAttribute(
+    "content", "summary_large_image",
+  );
+  const twitterUrl = new URL(
+    (await page.locator('meta[name="twitter:image"]').getAttribute("content"))!,
+  );
+  expect(twitterUrl.origin).toBe(imageUrl.origin);
+  expect(twitterUrl.pathname).toBe(imageUrl.pathname);
+
+  // Check the tested deployment, even when its canonical URL is different.
+  const response = await request.get(imageUrl.pathname + imageUrl.search);
+  expect(response.ok()).toBeTruthy();
+  expect(response.headers()["content-type"]).toContain("image/png");
+  const png = await response.body();
+  expect(png.subarray(0, 8).toString("hex")).toBe("89504e470d0a1a0a");
+  expect(png.readUInt32BE(16)).toBe(1200);
+  expect(png.readUInt32BE(20)).toBe(630);
+  expect(png.length).toBeLessThan(5 * 1024 * 1024);
+});
+
 test("desktop content, program filtering, accessibility and assets", async ({
   page,
 }) => {

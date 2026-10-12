@@ -41,6 +41,16 @@ The contact action becomes a mailto link when a valid email is provided. Giving 
 
 The supplied logo remains intact against white. Two supplied founder photographs are used without identifying a name, location, or event. Confirm photograph publication permission before public launch. No stock images, fabricated impact counts, testimonials, partner logos, service eligibility, or tax claims are included. Google fonts are self-hosted by Next.js; the build needs network access to fetch them.
 
+## Automatic social images
+
+`app/opengraph-image.tsx` generates a 1200 × 630 PNG on every production build using Next.js `ImageResponse`. It reads the navy, ivory, gold, and muted colors from `app/globals.css`, embeds the supplied seal, and uses local Montserrat and Source Sans 3 fonts with their licenses in `assets/fonts/`.
+
+Edit `lib/social.ts` to change the headline, supporting text, or image alt text. Rebuild to regenerate the image; no separate generation command or image service is required. The generator runs at build time, so the deployed website remains compatible with Cloudflare Workers Static Assets.
+
+The image is available at `/opengraph-image`. Next.js inserts the Open Graph image tags, and the layout configures a large Twitter/X card using the same image. `public/_headers` ensures Cloudflare serves the exported image with the `image/png` content type.
+
+`NEXT_PUBLIC_SITE_URL` overrides the canonical URL and absolute social image URLs. When unset, metadata uses the deployed `https://agape-unlimited.everrisepressdev.workers.dev` address.
+
 ## Validation
 
 ```sh
