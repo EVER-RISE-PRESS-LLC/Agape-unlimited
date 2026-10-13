@@ -4,9 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev --hostname 0.0.0.0",
+    "prebuild": "npm run cf:types",
     "build": "next build",
     "start": "wrangler dev --ip 0.0.0.0",
     "lint": "eslint .",
+    "pretypecheck": "npm run cf:types",
     "typecheck": "tsc --noEmit",
     "test:e2e": "playwright test",
     "deploy": "wrangler deploy",

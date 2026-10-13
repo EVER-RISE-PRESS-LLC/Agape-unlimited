@@ -5,6 +5,8 @@ worker-configuration.d.ts
 out/
 .env*
 !.env.example
+.dev.vars*
+!.dev.vars.example
 *.tsbuildinfo
 .DS_Store
 playwright-report/

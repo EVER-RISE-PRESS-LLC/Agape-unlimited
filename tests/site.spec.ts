@@ -116,6 +116,7 @@ test("mobile menu, focus return, layout and reduced motion", async ({
     .getByRole("navigation", { name: "Mobile navigation" })
     .getByRole("link", { name: "What we do" })
     .click();
+  await expect(page).toHaveURL(/\/programs$/);
   await expect(menu).toHaveAttribute("aria-expanded", "false");
   expect(
     await page.evaluate(

@@ -10,27 +10,12 @@ import {
   Check,
   MoveUpRight,
 } from "lucide-react";
-import { Header } from "@/components/header";
 import { Programs } from "@/components/programs";
-import { site } from "@/lib/site";
-const values = [
-  ["Compassion", "We serve people with dignity, respect, and understanding."],
-  [
-    "Empowerment",
-    "We don’t just help people get through today; we help them prepare for tomorrow.",
-  ],
-  ["Opportunity", "We believe access can change a life."],
-  ["Integrity", "We lead with honesty, accountability, and transparency."],
-  [
-    "Inclusion",
-    "Every child, family, and individual deserves to be seen, heard, and valued.",
-  ],
-  ["Community", "Lasting change happens when we work together."],
-];
+import Link from "next/link";
+import { values } from "@/lib/values";
 export default function Home() {
   return (
     <>
-      <Header />
       <main id="main">
         <section
           className="hero section-shell"
@@ -55,12 +40,12 @@ export default function Home() {
               Together, we can help make that possible.
             </p>
             <div className="hero-actions">
-              <a href="#programs" className="button">
+              <Link href="/programs" className="button">
                 Discover our work <ArrowUpRight size={19} aria-hidden="true" />
-              </a>
-              <a className="text-link" href="#mission">
-                Get to know us <span aria-hidden="true">↗</span>
-              </a>
+              </Link>
+              <Link className="text-link" href="/about">
+                Get to know us <ArrowUpRight size={23} aria-hidden="true" />
+              </Link>
             </div>
             <div className="hero-footnote">
               <span className="small-heart">
@@ -242,7 +227,7 @@ export default function Home() {
             </p>
           </div>
           <div className="values-grid">
-            {values.map(([name, text]) => (
+            {values.map(({ name, text }) => (
               <article key={name}>
                 <span className="value-mark">
                   <Check size={18} strokeWidth={1.5} aria-hidden="true" />
@@ -294,10 +279,10 @@ export default function Home() {
                 <p>
                   Bring your care, experience, and perspective to our mission.
                 </p>
-                <a href="#connect" className="text-link">
+                <Link href="/get-involved" className="text-link">
                   Explore getting involved{" "}
                   <MoveUpRight size={16} aria-hidden="true" />
-                </a>
+                </Link>
               </div>
             </article>
             <article>
@@ -308,10 +293,10 @@ export default function Home() {
                   Connect resources and opportunities with the people who need
                   them.
                 </p>
-                <a href="#connect" className="text-link">
+                <Link href="/contact?topic=partnership" className="text-link">
                   Start a conversation{" "}
                   <MoveUpRight size={16} aria-hidden="true" />
-                </a>
+                </Link>
               </div>
             </article>
             <article>
@@ -322,21 +307,9 @@ export default function Home() {
                   Help make education, connection, and everyday support more
                   accessible.
                 </p>
-                {site.donationUrl ? (
-                  <a
-                    className="text-link"
-                    href={site.donationUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Make a donation <MoveUpRight size={16} aria-hidden="true" />
-                    <span className="sr-only"> (opens in a new tab)</span>
-                  </a>
-                ) : (
-                  <span className="availability">
-                    Online giving details coming soon
-                  </span>
-                )}
+                <Link className="text-link" href="/donate">
+                  Make a donation <MoveUpRight size={16} aria-hidden="true" />
+                </Link>
               </div>
             </article>
           </div>
@@ -349,46 +322,14 @@ export default function Home() {
           <div className="section-shell connect-inner">
             <div>
               <h2 id="connect-title">Stronger, together.</h2>
-              <p>
-                {site.email
-                  ? "For questions, partnership ideas, or ways to get involved, let’s connect."
-                  : "We’re preparing ways for you to connect with the foundation."}
-              </p>
+              <p>For questions, partnership ideas, or ways to get involved, let’s connect.</p>
             </div>
-            {site.email ? (
-              <a className="button button-gold" href={`mailto:${site.email}`}>
-                Contact the foundation{" "}
-                <ArrowUpRight size={19} aria-hidden="true" />
-              </a>
-            ) : (
-              <div className="connect-status">
-                <span />
-                Contact details coming soon
-              </div>
-            )}
+            <Link className="button button-gold" href="/contact">
+              Contact the foundation <ArrowUpRight size={19} aria-hidden="true" />
+            </Link>
           </div>
         </section>
       </main>
-      <footer className="site-footer section-shell">
-        <div className="footer-main">
-          <a className="brand" href="#home">
-            <Image src="/images/agape-seal.png" width={62} height={58} alt="" />
-            <span>
-              Agape Unlimited<span className="brand-sub">Foundation</span>
-            </span>
-          </a>
-          <p>Unlimited love. Unlimited possibilities.</p>
-          <a href="#home" className="back-top">
-            Back to top <MoveUpRight size={16} aria-hidden="true" />
-          </a>
-        </div>
-        <div className="footer-bottom">
-          <span>© {new Date().getFullYear()} Agape Unlimited Foundation</span>
-          <span>
-            Serving children. Strengthening families. Building communities.
-          </span>
-        </div>
-      </footer>
     </>
   );
 }

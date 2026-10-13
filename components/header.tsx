@@ -1,13 +1,18 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { Menu, X, Heart } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 const links = [
-  ["Our mission", "#mission"],
-  ["What we do", "#programs"],
-  ["Our values", "#values"],
+  ["Our mission", "/about"],
+  ["What we do", "/programs"],
+  ["Our values", "/values"],
+  ["Get involved", "/get-involved"],
+  ["Contact", "/contact"],
 ] as const;
 export function Header() {
+  const pathname = usePathname();
   const [open, setOpen] = useState(false);
   const trigger = useRef<HTMLButtonElement>(null);
   const header = useRef<HTMLElement>(null);
@@ -23,7 +28,7 @@ export function Header() {
         setOpen(false);
     };
     const resize = () => {
-      if (window.innerWidth > 800) setOpen(false);
+      if (window.innerWidth > 960) setOpen(false);
     };
     document.addEventListener("keydown", escape);
     document.addEventListener("pointerdown", outside);
@@ -43,9 +48,9 @@ export function Header() {
       }}
     >
       <div className="nav-shell">
-        <a
+        <Link
           className="brand"
-          href="#home"
+          href="/"
           aria-label="Agape Unlimited Foundation home"
           onClick={() => setOpen(false)}
         >
@@ -59,17 +64,17 @@ export function Header() {
           <span>
             Agape Unlimited<span className="brand-sub">Foundation</span>
           </span>
-        </a>
+        </Link>
         <nav className="desktop-nav" aria-label="Main navigation">
           {links.map(([label, href]) => (
-            <a key={href} href={href}>
+            <Link key={href} href={href} aria-current={pathname === href ? "page" : undefined} onClick={() => setOpen(false)}>
               {label}
-            </a>
+            </Link>
           ))}
         </nav>
-        <a className="button button-small header-cta" href="#involved">
-          <Heart size={16} aria-hidden="true" /> Get involved
-        </a>
+        <Link className="button button-small button-gold header-cta" href="/donate" aria-current={pathname === "/donate" ? "page" : undefined}>
+          <Heart size={16} aria-hidden="true" /> Donate
+        </Link>
         <button
           ref={trigger}
           className="menu-toggle icon-button"
@@ -89,13 +94,13 @@ export function Header() {
         aria-label="Mobile navigation"
       >
         {links.map(([label, href]) => (
-          <a key={href} href={href} onClick={() => setOpen(false)}>
+          <Link key={href} href={href} aria-current={pathname === href ? "page" : undefined} onClick={() => setOpen(false)}>
             {label}
-          </a>
+          </Link>
         ))}
-        <a href="#involved" onClick={() => setOpen(false)}>
-          Get involved
-        </a>
+        <Link className="mobile-donate" href="/donate" onClick={() => setOpen(false)} aria-current={pathname === "/donate" ? "page" : undefined}>
+          Donate <Heart size={16} aria-hidden="true" />
+        </Link>
       </nav>
     </header>
   );

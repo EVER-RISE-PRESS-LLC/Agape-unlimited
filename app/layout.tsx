@@ -3,6 +3,8 @@ import { Montserrat, Source_Sans_3 } from "next/font/google";
 import "./globals.css";
 import { site } from "@/lib/site";
 import { social } from "@/lib/social";
+import { Header } from "@/components/header";
+import { Footer } from "@/components/footer";
 const display = Montserrat({
   subsets: ["latin"],
   weight: ["600", "700"],
@@ -41,12 +43,14 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en">
+    <html lang="en" data-scroll-behavior="smooth">
       <body className={`${display.variable} ${body.variable}`}>
         <a className="skip-link" href="#main">
           Skip to content
         </a>
+        <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

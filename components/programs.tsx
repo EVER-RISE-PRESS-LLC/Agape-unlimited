@@ -14,6 +14,7 @@ import {
   Minus,
 } from "lucide-react";
 import { useState } from "react";
+import Link from "next/link";
 const programs = [
   {
     name: "Education & academic support",
@@ -120,7 +121,7 @@ export function Programs() {
             </summary>
             <div className="program-description">
               <p>{text}</p>
-              <a href="#involved">Explore ways to get involved</a>
+              <Link href="/get-involved">Explore ways to get involved</Link>
             </div>
           </details>
         ))}

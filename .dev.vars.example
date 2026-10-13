@@ -1,0 +1,5 @@
+# Copy to .dev.vars for local `npm run preview` only. Keep actual values private.
+# A Resend API key and a sender address on a verified Resend domain are required.
+RESEND_API_KEY=
+CONTACT_TO_EMAIL=
+CONTACT_FROM_EMAIL=
