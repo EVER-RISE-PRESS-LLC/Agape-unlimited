@@ -2,11 +2,11 @@
   "day": 4,
   "work_date": "2026-10-16",
   "timezone": "Asia/Dhaka",
-  "status": "Complete in source and local production-export preview; release pending",
+  "status": "Complete in source; pushed, deployed and verified on the live site",
   "base_commit": "0804e20658f87d650cfc2deca8f38a96c6b6f32a",
-  "new_commit_created": false,
-  "pushed": false,
-  "deployed": false,
+  "new_commit_created": true,
+  "pushed": true,
+  "deployed": true,
   "canonical_origin": "https://agape-unlimited.everrisepressdev.workers.dev",
   "preview_origin": "http://localhost:8794",
   "checks": {
@@ -18,7 +18,12 @@
       "failed": 0,
       "duration_seconds": 15.4
     },
-    "wrangler_dry_run": "passed; no deployment"
+    "wrangler_dry_run": "passed; no deployment",
+    "deployed_seo_suite": {
+      "passed": 4,
+      "failed": 0,
+      "duration_seconds": 11.5
+    }
   },
   "performance_evidence": "../../research/day-04-performance-2026-10-16.json",
   "http_schema_evidence": "../../research/day-04-technical-verification-2026-10-16.json",
@@ -118,10 +123,10 @@
   "contact_delivery": "Intentionally deferred; local GET reports unavailable; no real delivery test",
   "donation_checkout": "Intentionally deferred; pending state preserved; no real payment",
   "follow_up": [
-    "Publish through the intended release workflow when authorized",
-    "Verify live sitemap, robots, schema, canonicals, headers and errors after deployment",
     "Superadmin performs account verification, URL inspection and sitemap submission",
     "Check deployed performance and later field data; homepage lab LCP still exceeds 2.5s",
     "Resource template performance is Day 5 work; template does not exist yet"
-  ]
+  ],
+  "release_source_commit": "d836dd2948deb6b4e99bd1009c102608ad1c2e0a",
+  "release_evidence": "release-2026-10-16.json"
 }

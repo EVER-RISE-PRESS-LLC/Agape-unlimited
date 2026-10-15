@@ -80,7 +80,7 @@ Assignment to a day is not a claim that every backlog item's final outcome can h
 | 1 | Complete: baseline and superadmin handoff | 16 October 2026 | [Results and evidence](results/day-01-results.md) | R01-R04, R08-R10, R16-R18 remain open; admin setup assigned to user |
 | 2 | Not started | — | — | — |
 | 3 | Not started | — | — | — |
-| 4 | Complete: implemented and checked locally | 16 October 2026 | [Results, tests and performance](results/day-04-results.md) | Release and live verification pending; admin setup remains with superadmin |
+| 4 | Complete: deployed and verified | 16 October 2026 | [Results, tests and performance](results/day-04-results.md); [release evidence](results/release-2026-10-16.json) | Admin setup remains with superadmin; field performance and remaining content work stay open |
 | 5 | Not started | — | — | — |
 | 6 | Not started | — | — | — |
 | 7 | Not started | — | — | — |

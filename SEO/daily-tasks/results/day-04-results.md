@@ -1,6 +1,6 @@
 # SEO Day 4 results: technical search discovery
 
-**Work date:** 16 October 2026, Asia/Dhaka. **Status:** complete in source and the local production-export preview. **Release state:** built, tested, and packaging-checked; not committed, pushed, or deployed by this task.
+**Work date:** 16 October 2026, Asia/Dhaka. **Status:** complete in source and production. **Release state:** pushed to `main` and deployed through the existing Git-connected Cloudflare workflow following the user's explicit push request; live verification passed. Source release: `d836dd2948deb6b4e99bd1009c102608ad1c2e0a`.
 
 The user requested Day 4 out of sequence. Days 2 and 3 retain their existing status. Search Console, verification, analytics, DNS, contact delivery, and donation checkout remain under the [superadmin handoff](../../../SUPERADMIN-SETUP.md).
 
@@ -67,13 +67,15 @@ Provider responses in the existing contact tests are mocked. No real email or pa
 
 The [HTTP/schema verification record](../../research/day-04-technical-verification-2026-10-16.json) preserves local response statuses, headers, metadata, JSON-LD, sitemap, and robots output. The code adds `npm run test:seo` for the four focused tests.
 
-## Local implementation versus live release
+## Production release and live verification
 
-The local preview serves `/sitemap.xml` and `/robots.txt` successfully. A read-only production recheck using the same identified audit client as Day 1 still returned 404 for the sitemap and 200 for robots. A basic unidentified client was initially refused with 403; both observations are retained in the evidence. This task has not deployed the new source, so local fixes must not be reported as live.
+The user subsequently requested a push. Source commit `d836dd2948deb6b4e99bd1009c102608ad1c2e0a` was pushed to `main`; the existing Cloudflare Workers Builds production check completed successfully. No direct local Wrangler production deployment or account configuration was performed.
 
-Before release, the existing setup-pending contact and donation states must remain visible. Day 10 should build/publish through the intended deployment workflow when authorized, then verify live content types, XML, robots after Cloudflare processing, canonicals, structured data, API indexing headers, asset caching, images, and the real 404 response.
+All **23 public release checks passed**, covering eight reachable canonical pages with unique metadata, valid sitemap XML, the final robots response after Cloudflare processing, Organization/WebSite and seven breadcrumb graphs, query canonicals, the real 404, API indexing and cache headers, private-document exclusion, immutable assets, unchanged optimized-image hashes, the social image, and deferred contact/giving states. All **four SEO tests also passed against the deployed site** in 11.5 seconds. See the [dated release evidence](release-2026-10-16.json) for statuses, headers, hashes, metadata, structured data, and the deployment check.
 
-The superadmin performs Search Console verification, URL inspection, and sitemap submission only after the real live sitemap exists. No new DNS, domain, analytics, tracking, verification token, account, or integration was configured here.
+Earlier pre-release observations remain in the technical verification record: the sitemap returned 404, while robots returned 200; an unidentified client was initially refused with 403. Those observations describe the site before publication. The final identified audit client confirmed the deployed fixes.
+
+The superadmin still performs Search Console verification, URL inspection, and sitemap submission. No DNS, domain, analytics, tracking, verification token, account, or integration was configured here. Contact delivery and donation checkout remain intentionally deferred. This release does not complete the remaining content tasks or the final full-project handoff.
 
 ## Metadata review
 
@@ -93,4 +95,4 @@ The 404 title leads with the problem and identifies the foundation. Its descript
 3. Cleaned up missing-page metadata and added technical SEO checks.
 4. Optimized the navigation logo and photograph delivery, improving the local mobile homepage performance score from 58 to 92.
 5. Completed the production build, code checks, all 17 automated tests, and deployment packaging checks.
-6. Prepared the changes for release. Search Console and other admin setup remain with the superadmin; contact email delivery and donation checkout remain deferred.
+6. Pushed the changes to GitHub and verified the Cloudflare production release, including all four live SEO tests. Search Console and other admin setup remain with the superadmin; contact email delivery and donation checkout remain deferred.

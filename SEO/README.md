@@ -10,7 +10,7 @@ Start execution from [Day 1 in the ten-day plan](daily-tasks/day-01-foundation-a
 
 Day 1's [baseline and results](daily-tasks/results/day-01-results.md) were completed on 16 October 2026. Search Console and other external setup are reserved for the user in the [superadmin handoff](../SUPERADMIN-SETUP.md); they were not configured by the baseline task.
 
-At the user's request, [Day 4 technical implementation](daily-tasks/results/day-04-results.md) was completed out of order on 16 October. The source and local production output pass the build and 17 tests; release and live verification remain pending. Days 2 and 3 retain their recorded status.
+At the user's request, [Day 4 technical implementation](daily-tasks/results/day-04-results.md) was completed out of order on 16 October. The production build and all 17 local tests passed. The changes were pushed and deployed through the existing Cloudflare integration; 23 public release checks and all four live SEO tests passed. See the [release evidence](daily-tasks/results/release-2026-10-16.json). Days 2 and 3 retain their recorded status.
 
 1. Review the unresolved facts in [NEEDS-YOUR-REVIEW.md](../NEEDS-YOUR-REVIEW.md), especially the service area, active programs, and organizational identity. The [facts intake template](templates/foundation-facts-and-intake.md) supports that shared checklist.
 2. Decide whether the current Workers address is the permanent public domain. A custom domain is a trust and ownership recommendation, not a requirement for Google indexing.
@@ -76,7 +76,7 @@ The three execution groups are:
 
 ## Scope and handoff
 
-This directory contains strategy, daily instructions, and dated execution records. A task file does not prove its implementation is complete; use the tracker and evidence. Day 1 completed the public audit and manual setup handoff. Day 4 made website source changes and checked their local production output; deployment and live verification remain pending. Account settings, contact credentials, and checkout configuration remain deferred. These documents are outside `public/` and `app/`; creating the directory does not publish its contents on the website.
+This directory contains strategy, daily instructions, and dated execution records. A task file does not prove its implementation is complete; use the tracker and evidence. Day 1 completed the public audit and manual setup handoff. Day 4 made website source changes, checked their local production output, and was subsequently pushed, deployed, and verified under the user's explicit release request. Account settings, contact credentials, and checkout configuration remain deferred. These documents are outside `public/` and `app/`; creating the directory does not publish its contents on the website.
 
 The strategy uses the current children-and-families mission from the live site and repository README. The earlier disability-focused brand document is historical input and does not establish current medical, transportation, vehicle, or housing services.
 

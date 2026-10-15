@@ -1,6 +1,6 @@
 # Technical SEO implementation roadmap
 
-The first technical release should make the approved public site discoverable, consistent, and easy to verify. This file preserves the original implementation specification and live baseline observations. **Update, 16 October 2026:** [Day 4](../daily-tasks/results/day-04-results.md) implemented the discovery, structured-data, error-metadata, caching, and measured image-delivery changes in source and validated the local production output. These changes have not been deployed by this task. External account setup remains with the superadmin.
+The first technical release should make the approved public site discoverable, consistent, and easy to verify. This file preserves the original implementation specification and live baseline observations. **Update, 16 October 2026:** [Day 4](../daily-tasks/results/day-04-results.md) implemented the discovery, structured-data, error-metadata, caching, and measured image-delivery changes in source and validated the local production output. The user subsequently authorized a push; the Git-connected production deployment succeeded and public checks passed. See the [release evidence](../daily-tasks/results/release-2026-10-16.json). The observed issues below describe the earlier baseline, not the current release. External account setup remains with the superadmin.
 
 ## P0 Domain and ownership
 

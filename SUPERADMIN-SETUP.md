@@ -12,7 +12,7 @@ The source of unresolved foundation facts is [NEEDS-YOUR-REVIEW.md](NEEDS-YOUR-R
 | A02 | Decide the permanent public domain and who controls its hosting/DNS | R03 | Existing Workers origin remains in use; permanent choice pending |
 | A03 | Select the foundation's Search Console account and existing or new property | R16 and A02 | Superadmin action pending; no authenticated account/property inspected |
 | A04 | Complete the verification method supplied by Search Console | A03 and appropriate site/domain control | Not performed by the assistant |
-| A05 | Inspect core URLs and submit the real live sitemap when it exists | A04; Day 4 technical release | Day 4 sitemap/robots implemented and checked locally; deployment, live verification and manual submission remain pending |
+| A05 | Inspect core URLs and submit the real live sitemap when it exists | A04; Day 4 technical release | Sitemap and robots deployed and publicly verified on 16 October; Search Console inspection and manual submission remain pending |
 | A06 | Choose analytics, approve data practices, and arrange its setup | R16, R23 | Provider/account/collection baseline unconfirmed; no setup performed |
 | A07 | Identify the factual approver and specialist reviewers | R18 | Names and assignments pending |
 | A08 | Configure contact email delivery when ready | R05, R06; approved private sender/recipient/key | Intentionally deferred by the user |
@@ -50,7 +50,7 @@ Sources checked 16 October 2026: [Google property types and setup](https://suppo
 
 Once the property is verified, inspect the homepage, About, Programs, Get Involved, Contact, and Donate. Record the crawl/indexing result and Google's chosen canonical for each, including any reported reason a page is not indexed.
 
-Check that the live `/sitemap.xml` returns valid XML containing actual canonical pages before submitting it. Its implementation was completed locally in [SEO Day 4](SEO/daily-tasks/results/day-04-results.md), including a successful build and preview checks. Deployment and live verification remain pending; a local build is not proof that the live file exists.
+Check that the live `/sitemap.xml` returns valid XML containing actual canonical pages before submitting it. Its implementation and release are recorded in [SEO Day 4](SEO/daily-tasks/results/day-04-results.md). On 16 October, the live sitemap returned valid XML with eight reachable canonical pages, and the live robots response declared the sitemap. See the [public release checks](SEO/daily-tasks/results/release-2026-10-16.json). Search Console verification, inspection, and submission remain manual superadmin actions; public reachability does not establish indexing.
 
 Record the submission result and later inspection findings. Keep indexing, impressions, clicks, query position, and backlinks unknown until the account provides evidence. Reachable public HTML alone does not establish Google indexing. [Google's Search Console usage guidance](https://developers.google.com/search/docs/monitor-debug/search-console-start).
 
