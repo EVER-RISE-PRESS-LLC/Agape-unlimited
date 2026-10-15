@@ -1,0 +1,1136 @@
+{
+  "report_date": "2026-10-16",
+  "project_timezone": "Asia/Dhaka",
+  "checked_at": "2026-10-16T02:20:30.277402+06:00",
+  "origin": "https://agape-unlimited.everrisepressdev.workers.dev",
+  "method": "Read-only public HTTP GETs. No forms submitted, account settings changed, emails sent, or payments initiated. No authenticated Search Console or analytics data. HTML analytics markers are a limited observation, not an account audit.",
+  "pages": [
+    {
+      "path": "/",
+      "requested_url": "https://agape-unlimited.everrisepressdev.workers.dev/",
+      "final_url": "https://agape-unlimited.everrisepressdev.workers.dev/",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 69534,
+      "sha256": "cc6f49ceab8287195d8500e9ddf26a8cbb1a6a656c71bfb6468112d9662fabc8",
+      "headers": {
+        "Content-Type": "text/html",
+        "Cache-Control": "public, max-age=0, must-revalidate"
+      },
+      "title": "Agape Unlimited Foundation | Unlimited Love. Unlimited Possibilities.",
+      "description": "Empowering underserved children and families through education, mentorship, resources, and opportunities that strengthen communities.",
+      "canonical": "https://agape-unlimited.everrisepressdev.workers.dev",
+      "robots_meta": [],
+      "h1": [
+        "Unlimited love.Unlimited possibilities."
+      ],
+      "headings": [
+        {
+          "level": 1,
+          "text": "Unlimited love.Unlimited possibilities."
+        },
+        {
+          "level": 2,
+          "text": "A little support canopen a world of possibility."
+        },
+        {
+          "level": 3,
+          "text": "The future we believe in"
+        },
+        {
+          "level": 2,
+          "text": "Many ways to care.One shared purpose."
+        },
+        {
+          "level": 3,
+          "text": "Education & academic support"
+        },
+        {
+          "level": 3,
+          "text": "Scholarships & career opportunities"
+        },
+        {
+          "level": 3,
+          "text": "Family assistance & support"
+        },
+        {
+          "level": 3,
+          "text": "Youth mentorship"
+        },
+        {
+          "level": 3,
+          "text": "Food & basic needs assistance"
+        },
+        {
+          "level": 3,
+          "text": "Housing & community resources"
+        },
+        {
+          "level": 3,
+          "text": "Workforce & life-skills development"
+        },
+        {
+          "level": 3,
+          "text": "Accessibility & inclusion"
+        },
+        {
+          "level": 3,
+          "text": "Youth leadership & empowerment"
+        },
+        {
+          "level": 3,
+          "text": "Community partnerships & outreach"
+        },
+        {
+          "level": 2,
+          "text": "We don’t simplywant to help.We want to createpossibilities."
+        },
+        {
+          "level": 2,
+          "text": "Agape meanslove without limits."
+        },
+        {
+          "level": 3,
+          "text": "Compassion"
+        },
+        {
+          "level": 3,
+          "text": "Empowerment"
+        },
+        {
+          "level": 3,
+          "text": "Opportunity"
+        },
+        {
+          "level": 3,
+          "text": "Integrity"
+        },
+        {
+          "level": 3,
+          "text": "Inclusion"
+        },
+        {
+          "level": 3,
+          "text": "Community"
+        },
+        {
+          "level": 2,
+          "text": "There’s a place for youin this work."
+        },
+        {
+          "level": 3,
+          "text": "Share your time & talents"
+        },
+        {
+          "level": 3,
+          "text": "Become a community partner"
+        },
+        {
+          "level": 3,
+          "text": "Support the possibilities"
+        },
+        {
+          "level": 2,
+          "text": "Stronger, together."
+        }
+      ],
+      "json_ld_blocks": 0,
+      "og_image": "https://agape-unlimited.everrisepressdev.workers.dev/opengraph-image?2f070eff20aaa029",
+      "google_verification_meta_present": false,
+      "html_lang": "en",
+      "recognized_analytics_html_markers": {
+        "google_analytics_or_gtm": false,
+        "cloudflare_web_analytics": false,
+        "plausible": false,
+        "fathom": false,
+        "microsoft_clarity": false
+      },
+      "images": [
+        {
+          "src": "/images/agape-seal.png",
+          "alt": "",
+          "width": "62",
+          "height": "58",
+          "loading": null
+        },
+        {
+          "src": "/images/founder-home.jpeg",
+          "alt": "The foundation’s founder smiling at home, seated in his power wheelchair.",
+          "width": null,
+          "height": null,
+          "loading": null
+        },
+        {
+          "src": "/images/founder-community.jpeg",
+          "alt": "The foundation’s founder attending a gathering with other community members.",
+          "width": null,
+          "height": null,
+          "loading": "lazy"
+        },
+        {
+          "src": "/images/agape-seal.png",
+          "alt": "",
+          "width": "62",
+          "height": "58",
+          "loading": "lazy"
+        }
+      ],
+      "script_sources": [
+        "/_next/static/chunks/19mx3mg6lkumu.js",
+        "/_next/static/chunks/3g4px251sg85e.js",
+        "/_next/static/chunks/0tgjiok8t6d_n.js",
+        "/_next/static/chunks/turbopack-280ci3gip87nf.js",
+        "/_next/static/chunks/0p1xn3dc_9naq.js",
+        "/_next/static/chunks/3fntmmi971322.js",
+        "/_next/static/chunks/0-rxzacr1ods8.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/3s6nzrbk-8mnv.js"
+      ],
+      "internal_paths": [
+        "/",
+        "/about",
+        "/contact",
+        "/donate",
+        "/get-involved",
+        "/privacy",
+        "/programs",
+        "/values"
+      ],
+      "public_mailto_link_count": 0,
+      "body_text": "Agape Unlimited Foundation | Unlimited Love. Unlimited Possibilities. Skip to content Agape Unlimited Foundation Our mission What we do Our values Get involved Contact Donate Our mission What we do Our values Get involved Contact Donate Love without limits Unlimited love. Unlimited possibilities. Every child deserves to feel valued. Every family deserves the opportunity to thrive. Together, we can help make that possible. Discover our work Get to know us Serving children. Strengthening families. Building a better tomorrow. Possibility begins with people. A foundation built on care. Serving children Strengthening families Building communities Our mission A little support can open a world of possibility. We’re here to help children and families move forward. Agape Unlimited Foundation is committed to empowering underserved children and families by providing access to resources, education, mentorship, supportive programs, and opportunities that strengthen individuals and communities. We believe every child deserves to feel valued, every family deserves an opportunity to thrive, and every community deserves access to hope and support. The future we believe in Stronger communities where every child has the opportunity to reach their full potential and every family has the support needed to create a better future. What we do Many ways to care. One shared purpose. Meeting people where they are. Helping them see what could be next. Explore the areas that guide our work. All areas Children & youth Families & everyday needs Community & opportunity Showing 10 program areas Education & academic support Creating room to learn, grow, and discover what comes next through access to educational resources and academic support. Explore ways to get involved Scholarships & career opportunities Opening pathways to continued education and career exploration so that financial barriers do not define a young person’s future. Explore ways to get involved Family assistance & support Connecting families with supportive resources and meaningful relationships that help them move toward greater stability. Explore ways to get involved Youth mentorship Building caring connections that help young people feel seen, discover their strengths, and imagine new possibilities. Explore ways to get involved Food & basic needs assistance Helping connect children and families with food and essential resources, with dignity and respect at every step. Explore ways to get involved Housing & community resources Connecting families with housing information and community resources that may help address barriers to a stable home. Explore ways to get involved Workforce & life-skills development Supporting practical skills, confidence, and preparation for work and everyday life. Explore ways to get involved Accessibility & inclusion Working toward opportunities and supportive spaces where people of different abilities can participate and belong. Explore ways to get involved Youth leadership & empowerment Encouraging young people to use their voices, build confidence, and take an active role in their communities. Explore ways to get involved Community partnerships & outreach Bringing people and organizations together to share resources, build relationships, and strengthen community support. Explore ways to get involved These are areas our programs and initiatives may include. Availability will depend on resources and community partnerships. Connection makes us stronger. The heart of Agape We don’t simply want to help. We want to create possibilities. We work to identify barriers affecting underserved children and families and connect them with meaningful resources, relationships, and opportunities that can change the trajectory of their lives. We may not be able to change every circumstance, but we can help change what is possible. Our core values Agape means love without limits. It’s more than our name. It’s how we choose to show up. Compassion We serve people with dignity, respect, and understanding. Empowerment We don’t just help people get through today; we help them prepare for tomorrow. Opportunity We believe access can change a life. Integrity We lead with honesty, accountability, and transparency. Inclusion Every child, family, and individual deserves to be seen, heard, and valued. Community Lasting change happens when we work together. When a child is given an opportunity, a family is given hope. And when families become stronger, communities become stronger. Make room for possibility There’s a place for you in this work. We will continue to show up, serve with love, build meaningful partnerships, and create opportunities for children and families who too often find themselves overlooked. Share your time & talents Bring your care, experience, and perspective to our mission. Explore getting involved Become a community partner Connect resources and opportunities with the people who need them. Start a conversation Support the possibilities Help make education, connection, and everyday support more accessible. Make a donation Stronger, together. For questions, partnership ideas, or ways to get involved, let’s connect. Contact the foundation Agape Unlimited Foundation Unlimited love. Unlimited possibilities. Back to top About us Our programs Our values Get involved Contact Donate Privacy © 2026 Agape Unlimited Foundation Serving children. Strengthening families. Building communities.",
+      "title_characters": 69,
+      "description_characters": 133
+    },
+    {
+      "path": "/about",
+      "requested_url": "https://agape-unlimited.everrisepressdev.workers.dev/about",
+      "final_url": "https://agape-unlimited.everrisepressdev.workers.dev/about",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 29267,
+      "sha256": "e5fd93853fd49ef340bc0952275899caca4d84868202be9f739124024b032d99",
+      "headers": {
+        "Content-Type": "text/html",
+        "Cache-Control": "public, max-age=0, must-revalidate"
+      },
+      "title": "About us | Agape Unlimited Foundation",
+      "description": "Learn about Agape Unlimited Foundation’s mission to connect underserved children and families with education, mentorship, resources, and opportunity.",
+      "canonical": "https://agape-unlimited.everrisepressdev.workers.dev/about",
+      "robots_meta": [],
+      "h1": [
+        "Care is wherepossibility begins."
+      ],
+      "headings": [
+        {
+          "level": 1,
+          "text": "Care is wherepossibility begins."
+        },
+        {
+          "level": 2,
+          "text": "Helping people move forward."
+        },
+        {
+          "level": 2,
+          "text": "The future we believe in."
+        },
+        {
+          "level": 2,
+          "text": "Love without limits.Support with purpose."
+        },
+        {
+          "level": 2,
+          "text": "A stronger community starts with connection."
+        }
+      ],
+      "json_ld_blocks": 0,
+      "og_image": "https://agape-unlimited.everrisepressdev.workers.dev/opengraph-image",
+      "google_verification_meta_present": false,
+      "html_lang": "en",
+      "recognized_analytics_html_markers": {
+        "google_analytics_or_gtm": false,
+        "cloudflare_web_analytics": false,
+        "plausible": false,
+        "fathom": false,
+        "microsoft_clarity": false
+      },
+      "images": [
+        {
+          "src": "/images/agape-seal.png",
+          "alt": "",
+          "width": "62",
+          "height": "58",
+          "loading": null
+        },
+        {
+          "src": "/images/founder-home.jpeg",
+          "alt": "The foundation’s founder smiling at home, seated in his power wheelchair.",
+          "width": null,
+          "height": null,
+          "loading": null
+        },
+        {
+          "src": "/images/agape-seal.png",
+          "alt": "",
+          "width": "62",
+          "height": "58",
+          "loading": "lazy"
+        }
+      ],
+      "script_sources": [
+        "/_next/static/chunks/19mx3mg6lkumu.js",
+        "/_next/static/chunks/3g4px251sg85e.js",
+        "/_next/static/chunks/0tgjiok8t6d_n.js",
+        "/_next/static/chunks/turbopack-280ci3gip87nf.js",
+        "/_next/static/chunks/0p1xn3dc_9naq.js",
+        "/_next/static/chunks/3fntmmi971322.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/3s6nzrbk-8mnv.js"
+      ],
+      "internal_paths": [
+        "/",
+        "/about",
+        "/contact",
+        "/donate",
+        "/get-involved",
+        "/privacy",
+        "/programs",
+        "/values"
+      ],
+      "public_mailto_link_count": 0,
+      "body_text": "About us | Agape Unlimited Foundation Skip to content Agape Unlimited Foundation Our mission What we do Our values Get involved Contact Donate Our mission What we do Our values Get involved Contact Donate Home About us Care is where possibility begins. We believe every child deserves to feel valued, every family deserves an opportunity to thrive, and every community deserves access to hope and support. Helping people move forward. Agape Unlimited Foundation is committed to empowering underserved children and families by providing access to resources, education, mentorship, supportive programs, and opportunities that strengthen individuals and communities. We work to identify barriers and connect people with meaningful resources, relationships, and opportunities that can change the trajectory of their lives. Discover our program areas The future we believe in. Stronger communities where every child has the opportunity to reach their full potential and every family has the support needed to create a better future. Love without limits. Support with purpose. Agape means love without limits. That belief shapes how we serve: with compassion, dignity, and a commitment to seeing the potential in every person. We don’t simply want to help. We want to create possibilities. Our work brings together education, everyday support, and community relationships to help children and families look toward a stronger tomorrow. The values behind our work We may not be able to change every circumstance, but we can help change what is possible. A commitment to showing up, serving with love, and building meaningful partnerships. A stronger community starts with connection. Bring your questions, your ideas, and your willingness to help. There’s room for you here. Find your place Agape Unlimited Foundation Unlimited love. Unlimited possibilities. Back to top About us Our programs Our values Get involved Contact Donate Privacy © 2026 Agape Unlimited Foundation Serving children. Strengthening families. Building communities.",
+      "title_characters": 37,
+      "description_characters": 149
+    },
+    {
+      "path": "/programs",
+      "requested_url": "https://agape-unlimited.everrisepressdev.workers.dev/programs",
+      "final_url": "https://agape-unlimited.everrisepressdev.workers.dev/programs",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 41952,
+      "sha256": "308679634816d57a6ee7fb65341e0c75d587320a3506d10b7e067f4256ad9260",
+      "headers": {
+        "Content-Type": "text/html",
+        "Cache-Control": "public, max-age=0, must-revalidate"
+      },
+      "title": "Our programs | Agape Unlimited Foundation",
+      "description": "Explore Agape’s ten program areas, including education, youth mentorship, family support, accessibility, and community partnerships.",
+      "canonical": "https://agape-unlimited.everrisepressdev.workers.dev/programs",
+      "robots_meta": [],
+      "h1": [
+        "Many ways to care.One shared purpose."
+      ],
+      "headings": [
+        {
+          "level": 1,
+          "text": "Many ways to care.One shared purpose."
+        },
+        {
+          "level": 2,
+          "text": "Explore our program areas."
+        },
+        {
+          "level": 3,
+          "text": "Education & academic support"
+        },
+        {
+          "level": 3,
+          "text": "Scholarships & career opportunities"
+        },
+        {
+          "level": 3,
+          "text": "Family assistance & support"
+        },
+        {
+          "level": 3,
+          "text": "Youth mentorship"
+        },
+        {
+          "level": 3,
+          "text": "Food & basic needs assistance"
+        },
+        {
+          "level": 3,
+          "text": "Housing & community resources"
+        },
+        {
+          "level": 3,
+          "text": "Workforce & life-skills development"
+        },
+        {
+          "level": 3,
+          "text": "Accessibility & inclusion"
+        },
+        {
+          "level": 3,
+          "text": "Youth leadership & empowerment"
+        },
+        {
+          "level": 3,
+          "text": "Community partnerships & outreach"
+        },
+        {
+          "level": 2,
+          "text": "Looking for supportor a way to help?"
+        },
+        {
+          "level": 2,
+          "text": "Your skills could open a door."
+        }
+      ],
+      "json_ld_blocks": 0,
+      "og_image": "https://agape-unlimited.everrisepressdev.workers.dev/opengraph-image",
+      "google_verification_meta_present": false,
+      "html_lang": "en",
+      "recognized_analytics_html_markers": {
+        "google_analytics_or_gtm": false,
+        "cloudflare_web_analytics": false,
+        "plausible": false,
+        "fathom": false,
+        "microsoft_clarity": false
+      },
+      "images": [
+        {
+          "src": "/images/agape-seal.png",
+          "alt": "",
+          "width": "62",
+          "height": "58",
+          "loading": null
+        },
+        {
+          "src": "/images/agape-seal.png",
+          "alt": "",
+          "width": "62",
+          "height": "58",
+          "loading": "lazy"
+        }
+      ],
+      "script_sources": [
+        "/_next/static/chunks/19mx3mg6lkumu.js",
+        "/_next/static/chunks/3g4px251sg85e.js",
+        "/_next/static/chunks/0tgjiok8t6d_n.js",
+        "/_next/static/chunks/turbopack-280ci3gip87nf.js",
+        "/_next/static/chunks/0p1xn3dc_9naq.js",
+        "/_next/static/chunks/3fntmmi971322.js",
+        "/_next/static/chunks/0-rxzacr1ods8.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/3s6nzrbk-8mnv.js"
+      ],
+      "internal_paths": [
+        "/",
+        "/about",
+        "/contact",
+        "/donate",
+        "/get-involved",
+        "/privacy",
+        "/programs",
+        "/values"
+      ],
+      "public_mailto_link_count": 0,
+      "body_text": "Our programs | Agape Unlimited Foundation Skip to content Agape Unlimited Foundation Our mission What we do Our values Get involved Contact Donate Our mission What we do Our values Get involved Contact Donate Home Our programs Many ways to care. One shared purpose. Children, families, and communities need different kinds of support. These are the areas that guide the programs and partnerships we seek to build. Room to learn. Children & youth Support to move forward. Families & everyday needs Connection to grow. Community & opportunity Explore our program areas. Choose an area. Open a topic to learn more. All areas Children & youth Families & everyday needs Community & opportunity Showing 10 program areas Education & academic support Creating room to learn, grow, and discover what comes next through access to educational resources and academic support. Explore ways to get involved Scholarships & career opportunities Opening pathways to continued education and career exploration so that financial barriers do not define a young person’s future. Explore ways to get involved Family assistance & support Connecting families with supportive resources and meaningful relationships that help them move toward greater stability. Explore ways to get involved Youth mentorship Building caring connections that help young people feel seen, discover their strengths, and imagine new possibilities. Explore ways to get involved Food & basic needs assistance Helping connect children and families with food and essential resources, with dignity and respect at every step. Explore ways to get involved Housing & community resources Connecting families with housing information and community resources that may help address barriers to a stable home. Explore ways to get involved Workforce & life-skills development Supporting practical skills, confidence, and preparation for work and everyday life. Explore ways to get involved Accessibility & inclusion Working toward opportunities and supportive spaces where people of different abilities can participate and belong. Explore ways to get involved Youth leadership & empowerment Encouraging young people to use their voices, build confidence, and take an active role in their communities. Explore ways to get involved Community partnerships & outreach Bringing people and organizations together to share resources, build relationships, and strengthen community support. Explore ways to get involved These are areas our programs and initiatives may include. Availability will depend on resources and community partnerships. Looking for support or a way to help? Tell us what you’re looking for, or share a resource your organization can offer. A conversation helps us understand where a connection may be possible. Program availability depends on resources and community partnerships. Contact the foundation to ask about current opportunities. Ask about our programs Your skills could open a door. Share your time, connect a resource, or explore a partnership that supports children and families. Get involved Agape Unlimited Foundation Unlimited love. Unlimited possibilities. Back to top About us Our programs Our values Get involved Contact Donate Privacy © 2026 Agape Unlimited Foundation Serving children. Strengthening families. Building communities.",
+      "title_characters": 41,
+      "description_characters": 132
+    },
+    {
+      "path": "/values",
+      "requested_url": "https://agape-unlimited.everrisepressdev.workers.dev/values",
+      "final_url": "https://agape-unlimited.everrisepressdev.workers.dev/values",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 26335,
+      "sha256": "04ff278b63e1b43075250e45e412fb5e145f5f4b978284d215bf8b641e8014ad",
+      "headers": {
+        "Content-Type": "text/html",
+        "Cache-Control": "public, max-age=0, must-revalidate"
+      },
+      "title": "Our values | Agape Unlimited Foundation",
+      "description": "Compassion, empowerment, opportunity, integrity, inclusion, and community guide how Agape Unlimited Foundation serves children and families.",
+      "canonical": "https://agape-unlimited.everrisepressdev.workers.dev/values",
+      "robots_meta": [],
+      "h1": [
+        "Love without limits.In everything we do."
+      ],
+      "headings": [
+        {
+          "level": 1,
+          "text": "Love without limits.In everything we do."
+        },
+        {
+          "level": 2,
+          "text": "Compassion"
+        },
+        {
+          "level": 2,
+          "text": "Empowerment"
+        },
+        {
+          "level": 2,
+          "text": "Opportunity"
+        },
+        {
+          "level": 2,
+          "text": "Integrity"
+        },
+        {
+          "level": 2,
+          "text": "Inclusion"
+        },
+        {
+          "level": 2,
+          "text": "Community"
+        },
+        {
+          "level": 2,
+          "text": "People at the heartof possibility."
+        },
+        {
+          "level": 2,
+          "text": "Put care into action."
+        }
+      ],
+      "json_ld_blocks": 0,
+      "og_image": "https://agape-unlimited.everrisepressdev.workers.dev/opengraph-image",
+      "google_verification_meta_present": false,
+      "html_lang": "en",
+      "recognized_analytics_html_markers": {
+        "google_analytics_or_gtm": false,
+        "cloudflare_web_analytics": false,
+        "plausible": false,
+        "fathom": false,
+        "microsoft_clarity": false
+      },
+      "images": [
+        {
+          "src": "/images/agape-seal.png",
+          "alt": "",
+          "width": "62",
+          "height": "58",
+          "loading": null
+        },
+        {
+          "src": "/images/founder-community.jpeg",
+          "alt": "The foundation’s founder attending a gathering with other community members.",
+          "width": null,
+          "height": null,
+          "loading": "lazy"
+        },
+        {
+          "src": "/images/agape-seal.png",
+          "alt": "",
+          "width": "62",
+          "height": "58",
+          "loading": "lazy"
+        }
+      ],
+      "script_sources": [
+        "/_next/static/chunks/19mx3mg6lkumu.js",
+        "/_next/static/chunks/3g4px251sg85e.js",
+        "/_next/static/chunks/0tgjiok8t6d_n.js",
+        "/_next/static/chunks/turbopack-280ci3gip87nf.js",
+        "/_next/static/chunks/0p1xn3dc_9naq.js",
+        "/_next/static/chunks/3fntmmi971322.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/3s6nzrbk-8mnv.js"
+      ],
+      "internal_paths": [
+        "/",
+        "/about",
+        "/contact",
+        "/donate",
+        "/get-involved",
+        "/privacy",
+        "/programs",
+        "/values"
+      ],
+      "public_mailto_link_count": 0,
+      "body_text": "Our values | Agape Unlimited Foundation Skip to content Agape Unlimited Foundation Our mission What we do Our values Get involved Contact Donate Our mission What we do Our values Get involved Contact Donate Home Our values Love without limits. In everything we do. Agape is more than our name. It’s how we choose to show up for children, families, and one another. Compassion We serve people with dignity, respect, and understanding. Care begins with listening. We aim to meet children and families where they are, with kindness and respect for their experiences. Empowerment We don’t just help people get through today; we help them prepare for tomorrow. Support should make room for confidence, skills, and independence. Our purpose is to help people see and pursue possibilities for their own futures. Opportunity We believe access can change a life. Education, mentorship, and meaningful resources can open doors. We work to connect people with opportunities that might otherwise feel out of reach. Integrity We lead with honesty, accountability, and transparency. Trust matters in every relationship. We are committed to communicating honestly about our work, our resources, and what is possible. Inclusion Every child, family, and individual deserves to be seen, heard, and valued. Belonging should not depend on background or ability. Accessibility and respect for each person guide the opportunities and relationships we seek to build. Community Lasting change happens when we work together. Families, volunteers, and community partners each bring something valuable. Strong relationships help turn individual acts of care into shared possibility. People at the heart of possibility. When a child is given an opportunity, a family is given hope. And when families become stronger, communities become stronger. Put care into action. Bring your compassion, your experience, and your ideas. Together, we can make room for possibility. Get involved Agape Unlimited Foundation Unlimited love. Unlimited possibilities. Back to top About us Our programs Our values Get involved Contact Donate Privacy © 2026 Agape Unlimited Foundation Serving children. Strengthening families. Building communities.",
+      "title_characters": 39,
+      "description_characters": 140
+    },
+    {
+      "path": "/get-involved",
+      "requested_url": "https://agape-unlimited.everrisepressdev.workers.dev/get-involved",
+      "final_url": "https://agape-unlimited.everrisepressdev.workers.dev/get-involved",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 31507,
+      "sha256": "4af1e8f0dc191b69dbd0606c20552fc6e11c2c273f2598277bfd10dae306d4a5",
+      "headers": {
+        "Content-Type": "text/html",
+        "Cache-Control": "public, max-age=0, must-revalidate"
+      },
+      "title": "Get involved | Agape Unlimited Foundation",
+      "description": "Share your time and talents, explore a community partnership, or support Agape Unlimited Foundation’s mission through giving.",
+      "canonical": "https://agape-unlimited.everrisepressdev.workers.dev/get-involved",
+      "robots_meta": [],
+      "h1": [
+        "There’s a place for youin this work."
+      ],
+      "headings": [
+        {
+          "level": 1,
+          "text": "There’s a place for youin this work."
+        },
+        {
+          "level": 2,
+          "text": "Share your time & talents."
+        },
+        {
+          "level": 2,
+          "text": "Build a community partnership."
+        },
+        {
+          "level": 2,
+          "text": "Support the possibilities."
+        },
+        {
+          "level": 2,
+          "text": "Start witha conversation."
+        },
+        {
+          "level": 2,
+          "text": "Care takes many forms."
+        }
+      ],
+      "json_ld_blocks": 0,
+      "og_image": "https://agape-unlimited.everrisepressdev.workers.dev/opengraph-image",
+      "google_verification_meta_present": false,
+      "html_lang": "en",
+      "recognized_analytics_html_markers": {
+        "google_analytics_or_gtm": false,
+        "cloudflare_web_analytics": false,
+        "plausible": false,
+        "fathom": false,
+        "microsoft_clarity": false
+      },
+      "images": [
+        {
+          "src": "/images/agape-seal.png",
+          "alt": "",
+          "width": "62",
+          "height": "58",
+          "loading": null
+        },
+        {
+          "src": "/images/agape-seal.png",
+          "alt": "",
+          "width": "62",
+          "height": "58",
+          "loading": "lazy"
+        }
+      ],
+      "script_sources": [
+        "/_next/static/chunks/19mx3mg6lkumu.js",
+        "/_next/static/chunks/3g4px251sg85e.js",
+        "/_next/static/chunks/0tgjiok8t6d_n.js",
+        "/_next/static/chunks/turbopack-280ci3gip87nf.js",
+        "/_next/static/chunks/0p1xn3dc_9naq.js",
+        "/_next/static/chunks/3fntmmi971322.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/3s6nzrbk-8mnv.js"
+      ],
+      "internal_paths": [
+        "/",
+        "/about",
+        "/contact",
+        "/donate",
+        "/get-involved",
+        "/privacy",
+        "/programs",
+        "/values"
+      ],
+      "public_mailto_link_count": 0,
+      "body_text": "Get involved | Agape Unlimited Foundation Skip to content Agape Unlimited Foundation Our mission What we do Our values Get involved Contact Donate Our mission What we do Our values Get involved Contact Donate Home Get involved There’s a place for you in this work. A little time. A meaningful connection. A willingness to help. There are many ways to stand alongside children and families. Share your time & talents. Your care, experience, and perspective can help create new possibilities. Tell us about your interests, skills, and the time you would like to share. Mentorship, educational support, outreach, and practical skills are all ways to start a conversation. Ask about volunteering Build a community partnership. Are you part of a school, business, community group, or organization? Explore how your resources and relationships could connect with our mission. Bring an idea, share a resource, or explore an opportunity to work together. Explore a partnership Support the possibilities. Giving can help make education, connection, and everyday support more accessible to children and families. Explore online giving, or contact us to discuss a gift of resources or other support. Explore ways to give Start with a conversation. You don’t need to have everything figured out. Tell us a little about yourself, what drew you to Agape, and how you hope to contribute. Opportunities depend on current needs, available resources, and community partnerships. The foundation can help you explore what may be a good fit. Introduce yourself Care takes many forms. Learn more about the mission and values that bring our work together. Get to know Agape Agape Unlimited Foundation Unlimited love. Unlimited possibilities. Back to top About us Our programs Our values Get involved Contact Donate Privacy © 2026 Agape Unlimited Foundation Serving children. Strengthening families. Building communities.",
+      "title_characters": 41,
+      "description_characters": 125
+    },
+    {
+      "path": "/contact",
+      "requested_url": "https://agape-unlimited.everrisepressdev.workers.dev/contact",
+      "final_url": "https://agape-unlimited.everrisepressdev.workers.dev/contact",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 27218,
+      "sha256": "132c6051a15093ec1ffb7acb1b65edf8d1de91f79432568a841c908162928b6a",
+      "headers": {
+        "Content-Type": "text/html",
+        "Cache-Control": "public, max-age=0, must-revalidate"
+      },
+      "title": "Contact | Agape Unlimited Foundation",
+      "description": "Contact Agape Unlimited Foundation about programs, volunteering, partnerships, donations, or a question you would like to share.",
+      "canonical": "https://agape-unlimited.everrisepressdev.workers.dev/contact",
+      "robots_meta": [],
+      "h1": [
+        "Good things beginwith a conversation."
+      ],
+      "headings": [
+        {
+          "level": 1,
+          "text": "Good things beginwith a conversation."
+        },
+        {
+          "level": 2,
+          "text": "Let’s connect."
+        },
+        {
+          "level": 3,
+          "text": "Find your next step."
+        },
+        {
+          "level": 2,
+          "text": "Send us a message."
+        }
+      ],
+      "json_ld_blocks": 0,
+      "og_image": "https://agape-unlimited.everrisepressdev.workers.dev/opengraph-image",
+      "google_verification_meta_present": false,
+      "html_lang": "en",
+      "recognized_analytics_html_markers": {
+        "google_analytics_or_gtm": false,
+        "cloudflare_web_analytics": false,
+        "plausible": false,
+        "fathom": false,
+        "microsoft_clarity": false
+      },
+      "images": [
+        {
+          "src": "/images/agape-seal.png",
+          "alt": "",
+          "width": "62",
+          "height": "58",
+          "loading": null
+        },
+        {
+          "src": "/images/agape-seal.png",
+          "alt": "",
+          "width": "62",
+          "height": "58",
+          "loading": "lazy"
+        }
+      ],
+      "script_sources": [
+        "/_next/static/chunks/19mx3mg6lkumu.js",
+        "/_next/static/chunks/3g4px251sg85e.js",
+        "/_next/static/chunks/0tgjiok8t6d_n.js",
+        "/_next/static/chunks/turbopack-280ci3gip87nf.js",
+        "/_next/static/chunks/0p1xn3dc_9naq.js",
+        "/_next/static/chunks/3fntmmi971322.js",
+        "/_next/static/chunks/12_pkn4r1ghxh.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/3s6nzrbk-8mnv.js"
+      ],
+      "internal_paths": [
+        "/",
+        "/about",
+        "/contact",
+        "/donate",
+        "/get-involved",
+        "/privacy",
+        "/programs",
+        "/values"
+      ],
+      "public_mailto_link_count": 0,
+      "body_text": "Contact | Agape Unlimited Foundation Skip to content Agape Unlimited Foundation Our mission What we do Our values Get involved Contact Donate Our mission What we do Our values Get involved Contact Donate Home Contact Good things begin with a conversation. A question about our work, an idea for a partnership, or a wish to help. We’d love to hear what’s on your mind. Let’s connect. Use the form to introduce yourself and tell us how we can help. Choose a topic so your message has a little context. Serving with care. Connecting with purpose. Find your next step. Explore our programs Share your time & talents Support the possibilities Send us a message. Fields marked with an asterisk (*) are required. Checking message delivery… Your name * Email address * Organization (optional) What would you like to talk about? * General question Programs & support Volunteering Community partnerships Donations & giving Your message * A little context helps. Please leave out sensitive records and payment details. Leave this field empty I understand my information will be used to respond to my inquiry. Read our privacy information . * Send message This form needs JavaScript to send a message. Agape Unlimited Foundation Unlimited love. Unlimited possibilities. Back to top About us Our programs Our values Get involved Contact Donate Privacy © 2026 Agape Unlimited Foundation Serving children. Strengthening families. Building communities.",
+      "title_characters": 36,
+      "description_characters": 128
+    },
+    {
+      "path": "/donate",
+      "requested_url": "https://agape-unlimited.everrisepressdev.workers.dev/donate",
+      "final_url": "https://agape-unlimited.everrisepressdev.workers.dev/donate",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 32127,
+      "sha256": "2bee292b848797155e15d31d82d2c48343962cb1161995110702bd197c68686c",
+      "headers": {
+        "Content-Type": "text/html",
+        "Cache-Control": "public, max-age=0, must-revalidate"
+      },
+      "title": "Donate | Agape Unlimited Foundation",
+      "description": "Support Agape Unlimited Foundation’s mission to create opportunities for children and families. Explore online giving and other ways to help.",
+      "canonical": "https://agape-unlimited.everrisepressdev.workers.dev/donate",
+      "robots_meta": [],
+      "h1": [
+        "Give with love.Make room forpossibility."
+      ],
+      "headings": [
+        {
+          "level": 1,
+          "text": "Give with love.Make room forpossibility."
+        },
+        {
+          "level": 2,
+          "text": "A gift that begins with care."
+        },
+        {
+          "level": 2,
+          "text": "Support that seesthe whole person."
+        },
+        {
+          "level": 2,
+          "text": "A little moreabout giving."
+        },
+        {
+          "level": 2,
+          "text": "Every connection holds possibility."
+        }
+      ],
+      "json_ld_blocks": 0,
+      "og_image": "https://agape-unlimited.everrisepressdev.workers.dev/opengraph-image",
+      "google_verification_meta_present": false,
+      "html_lang": "en",
+      "recognized_analytics_html_markers": {
+        "google_analytics_or_gtm": false,
+        "cloudflare_web_analytics": false,
+        "plausible": false,
+        "fathom": false,
+        "microsoft_clarity": false
+      },
+      "images": [
+        {
+          "src": "/images/agape-seal.png",
+          "alt": "",
+          "width": "62",
+          "height": "58",
+          "loading": null
+        },
+        {
+          "src": "/images/agape-seal.png",
+          "alt": "",
+          "width": "62",
+          "height": "58",
+          "loading": "lazy"
+        }
+      ],
+      "script_sources": [
+        "/_next/static/chunks/19mx3mg6lkumu.js",
+        "/_next/static/chunks/3g4px251sg85e.js",
+        "/_next/static/chunks/0tgjiok8t6d_n.js",
+        "/_next/static/chunks/turbopack-280ci3gip87nf.js",
+        "/_next/static/chunks/0p1xn3dc_9naq.js",
+        "/_next/static/chunks/3fntmmi971322.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/3s6nzrbk-8mnv.js"
+      ],
+      "internal_paths": [
+        "/",
+        "/about",
+        "/contact",
+        "/donate",
+        "/get-involved",
+        "/privacy",
+        "/programs",
+        "/values"
+      ],
+      "public_mailto_link_count": 0,
+      "body_text": "Donate | Agape Unlimited Foundation Skip to content Agape Unlimited Foundation Our mission What we do Our values Get involved Contact Donate Our mission What we do Our values Get involved Contact Donate Home Donate Give with love. Make room for possibility. Help build a future where children feel valued, families find support, and communities grow stronger together. Unlimited love. Shared possibility. A gift that begins with care. Your support stands behind our mission to connect children and families with resources, relationships, and opportunity. Online giving is being set up. We’d love to hear from you about supporting the foundation while we prepare our donation checkout. Talk to us about giving Have a question about your gift? Support that sees the whole person. Our mission brings together education, mentorship, practical resources, and community connections. Giving supports the possibilities we seek to create across these areas. Learning and opportunities for children and youth. Resources and relationships that strengthen families. Accessible, inclusive community connections. Explore the areas that guide our work A little more about giving. Still have a question? Let’s talk How do I make an online donation? Online giving is being set up. Contact the foundation to discuss ways to give and ask about current donation arrangements. Can I offer resources or other support? Contact us with a description of what you would like to contribute. Acceptance depends on current needs and the foundation’s ability to use the resources. Who can answer questions about a gift or receipt? Use the contact form and choose “Donations & giving.” For an existing gift, include the date and the name of the donation provider. Please keep card numbers and payment details out of your message. Are there other ways to help? Yes. Explore volunteering and community partnerships on our Get Involved page . Your time, talents, and connections can also support our mission. Every connection holds possibility. Share your time, bring your ideas, or explore a community partnership. More ways to help Agape Unlimited Foundation Unlimited love. Unlimited possibilities. Back to top About us Our programs Our values Get involved Contact Donate Privacy © 2026 Agape Unlimited Foundation Serving children. Strengthening families. Building communities.",
+      "title_characters": 35,
+      "description_characters": 141
+    },
+    {
+      "path": "/privacy",
+      "requested_url": "https://agape-unlimited.everrisepressdev.workers.dev/privacy",
+      "final_url": "https://agape-unlimited.everrisepressdev.workers.dev/privacy",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 22005,
+      "sha256": "20f6b545063d70cbabbff8870b0d50b285301d4bf81f7d8ee5908dd25024e663",
+      "headers": {
+        "Content-Type": "text/html",
+        "Cache-Control": "public, max-age=0, must-revalidate"
+      },
+      "title": "Privacy | Agape Unlimited Foundation",
+      "description": "Learn what information the Agape website contact form sends and how the website handles contact messages and donations.",
+      "canonical": "https://agape-unlimited.everrisepressdev.workers.dev/privacy",
+      "robots_meta": [],
+      "h1": [
+        "Your message, handled with care."
+      ],
+      "headings": [
+        {
+          "level": 1,
+          "text": "Your message, handled with care."
+        },
+        {
+          "level": 2,
+          "text": "Contact messages"
+        },
+        {
+          "level": 2,
+          "text": "Spam protection and technical information"
+        },
+        {
+          "level": 2,
+          "text": "Donations"
+        },
+        {
+          "level": 2,
+          "text": "What to include in a message"
+        },
+        {
+          "level": 2,
+          "text": "Questions about your information"
+        }
+      ],
+      "json_ld_blocks": 0,
+      "og_image": "https://agape-unlimited.everrisepressdev.workers.dev/opengraph-image",
+      "google_verification_meta_present": false,
+      "html_lang": "en",
+      "recognized_analytics_html_markers": {
+        "google_analytics_or_gtm": false,
+        "cloudflare_web_analytics": false,
+        "plausible": false,
+        "fathom": false,
+        "microsoft_clarity": false
+      },
+      "images": [
+        {
+          "src": "/images/agape-seal.png",
+          "alt": "",
+          "width": "62",
+          "height": "58",
+          "loading": null
+        },
+        {
+          "src": "/images/agape-seal.png",
+          "alt": "",
+          "width": "62",
+          "height": "58",
+          "loading": "lazy"
+        }
+      ],
+      "script_sources": [
+        "/_next/static/chunks/19mx3mg6lkumu.js",
+        "/_next/static/chunks/3g4px251sg85e.js",
+        "/_next/static/chunks/0tgjiok8t6d_n.js",
+        "/_next/static/chunks/turbopack-280ci3gip87nf.js",
+        "/_next/static/chunks/0p1xn3dc_9naq.js",
+        "/_next/static/chunks/3fntmmi971322.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/3s6nzrbk-8mnv.js"
+      ],
+      "internal_paths": [
+        "/",
+        "/about",
+        "/contact",
+        "/donate",
+        "/get-involved",
+        "/privacy",
+        "/programs",
+        "/values"
+      ],
+      "public_mailto_link_count": 0,
+      "body_text": "Privacy | Agape Unlimited Foundation Skip to content Agape Unlimited Foundation Our mission What we do Our values Get involved Contact Donate Our mission What we do Our values Get involved Contact Donate Home Privacy Your message, handled with care. Here’s what happens to the information you share through this website. Contact messages The contact form asks for your name, email address, a topic, and a message. You can also provide an organization name. When message delivery is available, this information is sent to the foundation’s configured email inbox through Resend, an email delivery service. This website does not save contact messages to a website database. Messages that are sent may remain in the foundation’s inbox and the email provider’s systems. If you prepare a message but do not send it, the form does not submit that information. Spam protection and technical information The form includes an automated spam check and limits repeated requests. Hosting services may process technical information, including your IP address and request details, to operate the website and prevent abuse. Contact message text is not intentionally written to application logs. Donations Online donation links take you to the foundation’s configured donation provider. Payment information is entered on that provider’s website and handled under its own privacy practices. This website does not collect card numbers or process payments. What to include in a message Please share only what we need to understand your question. Avoid sending passwords, payment information, or sensitive records through the form. Questions about your information Contact the foundation to ask about a message you have sent or request help with your information. Agape Unlimited Foundation Unlimited love. Unlimited possibilities. Back to top About us Our programs Our values Get involved Contact Donate Privacy © 2026 Agape Unlimited Foundation Serving children. Strengthening families. Building communities.",
+      "title_characters": 36,
+      "description_characters": 119
+    },
+    {
+      "path": "/robots.txt",
+      "requested_url": "https://agape-unlimited.everrisepressdev.workers.dev/robots.txt",
+      "final_url": "https://agape-unlimited.everrisepressdev.workers.dev/robots.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 1248,
+      "sha256": "8fa3036c68bfcbd32365f6225d24333264093b7cd38d306e106b4dbdc934fd5b",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "Cache-Control": "public, max-age=0, must-revalidate"
+      },
+      "body": "# As a condition of accessing this website, you agree to abide by the following\n# content signals:\n\n# (a)  If a content-signal = yes, you may collect content for the corresponding\n#      use.\n# (b)  If a content-signal = no, you may not collect content for the\n#      corresponding use.\n# (c)  If the website operator does not include a content signal for a\n#      corresponding use, the website operator neither grants nor restricts\n#      permission via content signal with respect to the corresponding use.\n\n# The content signals and their meanings are:\n\n# search:   building a search index and providing search results (e.g., returning\n#           hyperlinks and short excerpts from your website's contents). Search does not\n#           include providing AI-generated search summaries.\n# ai-input: inputting content into one or more AI models (e.g., retrieval\n#           augmented generation, grounding, or other real-time taking of content for\n#           generative AI search answers).\n# ai-train: training or fine-tuning AI models.\n\n# ANY RESTRICTIONS EXPRESSED VIA CONTENT SIGNALS ARE EXPRESS RESERVATIONS OF\n# RIGHTS UNDER ARTICLE 4 OF THE EUROPEAN UNION DIRECTIVE 2019/790 ON COPYRIGHT\n# AND RELATED RIGHTS IN THE DIGITAL SINGLE MARKET.\n",
+      "active_lines": []
+    },
+    {
+      "path": "/sitemap.xml",
+      "requested_url": "https://agape-unlimited.everrisepressdev.workers.dev/sitemap.xml",
+      "final_url": "https://agape-unlimited.everrisepressdev.workers.dev/sitemap.xml",
+      "status": 404,
+      "content_type": "text/html",
+      "bytes": 18774,
+      "sha256": "cffcad8f2819a99c4f531e8ae32f1bb63bff35288a4801f36cf51be34e03b8a6",
+      "headers": {
+        "Content-Type": "text/html",
+        "Cache-Control": "public, max-age=0, must-revalidate"
+      },
+      "title": "Agape Unlimited Foundation | Unlimited Love. Unlimited Possibilities.",
+      "description": "Empowering underserved children and families through education, mentorship, resources, and opportunities that strengthen communities.",
+      "canonical": "https://agape-unlimited.everrisepressdev.workers.dev",
+      "robots_meta": [
+        "noindex"
+      ],
+      "h1": [
+        "Let’s find your way back."
+      ],
+      "headings": [
+        {
+          "level": 1,
+          "text": "Let’s find your way back."
+        }
+      ],
+      "json_ld_blocks": 0,
+      "og_image": "https://agape-unlimited.everrisepressdev.workers.dev/opengraph-image?2f070eff20aaa029",
+      "google_verification_meta_present": false,
+      "html_lang": "en",
+      "recognized_analytics_html_markers": {
+        "google_analytics_or_gtm": false,
+        "cloudflare_web_analytics": false,
+        "plausible": false,
+        "fathom": false,
+        "microsoft_clarity": false
+      },
+      "images": [
+        {
+          "src": "/images/agape-seal.png",
+          "alt": "",
+          "width": "62",
+          "height": "58",
+          "loading": null
+        },
+        {
+          "src": "/images/agape-seal.png",
+          "alt": "",
+          "width": "62",
+          "height": "58",
+          "loading": "lazy"
+        }
+      ],
+      "script_sources": [
+        "/_next/static/chunks/19mx3mg6lkumu.js",
+        "/_next/static/chunks/3g4px251sg85e.js",
+        "/_next/static/chunks/0tgjiok8t6d_n.js",
+        "/_next/static/chunks/turbopack-280ci3gip87nf.js",
+        "/_next/static/chunks/0p1xn3dc_9naq.js",
+        "/_next/static/chunks/3fntmmi971322.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/3s6nzrbk-8mnv.js"
+      ],
+      "internal_paths": [
+        "/",
+        "/about",
+        "/contact",
+        "/donate",
+        "/get-involved",
+        "/privacy",
+        "/programs",
+        "/sitemap.xml",
+        "/values"
+      ],
+      "public_mailto_link_count": 0,
+      "body_text": "Agape Unlimited Foundation | Unlimited Love. Unlimited Possibilities. Skip to content Agape Unlimited Foundation Our mission What we do Our values Get involved Contact Donate Our mission What we do Our values Get involved Contact Donate 404 Let’s find your way back. The page you’re looking for couldn’t be found. Our mission, programs, and ways to get involved are just a step away. Back to home Contact us Agape Unlimited Foundation Unlimited love. Unlimited possibilities. Back to top About us Our programs Our values Get involved Contact Donate Privacy © 2026 Agape Unlimited Foundation Serving children. Strengthening families. Building communities.",
+      "title_characters": 69,
+      "description_characters": 133
+    },
+    {
+      "path": "/this-url-should-return-404",
+      "requested_url": "https://agape-unlimited.everrisepressdev.workers.dev/this-url-should-return-404",
+      "final_url": "https://agape-unlimited.everrisepressdev.workers.dev/this-url-should-return-404",
+      "status": 404,
+      "content_type": "text/html",
+      "bytes": 18774,
+      "sha256": "cffcad8f2819a99c4f531e8ae32f1bb63bff35288a4801f36cf51be34e03b8a6",
+      "headers": {
+        "Content-Type": "text/html",
+        "Cache-Control": "public, max-age=0, must-revalidate"
+      },
+      "title": "Agape Unlimited Foundation | Unlimited Love. Unlimited Possibilities.",
+      "description": "Empowering underserved children and families through education, mentorship, resources, and opportunities that strengthen communities.",
+      "canonical": "https://agape-unlimited.everrisepressdev.workers.dev",
+      "robots_meta": [
+        "noindex"
+      ],
+      "h1": [
+        "Let’s find your way back."
+      ],
+      "headings": [
+        {
+          "level": 1,
+          "text": "Let’s find your way back."
+        }
+      ],
+      "json_ld_blocks": 0,
+      "og_image": "https://agape-unlimited.everrisepressdev.workers.dev/opengraph-image?2f070eff20aaa029",
+      "google_verification_meta_present": false,
+      "html_lang": "en",
+      "recognized_analytics_html_markers": {
+        "google_analytics_or_gtm": false,
+        "cloudflare_web_analytics": false,
+        "plausible": false,
+        "fathom": false,
+        "microsoft_clarity": false
+      },
+      "images": [
+        {
+          "src": "/images/agape-seal.png",
+          "alt": "",
+          "width": "62",
+          "height": "58",
+          "loading": null
+        },
+        {
+          "src": "/images/agape-seal.png",
+          "alt": "",
+          "width": "62",
+          "height": "58",
+          "loading": "lazy"
+        }
+      ],
+      "script_sources": [
+        "/_next/static/chunks/19mx3mg6lkumu.js",
+        "/_next/static/chunks/3g4px251sg85e.js",
+        "/_next/static/chunks/0tgjiok8t6d_n.js",
+        "/_next/static/chunks/turbopack-280ci3gip87nf.js",
+        "/_next/static/chunks/0p1xn3dc_9naq.js",
+        "/_next/static/chunks/3fntmmi971322.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/3s6nzrbk-8mnv.js"
+      ],
+      "internal_paths": [
+        "/",
+        "/about",
+        "/contact",
+        "/donate",
+        "/get-involved",
+        "/privacy",
+        "/programs",
+        "/this-url-should-return-404",
+        "/values"
+      ],
+      "public_mailto_link_count": 0,
+      "body_text": "Agape Unlimited Foundation | Unlimited Love. Unlimited Possibilities. Skip to content Agape Unlimited Foundation Our mission What we do Our values Get involved Contact Donate Our mission What we do Our values Get involved Contact Donate 404 Let’s find your way back. The page you’re looking for couldn’t be found. Our mission, programs, and ways to get involved are just a step away. Back to home Contact us Agape Unlimited Foundation Unlimited love. Unlimited possibilities. Back to top About us Our programs Our values Get involved Contact Donate Privacy © 2026 Agape Unlimited Foundation Serving children. Strengthening families. Building communities.",
+      "title_characters": 69,
+      "description_characters": 133
+    },
+    {
+      "path": "/opengraph-image",
+      "requested_url": "https://agape-unlimited.everrisepressdev.workers.dev/opengraph-image",
+      "final_url": "https://agape-unlimited.everrisepressdev.workers.dev/opengraph-image",
+      "status": 200,
+      "content_type": "image/png",
+      "bytes": 192090,
+      "sha256": "5d4bc4e9ff67645b6602961425e2d48d78ed9b8ad8f6f26b92e75d84d3a17ae1",
+      "headers": {
+        "Content-Type": "image/png",
+        "Cache-Control": "public, max-age=0, must-revalidate"
+      },
+      "image_dimensions": {
+        "width": 1200,
+        "height": 630
+      }
+    },
+    {
+      "path": "/api/contact",
+      "requested_url": "https://agape-unlimited.everrisepressdev.workers.dev/api/contact",
+      "final_url": "https://agape-unlimited.everrisepressdev.workers.dev/api/contact",
+      "status": 200,
+      "content_type": "application/json",
+      "bytes": 19,
+      "sha256": "9c9729d235cfd4897778afaf5651db6b7e91ca68f8c5d052d66de5e09734d668",
+      "headers": {
+        "Content-Type": "application/json",
+        "Cache-Control": "no-store"
+      },
+      "body_json": {
+        "available": false
+      }
+    }
+  ]
+}

@@ -8,7 +8,7 @@ export interface ContactEnv extends Cloudflare.Env {
 }
 
 function json(body: object, status = 200, headers: Record<string, string> = {}) {
-  return Response.json(body, { status, headers: { "Cache-Control": "no-store", "X-Content-Type-Options": "nosniff", ...headers } });
+  return Response.json(body, { status, headers: { "Cache-Control": "no-store", "X-Content-Type-Options": "nosniff", "X-Robots-Tag": "noindex", ...headers } });
 }
 
 function configured(env: ContactEnv) {

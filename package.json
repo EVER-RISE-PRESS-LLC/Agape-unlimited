@@ -11,6 +11,7 @@
     "pretypecheck": "npm run cf:types",
     "typecheck": "tsc --noEmit",
     "test:e2e": "playwright test",
+    "test:seo": "playwright test tests/seo.spec.ts",
     "deploy": "wrangler deploy",
     "preview": "wrangler dev",
     "cf:types": "wrangler types"

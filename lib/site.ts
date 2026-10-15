@@ -1,5 +1,13 @@
 const email = process.env.NEXT_PUBLIC_CONTACT_EMAIL?.trim();
 const donationUrl = process.env.NEXT_PUBLIC_DONATION_URL?.trim();
+const publicUrl = new URL(
+  process.env.NEXT_PUBLIC_SITE_URL?.trim() ||
+    "https://agape-unlimited.everrisepressdev.workers.dev",
+);
+if (publicUrl.protocol !== "https:" || publicUrl.username || publicUrl.password ||
+    publicUrl.pathname !== "/" || publicUrl.search || publicUrl.hash) {
+  throw new Error("NEXT_PUBLIC_SITE_URL must be an HTTPS origin without credentials, a path, query, or fragment.");
+}
 function approvedDonationUrl(value: string | undefined) {
   if (!value) return null;
   try {
@@ -9,9 +17,8 @@ function approvedDonationUrl(value: string | undefined) {
 }
 export const site = {
   name: "Agape Unlimited Foundation",
+  description: "Empowering underserved children and families through education, mentorship, resources, and opportunities that strengthen communities.",
   email: email && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email) ? email : null,
   donationUrl: approvedDonationUrl(donationUrl),
-  url:
-    process.env.NEXT_PUBLIC_SITE_URL?.trim() ||
-    "https://agape-unlimited.everrisepressdev.workers.dev",
+  url: publicUrl.origin,
 };

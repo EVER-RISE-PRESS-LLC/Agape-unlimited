@@ -1,10 +1,21 @@
 import Link from "next/link";
 import { ArrowUpRight, ChevronRight } from "lucide-react";
 import type { ReactNode } from "react";
+import { canonicalUrl, publishedPages } from "@/lib/seo";
+import { StructuredData } from "@/components/structured-data";
 
-export function PageIntro({ name, title, children }: { name: string; title: ReactNode; children: ReactNode }) {
+export function PageIntro({ name, title, children }: { name: (typeof publishedPages)[number]["name"]; title: ReactNode; children: ReactNode }) {
+  const page = publishedPages.find((item) => item.name === name);
   return (
     <div className="page-intro section-shell">
+      {page && page.path !== "/" && <StructuredData data={{
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Home", item: canonicalUrl("/") },
+          { "@type": "ListItem", position: 2, name, item: canonicalUrl(page.path) },
+        ],
+      }} />}
       <nav className="breadcrumb" aria-label="Breadcrumb">
         <Link href="/">Home</Link><ChevronRight size={14} aria-hidden="true" /><span aria-current="page">{name}</span>
       </nav>

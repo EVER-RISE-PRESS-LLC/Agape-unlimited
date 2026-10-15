@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Montserrat, Source_Sans_3 } from "next/font/google";
 import "./globals.css";
 import { site } from "@/lib/site";
-import { social } from "@/lib/social";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 const display = Montserrat({
@@ -18,26 +17,7 @@ const body = Source_Sans_3({
   display: "swap",
 });
 export const metadata: Metadata = {
-  title:
-    "Agape Unlimited Foundation | Unlimited Love. Unlimited Possibilities.",
-  description:
-    "Empowering underserved children and families through education, mentorship, resources, and opportunities that strengthen communities.",
   metadataBase: new URL(site.url),
-  alternates: { canonical: "/" },
-  openGraph: {
-    title: "Agape Unlimited Foundation",
-    description: social.description,
-    type: "website",
-    locale: "en_US",
-    url: "/",
-    siteName: site.name,
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: site.name,
-    description: social.description,
-    images: [{ url: "/opengraph-image", ...social.imageSize, alt: social.imageAlt }],
-  },
 };
 export default function RootLayout({
   children,

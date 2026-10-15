@@ -1,0 +1,181 @@
+{
+  "day": 1,
+  "work_date": "2026-10-16",
+  "timezone": "Asia/Dhaka",
+  "status": "Complete: public baseline, fact register, and manual superadmin handoff",
+  "live_audit_checked_at": "2026-10-16T02:20:30.277402+06:00",
+  "evidence": "../../research/live-site-audit-2026-10-16.json",
+  "public_origin": "https://agape-unlimited.everrisepressdev.workers.dev",
+  "permanent_domain_confirmed": false,
+  "public_name": "Agape Unlimited Foundation",
+  "public_name_evidence": "Current approved site copy and lib/site.ts; legal identity remains under R04",
+  "mission": "Empower underserved children and families through resources, education, mentorship, supportive programs, and opportunities that strengthen individuals and communities.",
+  "mission_source": "app/about/page.tsx and deployed /about",
+  "service_country": null,
+  "service_region": null,
+  "service_city": null,
+  "operating_stage": "Public website live; individual program operations unconfirmed",
+  "values": [
+    "Compassion",
+    "Empowerment",
+    "Opportunity",
+    "Integrity",
+    "Inclusion",
+    "Community"
+  ],
+  "programs": [
+    {
+      "name": "Education and academic support",
+      "site_listing": "possible program area",
+      "operational_status": null,
+      "required_facts": [
+        "R02",
+        "R10"
+      ]
+    },
+    {
+      "name": "Scholarships and career opportunities",
+      "site_listing": "possible program area",
+      "operational_status": null,
+      "required_facts": [
+        "R02",
+        "R10"
+      ]
+    },
+    {
+      "name": "Family assistance and support",
+      "site_listing": "possible program area",
+      "operational_status": null,
+      "required_facts": [
+        "R02",
+        "R10"
+      ]
+    },
+    {
+      "name": "Youth mentorship",
+      "site_listing": "possible program area",
+      "operational_status": null,
+      "required_facts": [
+        "R02",
+        "R10"
+      ]
+    },
+    {
+      "name": "Food and basic needs assistance",
+      "site_listing": "possible program area",
+      "operational_status": null,
+      "required_facts": [
+        "R02",
+        "R10"
+      ]
+    },
+    {
+      "name": "Housing and community resources",
+      "site_listing": "possible program area",
+      "operational_status": null,
+      "required_facts": [
+        "R02",
+        "R10"
+      ]
+    },
+    {
+      "name": "Workforce and life-skills development",
+      "site_listing": "possible program area",
+      "operational_status": null,
+      "required_facts": [
+        "R02",
+        "R10"
+      ]
+    },
+    {
+      "name": "Accessibility and inclusion",
+      "site_listing": "possible program area",
+      "operational_status": null,
+      "required_facts": [
+        "R02",
+        "R10"
+      ]
+    },
+    {
+      "name": "Youth leadership and empowerment",
+      "site_listing": "possible program area",
+      "operational_status": null,
+      "required_facts": [
+        "R02",
+        "R10"
+      ]
+    },
+    {
+      "name": "Community partnerships and outreach",
+      "site_listing": "possible program area",
+      "operational_status": null,
+      "required_facts": [
+        "R02",
+        "R10"
+      ]
+    }
+  ],
+  "external_setup_owner": "User as superadmin, explicitly instructed 16 October 2026",
+  "external_setup_policy": "No assistant account/sign-in flows, verification, sitemap submission, domain/DNS, analytics, or integration setup under general SEO tasks; manual steps in SUPERADMIN-SETUP.md",
+  "search_console": {
+    "authenticated_property_inspected": false,
+    "verified_ownership": null,
+    "property_url": null,
+    "credentials_entered": false,
+    "properties_created": false,
+    "verification_installed": false,
+    "sitemap_submitted": false,
+    "handoff": "../../../SUPERADMIN-SETUP.md"
+  },
+  "metrics": {
+    "google_indexed_pages": null,
+    "search_impressions": null,
+    "search_clicks": null,
+    "search_ctr": null,
+    "average_position": null,
+    "monthly_search_volume": null,
+    "organic_keyword_difficulty": null,
+    "referring_domains": null,
+    "organic_sessions": null,
+    "qualified_inquiries": null,
+    "confirmed_donations": null,
+    "reliable_measurement_start_date": null
+  },
+  "contact": {
+    "available": false,
+    "evidence": "GET /api/contact",
+    "configuration": "Intentionally deferred; superadmin A08"
+  },
+  "donation": {
+    "configuration": "Intentionally deferred; superadmin A09",
+    "page_status": "Online giving is being set up",
+    "completed_payment_test": false
+  },
+  "reviewers": {
+    "foundation_fact_approver": null,
+    "education_logistics": null,
+    "safeguarding_program": null,
+    "partnership": null,
+    "accessibility": null,
+    "measurement_privacy": null
+  },
+  "open_fact_ids": [
+    "R01",
+    "R02",
+    "R03",
+    "R04",
+    "R08",
+    "R09",
+    "R10",
+    "R11",
+    "R12",
+    "R16",
+    "R17",
+    "R18",
+    "R23"
+  ],
+  "next_independent_task": "Day 2 keyword and content mapping; local targeting remains conditional",
+  "website_changes": false,
+  "account_configuration_changes": false,
+  "deployment_performed": false
+}

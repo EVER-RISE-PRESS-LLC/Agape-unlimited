@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { FoundationPhoto } from "@/components/foundation-photo";
 import {
   ArrowUpRight,
   Heart,
@@ -13,9 +13,31 @@ import {
 import { Programs } from "@/components/programs";
 import Link from "next/link";
 import { values } from "@/lib/values";
+import type { Metadata } from "next";
+import { site } from "@/lib/site";
+import { social } from "@/lib/social";
+import { organizationGraph } from "@/lib/seo";
+import { StructuredData } from "@/components/structured-data";
+
+export const metadata: Metadata = {
+  title: "Agape Unlimited Foundation | Unlimited Love. Unlimited Possibilities.",
+  description: site.description,
+  alternates: { canonical: "/" },
+  openGraph: {
+    title: site.name, description: social.description, url: "/",
+    type: "website", locale: "en_US", siteName: site.name,
+    images: [{ url: "/opengraph-image", ...social.imageSize, alt: social.imageAlt }],
+  },
+  twitter: {
+    card: "summary_large_image", title: site.name, description: social.description,
+    images: [{ url: "/opengraph-image", ...social.imageSize, alt: social.imageAlt }],
+  },
+};
+
 export default function Home() {
   return (
     <>
+      <StructuredData data={organizationGraph} />
       <main id="main">
         <section
           className="hero section-shell"
@@ -60,12 +82,11 @@ export default function Home() {
           </div>
           <div className="hero-visual">
             <div className="portrait-arch">
-              <Image
-                src="/images/founder-home.jpeg"
+              <FoundationPhoto
+                name="founder-home"
                 alt="The foundation’s founder smiling at home, seated in his power wheelchair."
-                fill
                 sizes="(max-width: 800px) 90vw, 42vw"
-                priority
+                eager
               />
             </div>
             <div className="portrait-caption">
@@ -171,10 +192,9 @@ export default function Home() {
         >
           <div className="section-shell purpose-grid">
             <div className="community-photo">
-              <Image
-                src="/images/founder-community.jpeg"
+              <FoundationPhoto
+                name="founder-community"
                 alt="The foundation’s founder attending a gathering with other community members."
-                fill
                 sizes="(max-width: 800px) 90vw, 40vw"
               />
               <span>Connection makes us stronger.</span>

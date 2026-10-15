@@ -1,0 +1,403 @@
+{
+  "checked_at": "2026-10-16T02:48:09.390681+06:00",
+  "environment": "local Wrangler production-export preview",
+  "preview_origin": "http://localhost:8794",
+  "canonical_origin": "https://agape-unlimited.everrisepressdev.workers.dev",
+  "account_setup_performed": false,
+  "deployed": false,
+  "responses": [
+    {
+      "path": "/",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "x_robots_tag": null,
+      "h1_count": 1,
+      "canonical": [
+        "https://agape-unlimited.everrisepressdev.workers.dev"
+      ],
+      "description": [
+        "Empowering underserved children and families through education, mentorship, resources, and opportunities that strengthen communities."
+      ],
+      "robots": [],
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Organization",
+              "@id": "https://agape-unlimited.everrisepressdev.workers.dev/#organization",
+              "name": "Agape Unlimited Foundation",
+              "description": "Empowering underserved children and families through education, mentorship, resources, and opportunities that strengthen communities.",
+              "url": "https://agape-unlimited.everrisepressdev.workers.dev",
+              "logo": "https://agape-unlimited.everrisepressdev.workers.dev/images/agape-seal-186.png"
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://agape-unlimited.everrisepressdev.workers.dev/#website",
+              "name": "Agape Unlimited Foundation",
+              "url": "https://agape-unlimited.everrisepressdev.workers.dev",
+              "inLanguage": "en",
+              "publisher": {
+                "@id": "https://agape-unlimited.everrisepressdev.workers.dev/#organization"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/about",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "x_robots_tag": null,
+      "h1_count": 1,
+      "canonical": [
+        "https://agape-unlimited.everrisepressdev.workers.dev/about"
+      ],
+      "description": [
+        "Learn about Agape Unlimited Foundation’s mission to connect underserved children and families with education, mentorship, resources, and opportunity."
+      ],
+      "robots": [],
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://agape-unlimited.everrisepressdev.workers.dev"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "About us",
+              "item": "https://agape-unlimited.everrisepressdev.workers.dev/about"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/programs",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "x_robots_tag": null,
+      "h1_count": 1,
+      "canonical": [
+        "https://agape-unlimited.everrisepressdev.workers.dev/programs"
+      ],
+      "description": [
+        "Explore Agape’s ten program areas, including education, youth mentorship, family support, accessibility, and community partnerships."
+      ],
+      "robots": [],
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://agape-unlimited.everrisepressdev.workers.dev"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Our programs",
+              "item": "https://agape-unlimited.everrisepressdev.workers.dev/programs"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/values",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "x_robots_tag": null,
+      "h1_count": 1,
+      "canonical": [
+        "https://agape-unlimited.everrisepressdev.workers.dev/values"
+      ],
+      "description": [
+        "Compassion, empowerment, opportunity, integrity, inclusion, and community guide how Agape Unlimited Foundation serves children and families."
+      ],
+      "robots": [],
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://agape-unlimited.everrisepressdev.workers.dev"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Our values",
+              "item": "https://agape-unlimited.everrisepressdev.workers.dev/values"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/get-involved",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "x_robots_tag": null,
+      "h1_count": 1,
+      "canonical": [
+        "https://agape-unlimited.everrisepressdev.workers.dev/get-involved"
+      ],
+      "description": [
+        "Share your time and talents, explore a community partnership, or support Agape Unlimited Foundation’s mission through giving."
+      ],
+      "robots": [],
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://agape-unlimited.everrisepressdev.workers.dev"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Get involved",
+              "item": "https://agape-unlimited.everrisepressdev.workers.dev/get-involved"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/contact",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "x_robots_tag": null,
+      "h1_count": 1,
+      "canonical": [
+        "https://agape-unlimited.everrisepressdev.workers.dev/contact"
+      ],
+      "description": [
+        "Contact Agape Unlimited Foundation about programs, volunteering, partnerships, donations, or a question you would like to share."
+      ],
+      "robots": [],
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://agape-unlimited.everrisepressdev.workers.dev"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Contact",
+              "item": "https://agape-unlimited.everrisepressdev.workers.dev/contact"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/donate",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "x_robots_tag": null,
+      "h1_count": 1,
+      "canonical": [
+        "https://agape-unlimited.everrisepressdev.workers.dev/donate"
+      ],
+      "description": [
+        "Support Agape Unlimited Foundation’s mission to create opportunities for children and families. Explore online giving and other ways to help."
+      ],
+      "robots": [],
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://agape-unlimited.everrisepressdev.workers.dev"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Donate",
+              "item": "https://agape-unlimited.everrisepressdev.workers.dev/donate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/privacy",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "x_robots_tag": null,
+      "h1_count": 1,
+      "canonical": [
+        "https://agape-unlimited.everrisepressdev.workers.dev/privacy"
+      ],
+      "description": [
+        "Learn what information the Agape website contact form sends and how the website handles contact messages and donations."
+      ],
+      "robots": [],
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://agape-unlimited.everrisepressdev.workers.dev"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Privacy",
+              "item": "https://agape-unlimited.everrisepressdev.workers.dev/privacy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "content_type": "application/xml",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "x_robots_tag": null,
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n<url>\n<loc>https://agape-unlimited.everrisepressdev.workers.dev</loc>\n</url>\n<url>\n<loc>https://agape-unlimited.everrisepressdev.workers.dev/about</loc>\n</url>\n<url>\n<loc>https://agape-unlimited.everrisepressdev.workers.dev/programs</loc>\n</url>\n<url>\n<loc>https://agape-unlimited.everrisepressdev.workers.dev/values</loc>\n</url>\n<url>\n<loc>https://agape-unlimited.everrisepressdev.workers.dev/get-involved</loc>\n</url>\n<url>\n<loc>https://agape-unlimited.everrisepressdev.workers.dev/contact</loc>\n</url>\n<url>\n<loc>https://agape-unlimited.everrisepressdev.workers.dev/donate</loc>\n</url>\n<url>\n<loc>https://agape-unlimited.everrisepressdev.workers.dev/privacy</loc>\n</url>\n</urlset>\n"
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "x_robots_tag": null,
+      "body": "User-Agent: *\nAllow: /\n\nSitemap: https://agape-unlimited.everrisepressdev.workers.dev/sitemap.xml\n"
+    },
+    {
+      "path": "/seo-day4-missing-page",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "x_robots_tag": null,
+      "h1_count": 1,
+      "canonical": [],
+      "description": [
+        "This page could not be found. Return to our homepage or explore the foundation’s mission, programs, and ways to get involved."
+      ],
+      "robots": [
+        "noindex"
+      ],
+      "json_ld": []
+    },
+    {
+      "path": "/api/contact",
+      "status": 200,
+      "content_type": "application/json",
+      "cache_control": "no-store",
+      "x_robots_tag": "noindex",
+      "body_json": {
+        "available": false
+      }
+    },
+    {
+      "path": "/SEO/README.md",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "x_robots_tag": null,
+      "h1_count": 1,
+      "canonical": [],
+      "description": [
+        "This page could not be found. Return to our homepage or explore the foundation’s mission, programs, and ways to get involved."
+      ],
+      "robots": [
+        "noindex"
+      ],
+      "json_ld": []
+    },
+    {
+      "path": "/AGENTS.md",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "x_robots_tag": null,
+      "h1_count": 1,
+      "canonical": [],
+      "description": [
+        "This page could not be found. Return to our homepage or explore the foundation’s mission, programs, and ways to get involved."
+      ],
+      "robots": [
+        "noindex"
+      ],
+      "json_ld": []
+    },
+    {
+      "path": "/SUPERADMIN-SETUP.md",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "x_robots_tag": null,
+      "h1_count": 1,
+      "canonical": [],
+      "description": [
+        "This page could not be found. Return to our homepage or explore the foundation’s mission, programs, and ways to get involved."
+      ],
+      "robots": [
+        "noindex"
+      ],
+      "json_ld": []
+    }
+  ],
+  "current_live_comparison": [
+    {
+      "path": "/sitemap.xml",
+      "status": 403,
+      "content_type": "text/plain; charset=UTF-8",
+      "note": "Read-only production check; this task has not deployed source changes",
+      "identified_audit_client_status": 404,
+      "identified_audit_client_content_type": "text/html"
+    },
+    {
+      "path": "/robots.txt",
+      "status": 403,
+      "content_type": "text/plain; charset=UTF-8",
+      "note": "Read-only production check; this task has not deployed source changes",
+      "identified_audit_client_status": 200,
+      "identified_audit_client_content_type": "text/plain; charset=utf-8"
+    }
+  ]
+}

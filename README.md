@@ -40,7 +40,7 @@ NEXT_PUBLIC_DONATION_URL=
 NEXT_PUBLIC_SITE_URL=
 ```
 
-Contact and donation configuration are intentionally deferred at the user's request. `AGENTS.md` instructs future AI assistants to prompt once per work session about configuring them. Leave the values empty until approved.
+Contact and donation configuration are intentionally deferred at the user's request. `AGENTS.md` instructs future AI assistants to link the shared review checklist at the start of a work session. The user performs Search Console and other external admin setup themselves; manual steps are in [SUPERADMIN-SETUP.md](SUPERADMIN-SETUP.md), and unanswered facts are in [NEEDS-YOUR-REVIEW.md](NEEDS-YOUR-REVIEW.md). Leave configuration values empty until approved.
 
 The Contact page includes name, email, optional organization, topic, message, and privacy acknowledgement. Links from volunteering, partnerships, programs, and donation pages preselect the relevant topic. The form checks `/api/contact` before allowing submission. Without email delivery credentials, it shows a setup-pending message. When a public email is supplied, it can prepare a message in the visitor's email app instead, clearly explaining that the visitor must send it there.
 
@@ -80,6 +80,16 @@ Edit `lib/social.ts` to change the headline, supporting text, or image alt text.
 The image is available at `/opengraph-image`. Next.js inserts the Open Graph image tags, and the layout configures a large Twitter/X card using the same image. `public/_headers` ensures Cloudflare serves the exported image with the `image/png` content type.
 
 `NEXT_PUBLIC_SITE_URL` overrides the canonical URL and absolute social image URLs. When unset, metadata uses the deployed `https://agape-unlimited.everrisepressdev.workers.dev` address.
+
+## Technical SEO
+
+`app/sitemap.ts` and `app/robots.ts` statically export the published page list and crawler instructions. `lib/seo.ts` is the shared registry for published canonical URLs and the homepage Organization/WebSite identity. Add only actual published, indexable pages. No synthetic modification dates are emitted. Rebuild after changing the approved `NEXT_PUBLIC_SITE_URL`; it must be an HTTPS origin.
+
+`components/structured-data.tsx` safely serializes JSON-LD. The homepage carries verified organizational information, while `PageIntro` supplies breadcrumbs matching its visible navigation. The error page has its own metadata and no homepage canonical. API JSON responses use `X-Robots-Tag: noindex`, and hashed Next.js assets use immutable caching through `public/_headers`.
+
+The navigation seal uses `public/images/agape-seal-186.png`; the original seal remains available for social-image generation and source reference. `components/foundation-photo.tsx` uses checked-in 480px, 768px, and original-width WebP derivatives with the original JPEG fallback. Derivatives were produced with the installed Sharp image library at WebP quality 84; the PNG seal is resized to 186px wide with PNG compression level 9 and adaptive filtering. Keep original supplied assets intact when regenerating derivatives. Main portraits load eagerly with a high fetch priority; other photographs remain lazy-loaded.
+
+Run the focused production-preview checks with `npm run test:seo`, or use the full suite below. See [Day 4 evidence](SEO/daily-tasks/results/day-04-results.md) for local checks, mobile lab measurements, remaining performance limits, and release status. The superadmin performs external setup and sitemap submission after deployment and live verification.
 
 ## Validation
 

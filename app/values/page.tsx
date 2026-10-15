@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { FoundationPhoto } from "@/components/foundation-photo";
 import { PageIntro, PageCta } from "@/components/page-intro";
 import { values } from "@/lib/values";
 import { pageMetadata } from "@/lib/metadata";
@@ -17,7 +17,7 @@ export default function ValuesPage() {
         ))}
       </section>
       <section className="values-community section-shell" aria-labelledby="together-heading">
-        <div className="values-community-photo"><Image src="/images/founder-community.jpeg" alt="The foundation’s founder attending a gathering with other community members." fill sizes="(max-width: 800px) 90vw, 50vw" /></div>
+        <div className="values-community-photo"><FoundationPhoto name="founder-community" alt="The foundation’s founder attending a gathering with other community members." sizes="(max-width: 800px) 90vw, 50vw" /></div>
         <div><h2 id="together-heading">People at the heart<br />of possibility.</h2><p>When a child is given an opportunity, a family is given hope. And when families become stronger, communities become stronger.</p></div>
       </section>
       <PageCta title="Put care into action." text="Bring your compassion, your experience, and your ideas. Together, we can make room for possibility." href="/get-involved" label="Get involved" />

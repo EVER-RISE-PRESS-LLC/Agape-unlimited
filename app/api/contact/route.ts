@@ -3,5 +3,5 @@
 export const dynamic = "force-static";
 
 export function GET() {
-  return Response.json({ available: false });
+  return Response.json({ available: false }, { headers: { "X-Robots-Tag": "noindex" } });
 }

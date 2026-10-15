@@ -1,0 +1,127 @@
+{
+  "day": 4,
+  "work_date": "2026-10-16",
+  "timezone": "Asia/Dhaka",
+  "status": "Complete in source and local production-export preview; release pending",
+  "base_commit": "0804e20658f87d650cfc2deca8f38a96c6b6f32a",
+  "new_commit_created": false,
+  "pushed": false,
+  "deployed": false,
+  "canonical_origin": "https://agape-unlimited.everrisepressdev.workers.dev",
+  "preview_origin": "http://localhost:8794",
+  "checks": {
+    "production_build": "passed",
+    "typecheck": "passed",
+    "lint": "passed",
+    "playwright": {
+      "passed": 17,
+      "failed": 0,
+      "duration_seconds": 15.4
+    },
+    "wrangler_dry_run": "passed; no deployment"
+  },
+  "performance_evidence": "../../research/day-04-performance-2026-10-16.json",
+  "http_schema_evidence": "../../research/day-04-technical-verification-2026-10-16.json",
+  "homepage_mobile_performance": {
+    "before": 58,
+    "after": 92,
+    "before_lcp_ms": 13385.0191,
+    "after_lcp_ms": 3180.27625,
+    "field_data": null
+  },
+  "source_files": [
+    {
+      "path": "app/sitemap.ts",
+      "sha256": "158f4fa6ae6b2ade566fc601025302a2c1df3fe9f1ad7558ffc874cc71201890"
+    },
+    {
+      "path": "app/robots.ts",
+      "sha256": "7f5ad70d5f9eeebd7fe02704434bd8bb5ec08fee38f419dd33cad8059e04c94c"
+    },
+    {
+      "path": "app/layout.tsx",
+      "sha256": "cbe370b83c3816fe61ee08eaf624c60bb3476d9d9b5434f701402f9e35292393"
+    },
+    {
+      "path": "app/page.tsx",
+      "sha256": "cefa2e8416942eed724db51296b4c08111088f1a9c07a01b150c7ec1870b141b"
+    },
+    {
+      "path": "app/not-found.tsx",
+      "sha256": "a03fe243bcfb607eb597afb9133877f733ac44df46e4da232f42443c0a98f35e"
+    },
+    {
+      "path": "app/about/page.tsx",
+      "sha256": "6942184763f6ace83c6c24925f87e7625099cdd2256d33ac9ec147b8ae283eff"
+    },
+    {
+      "path": "app/values/page.tsx",
+      "sha256": "fc20258c73cab3c06acf96d5cb457ce611df1eb3f8377f3693d8c015f57ac948"
+    },
+    {
+      "path": "app/api/contact/route.ts",
+      "sha256": "e08a599535d6286d83c0d3a27a93394d095fdf64185cdcb6a8b67d75b4f084d3"
+    },
+    {
+      "path": "components/structured-data.tsx",
+      "sha256": "8607ede26e18f5d5a159c0f75c3fa012f9789f56a7e0e069486340cc4309fdf2"
+    },
+    {
+      "path": "components/foundation-photo.tsx",
+      "sha256": "68c4826bab23ec815fa96cac75e2ff1746c93f963c87ca44e24cf1d61f1d6bb3"
+    },
+    {
+      "path": "components/page-intro.tsx",
+      "sha256": "3dd1d576f4145cc132f803c3f4215aba06e2b73283e6e7c05fbd3acc035a2143"
+    },
+    {
+      "path": "components/header.tsx",
+      "sha256": "395795a9ae1889cf7c8ff0a4f71b4a32c167e32f16772f8b363c80d853d8096e"
+    },
+    {
+      "path": "components/footer.tsx",
+      "sha256": "8ca50bc9d9cc33ceabdc7361c2bcd0f7722fc5548fcaf8a97f0a023b047a9d3f"
+    },
+    {
+      "path": "lib/seo.ts",
+      "sha256": "952f3f0b2886af173e4557bcd9b3bf4604797565868dce623fffd825472e5ba7"
+    },
+    {
+      "path": "lib/site.ts",
+      "sha256": "11839683099afff9f68f682baac5e6906b5f1404db5cfba323188edb4ea4b53c"
+    },
+    {
+      "path": "lib/metadata.ts",
+      "sha256": "01904f6d548f10e44247fc53a06ac97aaa1ca5210f08aaab7b70833e8fe6f8ea"
+    },
+    {
+      "path": "worker/index.ts",
+      "sha256": "a822632f0760c248459288211e8df32dc20c396e026eb59d2d2e9876f97b98e9"
+    },
+    {
+      "path": "public/_headers",
+      "sha256": "a25272521faf6d1874b1f500514b7a51415b1df44e96b19486da946506c4987a"
+    },
+    {
+      "path": "package.json",
+      "sha256": "846d1db7e77731aaa2d865ba080ed8a6cc704d502dab000929411c9839802e3e"
+    },
+    {
+      "path": "tests/seo.spec.ts",
+      "sha256": "a8ff4a78caa5583326bb582ac59c20461e1b5bdd3347fe727f8cd4faa2b4d2b5"
+    }
+  ],
+  "accounts_configured": false,
+  "analytics_installed": false,
+  "dns_changed": false,
+  "sitemap_submitted": false,
+  "contact_delivery": "Intentionally deferred; local GET reports unavailable; no real delivery test",
+  "donation_checkout": "Intentionally deferred; pending state preserved; no real payment",
+  "follow_up": [
+    "Publish through the intended release workflow when authorized",
+    "Verify live sitemap, robots, schema, canonicals, headers and errors after deployment",
+    "Superadmin performs account verification, URL inspection and sitemap submission",
+    "Check deployed performance and later field data; homepage lab LCP still exceeds 2.5s",
+    "Resource template performance is Day 5 work; template does not exist yet"
+  ]
+}

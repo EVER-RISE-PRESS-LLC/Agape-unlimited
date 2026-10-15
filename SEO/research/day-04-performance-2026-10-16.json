@@ -1,0 +1,1096 @@
+{
+  "report_date": "2026-10-16",
+  "method": "Lighthouse CLI 13.5.0 against local Wrangler production-export preview; simulated mobile network/CPU; individual lab runs, not field measurements or a statistical median",
+  "field_data": {
+    "crux": null,
+    "inp": null,
+    "search_console": null,
+    "reason": "Account-based setup/inspection reserved for superadmin; no authenticated or CrUX field baseline collected"
+  },
+  "resource_template": "Not yet built; belongs to Day 5 and was not measured",
+  "runs": [
+    {
+      "phase": "baseline-home",
+      "lighthouse_version": "13.5.0",
+      "fetch_time": "2026-10-15T20:38:09.415Z",
+      "url": "http://localhost:8794/",
+      "settings": {
+        "formFactor": "mobile",
+        "throttling": {
+          "rttMs": 150,
+          "throughputKbps": 1638.4,
+          "requestLatencyMs": 562.5,
+          "downloadThroughputKbps": 1474.5600000000002,
+          "uploadThroughputKbps": 675,
+          "cpuSlowdownMultiplier": 4
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": true,
+          "width": 412,
+          "height": 823,
+          "deviceScaleFactor": 1.75,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36"
+      },
+      "scores": {
+        "performance": 0.58,
+        "accessibility": 1,
+        "seo": 1
+      },
+      "metrics": {
+        "first-contentful-paint": {
+          "value": 1040.50955,
+          "unit": "millisecond"
+        },
+        "largest-contentful-paint": {
+          "value": 13385.019099999998,
+          "unit": "millisecond"
+        },
+        "total-blocking-time": {
+          "value": 319,
+          "unit": "millisecond"
+        },
+        "cumulative-layout-shift": {
+          "value": 0,
+          "unit": "unitless"
+        },
+        "speed-index": {
+          "value": 11014.494106989176,
+          "unit": "millisecond"
+        },
+        "total-byte-weight": {
+          "value": 2411502,
+          "unit": "byte"
+        }
+      },
+      "image_delivery": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "node",
+            "valueType": "node",
+            "label": ""
+          },
+          {
+            "key": "url",
+            "valueType": "url",
+            "label": "URL",
+            "subItemsHeading": {
+              "key": "reason",
+              "valueType": "text"
+            }
+          },
+          {
+            "key": "totalBytes",
+            "valueType": "bytes",
+            "label": "Resource Size"
+          },
+          {
+            "key": "wastedBytes",
+            "valueType": "bytes",
+            "label": "Est Savings",
+            "subItemsHeading": {
+              "key": "wastedBytes",
+              "valueType": "bytes"
+            }
+          }
+        ],
+        "items": [
+          {
+            "node": {
+              "type": "node",
+              "lhId": "page-0-IMG",
+              "path": "1,HTML,1,BODY,2,HEADER,0,DIV,0,A,0,IMG",
+              "selector": "header.site-header > div.nav-shell > a.brand > img",
+              "boundingRect": {
+                "top": 18,
+                "bottom": 66,
+                "left": 16,
+                "right": 67,
+                "width": 51,
+                "height": 48
+              },
+              "snippet": "<img alt=\"\" width=\"62\" height=\"58\" decoding=\"async\" data-nimg=\"1\" style=\"color:transparent\" src=\"/images/agape-seal.png\">",
+              "nodeLabel": "header.site-header > div.nav-shell > a.brand > img"
+            },
+            "url": "http://localhost:8794/images/agape-seal.png",
+            "totalBytes": 1786869,
+            "wastedBytes": 1786471,
+            "subItems": {
+              "type": "subitems",
+              "items": [
+                {
+                  "reason": "Using a modern image format (WebP, AVIF) or increasing the image compression could improve this image's download size.",
+                  "wastedBytes": 1524851
+                },
+                {
+                  "reason": "This image file is larger than it needs to be (1309x1201) for its displayed dimensions (51x47). Use responsive images to reduce the image download size.",
+                  "wastedBytes": 1784157
+                }
+              ]
+            }
+          },
+          {
+            "node": {
+              "type": "node",
+              "lhId": "page-1-IMG",
+              "path": "1,HTML,1,BODY,3,MAIN,4,SECTION,0,DIV,0,DIV,0,IMG",
+              "selector": "section#purpose > div.section-shell > div.community-photo > img",
+              "boundingRect": {
+                "top": 3757,
+                "bottom": 4307,
+                "left": 20,
+                "right": 392,
+                "width": 372,
+                "height": 550
+              },
+              "snippet": "<img alt=\"The foundation’s founder attending a gathering with other community member…\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" style=\"position: absolute; height: 100%; width: 100%; inset: 0px;\" src=\"/images/founder-community.jpeg\">",
+              "nodeLabel": "The foundation’s founder attending a gathering with other community members."
+            },
+            "url": "http://localhost:8794/images/founder-community.jpeg",
+            "totalBytes": 177929,
+            "wastedBytes": 163717,
+            "subItems": {
+              "type": "subitems",
+              "items": [
+                {
+                  "reason": "This image file is larger than it needs to be (1387x2048) for its displayed dimensions (413x550). Use responsive images to reduce the image download size.",
+                  "wastedBytes": 163717
+                }
+              ]
+            }
+          },
+          {
+            "node": {
+              "type": "node",
+              "lhId": "page-2-IMG",
+              "path": "1,HTML,1,BODY,3,MAIN,0,SECTION,1,DIV,0,DIV,0,IMG",
+              "selector": "section#home > div.hero-visual > div.portrait-arch > img",
+              "boundingRect": {
+                "top": 640,
+                "bottom": 1173,
+                "left": 33,
+                "right": 383,
+                "width": 350,
+                "height": 533
+              },
+              "snippet": "<img alt=\"The foundation’s founder smiling at home, seated in his power wheelchair.\" decoding=\"async\" data-nimg=\"fill\" style=\"position: absolute; height: 100%; width: 100%; inset: 0px;\" src=\"/images/founder-home.jpeg\">",
+              "nodeLabel": "The foundation’s founder smiling at home, seated in his power wheelchair."
+            },
+            "url": "http://localhost:8794/images/founder-home.jpeg",
+            "totalBytes": 171942,
+            "wastedBytes": 145290,
+            "subItems": {
+              "type": "subitems",
+              "items": [
+                {
+                  "reason": "This image file is larger than it needs to be (947x1440) for its displayed dimensions (397x533). Use responsive images to reduce the image download size.",
+                  "wastedBytes": 145290
+                }
+              ]
+            }
+          }
+        ],
+        "debugData": {
+          "type": "debugdata",
+          "wastedBytes": 2095478
+        }
+      },
+      "lcp_discovery": {
+        "type": "list",
+        "items": [
+          {
+            "type": "checklist",
+            "items": {
+              "priorityHinted": {
+                "label": "fetchpriority=high should be applied to the image preload request",
+                "value": false
+              },
+              "requestDiscoverable": {
+                "label": "Request is discoverable in initial document",
+                "value": true
+              },
+              "eagerlyLoaded": {
+                "label": "LCP resources should not use loading=lazy",
+                "value": true
+              }
+            }
+          },
+          {
+            "type": "node",
+            "lhId": "page-2-IMG",
+            "path": "1,HTML,1,BODY,3,MAIN,0,SECTION,1,DIV,0,DIV,0,IMG",
+            "selector": "section#home > div.hero-visual > div.portrait-arch > img",
+            "boundingRect": {
+              "top": 640,
+              "bottom": 1173,
+              "left": 33,
+              "right": 383,
+              "width": 350,
+              "height": 533
+            },
+            "snippet": "<img alt=\"The foundation’s founder smiling at home, seated in his power wheelchair.\" decoding=\"async\" data-nimg=\"fill\" style=\"position: absolute; height: 100%; width: 100%; inset: 0px;\" src=\"/images/founder-home.jpeg\">",
+            "nodeLabel": "The foundation’s founder smiling at home, seated in his power wheelchair."
+          }
+        ]
+      }
+    },
+    {
+      "phase": "intermediate-home",
+      "lighthouse_version": "13.5.0",
+      "fetch_time": "2026-10-15T20:42:55.266Z",
+      "url": "http://localhost:8794/",
+      "settings": {
+        "formFactor": "mobile",
+        "throttling": {
+          "rttMs": 150,
+          "throughputKbps": 1638.4,
+          "requestLatencyMs": 562.5,
+          "downloadThroughputKbps": 1474.5600000000002,
+          "uploadThroughputKbps": 675,
+          "cpuSlowdownMultiplier": 4
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": true,
+          "width": 412,
+          "height": 823,
+          "deviceScaleFactor": 1.75,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36"
+      },
+      "scores": {
+        "performance": 0.83,
+        "accessibility": 1,
+        "seo": 1
+      },
+      "metrics": {
+        "first-contentful-paint": {
+          "value": 903.81615,
+          "unit": "millisecond"
+        },
+        "largest-contentful-paint": {
+          "value": 4695.632299999999,
+          "unit": "millisecond"
+        },
+        "total-blocking-time": {
+          "value": 108,
+          "unit": "millisecond"
+        },
+        "cumulative-layout-shift": {
+          "value": 0,
+          "unit": "unitless"
+        },
+        "speed-index": {
+          "value": 1353.2014800006214,
+          "unit": "millisecond"
+        },
+        "total-byte-weight": {
+          "value": 684893,
+          "unit": "byte"
+        }
+      },
+      "image_delivery": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "node",
+            "valueType": "node",
+            "label": ""
+          },
+          {
+            "key": "url",
+            "valueType": "url",
+            "label": "URL",
+            "subItemsHeading": {
+              "key": "reason",
+              "valueType": "text"
+            }
+          },
+          {
+            "key": "totalBytes",
+            "valueType": "bytes",
+            "label": "Resource Size"
+          },
+          {
+            "key": "wastedBytes",
+            "valueType": "bytes",
+            "label": "Est Savings",
+            "subItemsHeading": {
+              "key": "wastedBytes",
+              "valueType": "bytes"
+            }
+          }
+        ],
+        "items": [
+          {
+            "node": {
+              "type": "node",
+              "lhId": "page-0-IMG",
+              "path": "1,HTML,1,BODY,4,MAIN,4,SECTION,0,DIV,0,DIV,0,IMG",
+              "selector": "section#purpose > div.section-shell > div.community-photo > img",
+              "boundingRect": {
+                "top": 3757,
+                "bottom": 4307,
+                "left": 20,
+                "right": 392,
+                "width": 372,
+                "height": 550
+              },
+              "snippet": "<img alt=\"The foundation’s founder attending a gathering with other community member…\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" style=\"position: absolute; height: 100%; width: 100%; inset: 0px;\" src=\"/images/founder-community.jpeg\">",
+              "nodeLabel": "The foundation’s founder attending a gathering with other community members."
+            },
+            "url": "http://localhost:8794/images/founder-community.jpeg",
+            "totalBytes": 177929,
+            "wastedBytes": 163717,
+            "subItems": {
+              "type": "subitems",
+              "items": [
+                {
+                  "reason": "This image file is larger than it needs to be (1387x2048) for its displayed dimensions (413x550). Use responsive images to reduce the image download size.",
+                  "wastedBytes": 163717
+                }
+              ]
+            }
+          },
+          {
+            "node": {
+              "type": "node",
+              "lhId": "page-1-IMG",
+              "path": "1,HTML,1,BODY,4,MAIN,0,SECTION,1,DIV,0,DIV,0,IMG",
+              "selector": "section#home > div.hero-visual > div.portrait-arch > img",
+              "boundingRect": {
+                "top": 640,
+                "bottom": 1173,
+                "left": 33,
+                "right": 383,
+                "width": 350,
+                "height": 533
+              },
+              "snippet": "<img alt=\"The foundation’s founder smiling at home, seated in his power wheelchair.\" fetchpriority=\"high\" loading=\"eager\" decoding=\"async\" data-nimg=\"fill\" style=\"position: absolute; height: 100%; width: 100%; inset: 0px;\" src=\"/images/founder-home.jpeg\">",
+              "nodeLabel": "The foundation’s founder smiling at home, seated in his power wheelchair."
+            },
+            "url": "http://localhost:8794/images/founder-home.jpeg",
+            "totalBytes": 171942,
+            "wastedBytes": 145290,
+            "subItems": {
+              "type": "subitems",
+              "items": [
+                {
+                  "reason": "This image file is larger than it needs to be (947x1440) for its displayed dimensions (397x533). Use responsive images to reduce the image download size.",
+                  "wastedBytes": 145290
+                }
+              ]
+            }
+          },
+          {
+            "node": {
+              "type": "node",
+              "lhId": "page-2-IMG",
+              "path": "1,HTML,1,BODY,2,HEADER,0,DIV,0,A,0,IMG",
+              "selector": "header.site-header > div.nav-shell > a.brand > img",
+              "boundingRect": {
+                "top": 18,
+                "bottom": 66,
+                "left": 16,
+                "right": 67,
+                "width": 51,
+                "height": 48
+              },
+              "snippet": "<img alt=\"\" loading=\"eager\" width=\"62\" height=\"58\" decoding=\"async\" data-nimg=\"1\" style=\"color:transparent\" src=\"/images/agape-seal-186.png\">",
+              "nodeLabel": "header.site-header > div.nav-shell > a.brand > img"
+            },
+            "url": "http://localhost:8794/images/agape-seal-186.png",
+            "totalBytes": 58640,
+            "wastedBytes": 58242,
+            "subItems": {
+              "type": "subitems",
+              "items": [
+                {
+                  "reason": "Using a modern image format (WebP, AVIF) or increasing the image compression could improve this image's download size.",
+                  "wastedBytes": 53339
+                },
+                {
+                  "reason": "This image file is larger than it needs to be (186x171) for its displayed dimensions (51x47). Use responsive images to reduce the image download size.",
+                  "wastedBytes": 54232
+                }
+              ]
+            }
+          }
+        ],
+        "debugData": {
+          "type": "debugdata",
+          "wastedBytes": 367249
+        }
+      },
+      "lcp_discovery": {
+        "type": "list",
+        "items": [
+          {
+            "type": "checklist",
+            "items": {
+              "priorityHinted": {
+                "label": "fetchpriority=high applied",
+                "value": true
+              },
+              "requestDiscoverable": {
+                "label": "Request is discoverable in initial document",
+                "value": true
+              },
+              "eagerlyLoaded": {
+                "label": "LCP resources should not use loading=lazy",
+                "value": true
+              }
+            }
+          },
+          {
+            "type": "node",
+            "lhId": "page-1-IMG",
+            "path": "1,HTML,1,BODY,4,MAIN,0,SECTION,1,DIV,0,DIV,0,IMG",
+            "selector": "section#home > div.hero-visual > div.portrait-arch > img",
+            "boundingRect": {
+              "top": 640,
+              "bottom": 1173,
+              "left": 33,
+              "right": 383,
+              "width": 350,
+              "height": 533
+            },
+            "snippet": "<img alt=\"The foundation’s founder smiling at home, seated in his power wheelchair.\" fetchpriority=\"high\" loading=\"eager\" decoding=\"async\" data-nimg=\"fill\" style=\"position: absolute; height: 100%; width: 100%; inset: 0px;\" src=\"/images/founder-home.jpeg\">",
+            "nodeLabel": "The foundation’s founder smiling at home, seated in his power wheelchair."
+          }
+        ]
+      }
+    },
+    {
+      "phase": "final-home",
+      "lighthouse_version": "13.5.0",
+      "fetch_time": "2026-10-15T20:45:25.797Z",
+      "url": "http://localhost:8794/",
+      "settings": {
+        "formFactor": "mobile",
+        "throttling": {
+          "rttMs": 150,
+          "throughputKbps": 1638.4,
+          "requestLatencyMs": 562.5,
+          "downloadThroughputKbps": 1474.5600000000002,
+          "uploadThroughputKbps": 675,
+          "cpuSlowdownMultiplier": 4
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": true,
+          "width": 412,
+          "height": 823,
+          "deviceScaleFactor": 1.75,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36"
+      },
+      "scores": {
+        "performance": 0.92,
+        "accessibility": 1,
+        "seo": 1
+      },
+      "metrics": {
+        "first-contentful-paint": {
+          "value": 794.9105,
+          "unit": "millisecond"
+        },
+        "largest-contentful-paint": {
+          "value": 3180.27625,
+          "unit": "millisecond"
+        },
+        "total-blocking-time": {
+          "value": 120,
+          "unit": "millisecond"
+        },
+        "cumulative-layout-shift": {
+          "value": 0,
+          "unit": "unitless"
+        },
+        "speed-index": {
+          "value": 2297.454137998042,
+          "unit": "millisecond"
+        },
+        "total-byte-weight": {
+          "value": 508375,
+          "unit": "byte"
+        }
+      },
+      "image_delivery": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "node",
+            "valueType": "node",
+            "label": ""
+          },
+          {
+            "key": "url",
+            "valueType": "url",
+            "label": "URL",
+            "subItemsHeading": {
+              "key": "reason",
+              "valueType": "text"
+            }
+          },
+          {
+            "key": "totalBytes",
+            "valueType": "bytes",
+            "label": "Resource Size"
+          },
+          {
+            "key": "wastedBytes",
+            "valueType": "bytes",
+            "label": "Est Savings",
+            "subItemsHeading": {
+              "key": "wastedBytes",
+              "valueType": "bytes"
+            }
+          }
+        ],
+        "items": [
+          {
+            "node": {
+              "type": "node",
+              "lhId": "page-0-IMG",
+              "path": "1,HTML,1,BODY,4,MAIN,0,SECTION,1,DIV,0,DIV,0,PICTURE,1,IMG",
+              "selector": "div.hero-visual > div.portrait-arch > picture > img",
+              "boundingRect": {
+                "top": 640,
+                "bottom": 1173,
+                "left": 33,
+                "right": 383,
+                "width": 350,
+                "height": 533
+              },
+              "snippet": "<img alt=\"The foundation’s founder smiling at home, seated in his power wheelchair.\" fetchpriority=\"high\" loading=\"eager\" decoding=\"async\" data-nimg=\"fill\" style=\"position: absolute; height: 100%; width: 100%; inset: 0px;\" src=\"http://localhost:8794/images/founder-home-768.webp\">",
+              "nodeLabel": "The foundation’s founder smiling at home, seated in his power wheelchair."
+            },
+            "url": "http://localhost:8794/images/founder-home-768.webp",
+            "totalBytes": 88946,
+            "wastedBytes": 62103,
+            "subItems": {
+              "type": "subitems",
+              "items": [
+                {
+                  "reason": "This image file is larger than it needs to be (679x1032) for its displayed dimensions (397x533). Use responsive images to reduce the image download size.",
+                  "wastedBytes": 62103
+                }
+              ]
+            }
+          },
+          {
+            "node": {
+              "type": "node",
+              "lhId": "page-1-IMG",
+              "path": "1,HTML,1,BODY,2,HEADER,0,DIV,0,A,0,IMG",
+              "selector": "header.site-header > div.nav-shell > a.brand > img",
+              "boundingRect": {
+                "top": 18,
+                "bottom": 66,
+                "left": 16,
+                "right": 67,
+                "width": 51,
+                "height": 48
+              },
+              "snippet": "<img alt=\"\" loading=\"eager\" width=\"62\" height=\"58\" decoding=\"async\" data-nimg=\"1\" style=\"color:transparent\" src=\"/images/agape-seal-186.png\">",
+              "nodeLabel": "header.site-header > div.nav-shell > a.brand > img"
+            },
+            "url": "http://localhost:8794/images/agape-seal-186.png",
+            "totalBytes": 58640,
+            "wastedBytes": 58242,
+            "subItems": {
+              "type": "subitems",
+              "items": [
+                {
+                  "reason": "Using a modern image format (WebP, AVIF) or increasing the image compression could improve this image's download size.",
+                  "wastedBytes": 53339
+                },
+                {
+                  "reason": "This image file is larger than it needs to be (186x171) for its displayed dimensions (51x47). Use responsive images to reduce the image download size.",
+                  "wastedBytes": 54232
+                }
+              ]
+            }
+          },
+          {
+            "node": {
+              "type": "node",
+              "lhId": "page-2-IMG",
+              "path": "1,HTML,1,BODY,4,MAIN,4,SECTION,0,DIV,0,DIV,0,PICTURE,1,IMG",
+              "selector": "div.section-shell > div.community-photo > picture > img",
+              "boundingRect": {
+                "top": 3757,
+                "bottom": 4307,
+                "left": 20,
+                "right": 392,
+                "width": 372,
+                "height": 550
+              },
+              "snippet": "<img alt=\"The foundation’s founder attending a gathering with other community member…\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" style=\"position: absolute; height: 100%; width: 100%; inset: 0px;\" src=\"http://localhost:8794/images/founder-community-768.webp\">",
+              "nodeLabel": "The foundation’s founder attending a gathering with other community members."
+            },
+            "url": "http://localhost:8794/images/founder-community-768.webp",
+            "totalBytes": 83782,
+            "wastedBytes": 57013,
+            "subItems": {
+              "type": "subitems",
+              "items": [
+                {
+                  "reason": "This image file is larger than it needs to be (693x1024) for its displayed dimensions (413x550). Use responsive images to reduce the image download size.",
+                  "wastedBytes": 57013
+                }
+              ]
+            }
+          }
+        ],
+        "debugData": {
+          "type": "debugdata",
+          "wastedBytes": 177358
+        }
+      },
+      "lcp_discovery": {
+        "type": "list",
+        "items": [
+          {
+            "type": "checklist",
+            "items": {
+              "priorityHinted": {
+                "label": "fetchpriority=high applied",
+                "value": true
+              },
+              "requestDiscoverable": {
+                "label": "Request is discoverable in initial document",
+                "value": true
+              },
+              "eagerlyLoaded": {
+                "label": "LCP resources should not use loading=lazy",
+                "value": true
+              }
+            }
+          },
+          {
+            "type": "node",
+            "lhId": "page-0-IMG",
+            "path": "1,HTML,1,BODY,4,MAIN,0,SECTION,1,DIV,0,DIV,0,PICTURE,1,IMG",
+            "selector": "div.hero-visual > div.portrait-arch > picture > img",
+            "boundingRect": {
+              "top": 640,
+              "bottom": 1173,
+              "left": 33,
+              "right": 383,
+              "width": 350,
+              "height": 533
+            },
+            "snippet": "<img alt=\"The foundation’s founder smiling at home, seated in his power wheelchair.\" fetchpriority=\"high\" loading=\"eager\" decoding=\"async\" data-nimg=\"fill\" style=\"position: absolute; height: 100%; width: 100%; inset: 0px;\" src=\"http://localhost:8794/images/founder-home-768.webp\">",
+            "nodeLabel": "The foundation’s founder smiling at home, seated in his power wheelchair."
+          }
+        ]
+      }
+    },
+    {
+      "phase": "after-programs",
+      "lighthouse_version": "13.5.0",
+      "fetch_time": "2026-10-15T20:43:32.295Z",
+      "url": "http://localhost:8794/programs",
+      "settings": {
+        "formFactor": "mobile",
+        "throttling": {
+          "rttMs": 150,
+          "throughputKbps": 1638.4,
+          "requestLatencyMs": 562.5,
+          "downloadThroughputKbps": 1474.5600000000002,
+          "uploadThroughputKbps": 675,
+          "cpuSlowdownMultiplier": 4
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": true,
+          "width": 412,
+          "height": 823,
+          "deviceScaleFactor": 1.75,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36"
+      },
+      "scores": {
+        "performance": 0.95,
+        "accessibility": 1,
+        "seo": 1
+      },
+      "metrics": {
+        "first-contentful-paint": {
+          "value": 775.0236,
+          "unit": "millisecond"
+        },
+        "largest-contentful-paint": {
+          "value": 2843.5353999999998,
+          "unit": "millisecond"
+        },
+        "total-blocking-time": {
+          "value": 36.488200000000006,
+          "unit": "millisecond"
+        },
+        "cumulative-layout-shift": {
+          "value": 0,
+          "unit": "unitless"
+        },
+        "speed-index": {
+          "value": 2135.3578940028638,
+          "unit": "millisecond"
+        },
+        "total-byte-weight": {
+          "value": 330675,
+          "unit": "byte"
+        }
+      },
+      "image_delivery": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "node",
+            "valueType": "node",
+            "label": ""
+          },
+          {
+            "key": "url",
+            "valueType": "url",
+            "label": "URL",
+            "subItemsHeading": {
+              "key": "reason",
+              "valueType": "text"
+            }
+          },
+          {
+            "key": "totalBytes",
+            "valueType": "bytes",
+            "label": "Resource Size"
+          },
+          {
+            "key": "wastedBytes",
+            "valueType": "bytes",
+            "label": "Est Savings",
+            "subItemsHeading": {
+              "key": "wastedBytes",
+              "valueType": "bytes"
+            }
+          }
+        ],
+        "items": [
+          {
+            "node": {
+              "type": "node",
+              "lhId": "page-0-IMG",
+              "path": "1,HTML,1,BODY,2,HEADER,0,DIV,0,A,0,IMG",
+              "selector": "header.site-header > div.nav-shell > a.brand > img",
+              "boundingRect": {
+                "top": 18,
+                "bottom": 66,
+                "left": 16,
+                "right": 67,
+                "width": 51,
+                "height": 48
+              },
+              "snippet": "<img alt=\"\" loading=\"eager\" width=\"62\" height=\"58\" decoding=\"async\" data-nimg=\"1\" style=\"color:transparent\" src=\"/images/agape-seal-186.png\">",
+              "nodeLabel": "header.site-header > div.nav-shell > a.brand > img"
+            },
+            "url": "http://localhost:8794/images/agape-seal-186.png",
+            "totalBytes": 58640,
+            "wastedBytes": 58242,
+            "subItems": {
+              "type": "subitems",
+              "items": [
+                {
+                  "reason": "Using a modern image format (WebP, AVIF) or increasing the image compression could improve this image's download size.",
+                  "wastedBytes": 53339
+                },
+                {
+                  "reason": "This image file is larger than it needs to be (186x171) for its displayed dimensions (51x47). Use responsive images to reduce the image download size.",
+                  "wastedBytes": 54232
+                }
+              ]
+            }
+          }
+        ],
+        "debugData": {
+          "type": "debugdata",
+          "wastedBytes": 58242
+        }
+      },
+      "lcp_discovery": null
+    },
+    {
+      "phase": "after-contact",
+      "lighthouse_version": "13.5.0",
+      "fetch_time": "2026-10-15T20:43:46.368Z",
+      "url": "http://localhost:8794/contact",
+      "settings": {
+        "formFactor": "mobile",
+        "throttling": {
+          "rttMs": 150,
+          "throughputKbps": 1638.4,
+          "requestLatencyMs": 562.5,
+          "downloadThroughputKbps": 1474.5600000000002,
+          "uploadThroughputKbps": 675,
+          "cpuSlowdownMultiplier": 4
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": true,
+          "width": 412,
+          "height": 823,
+          "deviceScaleFactor": 1.75,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36"
+      },
+      "scores": {
+        "performance": 0.96,
+        "accessibility": 1,
+        "seo": 1
+      },
+      "metrics": {
+        "first-contentful-paint": {
+          "value": 852.49125,
+          "unit": "millisecond"
+        },
+        "largest-contentful-paint": {
+          "value": 2805.965,
+          "unit": "millisecond"
+        },
+        "total-blocking-time": {
+          "value": 33,
+          "unit": "millisecond"
+        },
+        "cumulative-layout-shift": {
+          "value": 0.006899516658000177,
+          "unit": "unitless"
+        },
+        "speed-index": {
+          "value": 2237.2726200001835,
+          "unit": "millisecond"
+        },
+        "total-byte-weight": {
+          "value": 329224,
+          "unit": "byte"
+        }
+      },
+      "image_delivery": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "node",
+            "valueType": "node",
+            "label": ""
+          },
+          {
+            "key": "url",
+            "valueType": "url",
+            "label": "URL",
+            "subItemsHeading": {
+              "key": "reason",
+              "valueType": "text"
+            }
+          },
+          {
+            "key": "totalBytes",
+            "valueType": "bytes",
+            "label": "Resource Size"
+          },
+          {
+            "key": "wastedBytes",
+            "valueType": "bytes",
+            "label": "Est Savings",
+            "subItemsHeading": {
+              "key": "wastedBytes",
+              "valueType": "bytes"
+            }
+          }
+        ],
+        "items": [
+          {
+            "node": {
+              "type": "node",
+              "lhId": "page-3-IMG",
+              "path": "1,HTML,1,BODY,6,FOOTER,0,DIV,0,A,0,IMG",
+              "selector": "footer.site-footer > div.footer-main > a.brand > img",
+              "boundingRect": {
+                "top": 2103,
+                "bottom": 2151,
+                "left": 20,
+                "right": 71,
+                "width": 51,
+                "height": 48
+              },
+              "snippet": "<img alt=\"\" loading=\"lazy\" width=\"62\" height=\"58\" decoding=\"async\" data-nimg=\"1\" style=\"color:transparent\" src=\"/images/agape-seal-186.png\">",
+              "nodeLabel": "footer.site-footer > div.footer-main > a.brand > img"
+            },
+            "url": "http://localhost:8794/images/agape-seal-186.png",
+            "totalBytes": 58640,
+            "wastedBytes": 58242,
+            "subItems": {
+              "type": "subitems",
+              "items": [
+                {
+                  "reason": "Using a modern image format (WebP, AVIF) or increasing the image compression could improve this image's download size.",
+                  "wastedBytes": 53339
+                },
+                {
+                  "reason": "This image file is larger than it needs to be (186x171) for its displayed dimensions (51x47). Use responsive images to reduce the image download size.",
+                  "wastedBytes": 54232
+                }
+              ]
+            }
+          }
+        ],
+        "debugData": {
+          "type": "debugdata",
+          "wastedBytes": 58242
+        }
+      },
+      "lcp_discovery": null
+    },
+    {
+      "phase": "after-donate",
+      "lighthouse_version": "13.5.0",
+      "fetch_time": "2026-10-15T20:44:00.710Z",
+      "url": "http://localhost:8794/donate",
+      "settings": {
+        "formFactor": "mobile",
+        "throttling": {
+          "rttMs": 150,
+          "throughputKbps": 1638.4,
+          "requestLatencyMs": 562.5,
+          "downloadThroughputKbps": 1474.5600000000002,
+          "uploadThroughputKbps": 675,
+          "cpuSlowdownMultiplier": 4
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": true,
+          "width": 412,
+          "height": 823,
+          "deviceScaleFactor": 1.75,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36"
+      },
+      "scores": {
+        "performance": 0.97,
+        "accessibility": 1,
+        "seo": 1
+      },
+      "metrics": {
+        "first-contentful-paint": {
+          "value": 771.4118000000001,
+          "unit": "millisecond"
+        },
+        "largest-contentful-paint": {
+          "value": 2512.26475,
+          "unit": "millisecond"
+        },
+        "total-blocking-time": {
+          "value": 92.29409999999996,
+          "unit": "millisecond"
+        },
+        "cumulative-layout-shift": {
+          "value": 0,
+          "unit": "unitless"
+        },
+        "speed-index": {
+          "value": 771.4118000000001,
+          "unit": "millisecond"
+        },
+        "total-byte-weight": {
+          "value": 329329,
+          "unit": "byte"
+        }
+      },
+      "image_delivery": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "node",
+            "valueType": "node",
+            "label": ""
+          },
+          {
+            "key": "url",
+            "valueType": "url",
+            "label": "URL",
+            "subItemsHeading": {
+              "key": "reason",
+              "valueType": "text"
+            }
+          },
+          {
+            "key": "totalBytes",
+            "valueType": "bytes",
+            "label": "Resource Size"
+          },
+          {
+            "key": "wastedBytes",
+            "valueType": "bytes",
+            "label": "Est Savings",
+            "subItemsHeading": {
+              "key": "wastedBytes",
+              "valueType": "bytes"
+            }
+          }
+        ],
+        "items": [
+          {
+            "node": {
+              "type": "node",
+              "lhId": "page-1-IMG",
+              "path": "1,HTML,1,BODY,6,FOOTER,0,DIV,0,A,0,IMG",
+              "selector": "footer.site-footer > div.footer-main > a.brand > img",
+              "boundingRect": {
+                "top": 2876,
+                "bottom": 2924,
+                "left": 20,
+                "right": 71,
+                "width": 51,
+                "height": 48
+              },
+              "snippet": "<img alt=\"\" loading=\"lazy\" width=\"62\" height=\"58\" decoding=\"async\" data-nimg=\"1\" style=\"color:transparent\" src=\"/images/agape-seal-186.png\">",
+              "nodeLabel": "footer.site-footer > div.footer-main > a.brand > img"
+            },
+            "url": "http://localhost:8794/images/agape-seal-186.png",
+            "totalBytes": 58640,
+            "wastedBytes": 58242,
+            "subItems": {
+              "type": "subitems",
+              "items": [
+                {
+                  "reason": "Using a modern image format (WebP, AVIF) or increasing the image compression could improve this image's download size.",
+                  "wastedBytes": 53339
+                },
+                {
+                  "reason": "This image file is larger than it needs to be (186x171) for its displayed dimensions (51x47). Use responsive images to reduce the image download size.",
+                  "wastedBytes": 54232
+                }
+              ]
+            }
+          }
+        ],
+        "debugData": {
+          "type": "debugdata",
+          "wastedBytes": 58242
+        }
+      },
+      "lcp_discovery": null
+    }
+  ],
+  "assets": {
+    "original_seal_bytes": 1786869,
+    "navigation_seal_bytes": 58640,
+    "source_originals_preserved": true,
+    "photograph_encoding": "Static WebP variants at 480, 768 and original widths; quality 84; JPEG fallbacks preserved"
+  }
+}

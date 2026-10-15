@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { FoundationPhoto } from "@/components/foundation-photo";
 import Link from "next/link";
 import { ArrowUpRight, Heart, Sprout } from "lucide-react";
 import { PageIntro, PageCta } from "@/components/page-intro";
@@ -14,7 +14,7 @@ export default function AboutPage() {
       </PageIntro>
       <section className="section-shell story-grid" aria-labelledby="mission-heading">
         <div className="story-photo">
-          <Image src="/images/founder-home.jpeg" alt="The foundation’s founder smiling at home, seated in his power wheelchair." fill sizes="(max-width: 800px) 90vw, 42vw" priority />
+          <FoundationPhoto name="founder-home" alt="The foundation’s founder smiling at home, seated in his power wheelchair." sizes="(max-width: 800px) 90vw, 42vw" eager />
         </div>
         <div className="story-copy">
           <h2 id="mission-heading">Helping people move forward.</h2>

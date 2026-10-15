@@ -7,7 +7,7 @@ export function Footer() {
     <footer className="site-footer section-shell">
       <div className="footer-main">
         <Link className="brand" href="/" aria-label="Agape Unlimited Foundation home">
-          <Image src="/images/agape-seal.png" width={62} height={58} alt="" />
+          <Image src="/images/agape-seal-186.png" width={62} height={58} alt="" />
           <span>Agape Unlimited<span className="brand-sub">Foundation</span></span>
         </Link>
         <p>Unlimited love. Unlimited possibilities.</p>

@@ -55,11 +55,11 @@ export function Header() {
           onClick={() => setOpen(false)}
         >
           <Image
-            src="/images/agape-seal.png"
+            src="/images/agape-seal-186.png"
             width={62}
             height={58}
             alt=""
-            priority
+            loading="eager"
           />
           <span>
             Agape Unlimited<span className="brand-sub">Foundation</span>

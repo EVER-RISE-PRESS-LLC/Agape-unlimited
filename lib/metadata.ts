@@ -9,6 +9,6 @@ export function pageMetadata(title: string, description: string, path: string): 
     description,
     alternates: { canonical: path },
     openGraph: { title: fullTitle, description, url: path, type: "website", siteName: site.name, images: [{ url: "/opengraph-image", ...social.imageSize, alt: social.imageAlt }] },
-    twitter: { title: fullTitle, description },
+    twitter: { card: "summary_large_image", title: fullTitle, description, images: [{ url: "/opengraph-image", ...social.imageSize, alt: social.imageAlt }] },
   };
 }
