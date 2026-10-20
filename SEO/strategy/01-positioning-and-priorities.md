@@ -6,6 +6,8 @@ Agape's first search objective is to help the right people recognize the foundat
 
 The current website describes a foundation committed to underserved children and families through education, mentorship, resources, supportive programs, and community opportunity. Ten program areas describe possible initiatives. The wording explicitly makes availability dependent on resources and partnerships. That is a mission and planning scope, not evidence that ten operating programs exist.
 
+Update, 21 October 2026: the client confirmed Georgia, United States and a community-driven approach. R01 is answered at state/country level. The working legal name and reference to 501(c)(3) need clarification under R04/R09; program availability remains under R02/R10. See [the client information record](../../docs/client-information-2026-10-21.md).
+
 Use this order of authority:
 
 1. New factual answers and approved information from the foundation.
@@ -45,7 +47,7 @@ They need purpose, governance, evidence, and an approved giving method. The site
 
 ## Positioning to develop
 
-Use a factual descriptor near the foundation's name: a foundation focused on opportunities and support for children and families. Add the service market only after confirmation. Replace abstract claims with the actual mechanism when program details become available: who receives what support, through which partner, and how to ask about it.
+Use a factual descriptor near the foundation's name: a community-driven foundation serving children and families in Georgia, United States. Replace abstract claims with the actual mechanism when program details become available: who receives what support, through which partner, and how to ask about it.
 
 Do not describe the foundation as Christian, nationwide, government-funded, tax-exempt, award-winning, or a direct assistance provider unless the corresponding fact is established. A similarly named organization cannot provide evidence for this one.
 
@@ -64,7 +66,7 @@ Family resource navigation becomes the third collection when a real service mark
 
 | Gate | Required evidence | Work that waits |
 | --- | --- | --- |
-| G1 Identity and geography | Approved name, service country and area, responsible organizational contact | Local targeting, geographic schema fields, local listings |
+| G1 Identity and geography | Public brand and Georgia, United States confirmed; exact legal identity, local coverage, and responsible organizational contact still open | State/country copy and service-area schema can proceed; specific local targeting and listings still need their facts |
 | G2 Operational service | Active or planned status, audience, delivery model, availability, and accountable program owner | Application pages and claims that Agape provides a service |
 | G3 Contact readiness | Maintained public route and successful delivery check | Volunteer and partner acquisition campaigns |
 | G4 Giving readiness | Approved provider, working checkout, receipts and gift terms reviewed | Donation-focused acquisition and completion reporting |
@@ -93,6 +95,6 @@ Google's guidance emphasizes useful content created for an intended audience. Th
 
 ## Decisions for the foundation
 
-The minimum answers needed to activate the local branch are service country and region, current program status, and the person responsible for maintaining service information. The [intake template](../templates/foundation-facts-and-intake.md) collects the remaining facts without treating them as established.
+Service country and state are now answered. The next facts needed for specific local service content are city/county coverage, current program status, and the person responsible for maintaining service information. The [intake template](../templates/foundation-facts-and-intake.md) collects the remaining facts without treating them as established.
 
 Contact and donation configuration remain deferred. Keep building useful informational assets while those decisions wait, and report the resulting measurement limits honestly.

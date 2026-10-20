@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 
-export function Footer() {
+export function Footer({ showResources = false }: { showResources?: boolean }) {
   return (
     <footer className="site-footer section-shell">
       <div className="footer-main">
@@ -18,13 +18,14 @@ export function Footer() {
         <Link href="/programs">Our programs</Link>
         <Link href="/values">Our values</Link>
         <Link href="/get-involved">Get involved</Link>
+        {showResources && <Link href="/resources">Resources</Link>}
         <Link href="/contact">Contact</Link>
         <Link href="/donate">Donate</Link>
         <Link href="/privacy">Privacy</Link>
       </nav>
       <div className="footer-bottom">
         <span>© {new Date().getFullYear()} Agape Unlimited Foundation</span>
-        <span>Serving children. Strengthening families. Building communities.</span>
+        <span>Serving children and families in Georgia, United States.</span>
       </div>
     </footer>
   );

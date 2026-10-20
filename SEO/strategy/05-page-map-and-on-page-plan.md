@@ -10,7 +10,7 @@ All wording below is proposed, not deployed. The [metadata table](../research/pa
 
 **Owns:** exact full-brand navigation. **Supports:** the foundation's children-and-families purpose.
 
-Keep the emotional hero if desired, but add a clear sentence near it identifying Agape Unlimited Foundation and its focus. A person arriving from search should know what organization this is without interpreting a slogan. Add verified service geography only after confirmation.
+Keep the emotional hero if desired, but add a clear sentence near it identifying Agape Unlimited Foundation and its focus. A person arriving from search should know what organization this is without interpreting a slogan. The client confirmed Georgia, United States on 21 October 2026; use it in the existing identity copy. Cities, counties, and individual program coverage remain unconfirmed.
 
 Recommended content order:
 

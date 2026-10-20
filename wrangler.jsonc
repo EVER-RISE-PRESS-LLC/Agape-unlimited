@@ -1,20 +1,22 @@
+// Local bindings work without a Cloudflare account. Replace the placeholder D1 ID before deployment.
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "agape-unlimited",
-  "main": "worker/index.ts",
+  "main": ".open-next/worker.js",
   "compatibility_date": "2026-10-12",
   "workers_dev": true,
   "assets": {
-    "directory": "./out",
-    "binding": "ASSETS",
-    "run_worker_first": ["/api/*"],
-    "not_found_handling": "404-page"
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
   },
   "ratelimits": [
     {
       "name": "CONTACT_RATE_LIMIT",
       "namespace_id": "2026101401",
-      "simple": { "limit": 5, "period": 60 }
+      "simple": {
+        "limit": 5,
+        "period": 60
+      }
     }
   ],
   "observability": {
@@ -23,5 +25,22 @@
       "enabled": true,
       "head_sampling_rate": 0.01
     }
-  }
+  },
+  "compatibility_flags": [
+    "nodejs_compat",
+    "global_fetch_strictly_public"
+  ],
+  "d1_databases": [
+    {
+      "binding": "D1",
+      "database_name": "agape-cms",
+      "database_id": "00000000-0000-0000-0000-000000000000"
+    }
+  ],
+  "r2_buckets": [
+    {
+      "binding": "R2",
+      "bucket_name": "agape-cms-media"
+    }
+  ]
 }

@@ -1,7 +1,8 @@
-// Static previews have no email delivery. Cloudflare's Worker handles this route
-// in production and reports the actual runtime secret configuration.
-export const dynamic = "force-static";
-
-export function GET() {
-  return Response.json({ available: false }, { headers: { "X-Robots-Tag": "noindex" } });
+import { getCloudflareContext } from '@opennextjs/cloudflare';
+import contactWorker from '@/worker';
+export const dynamic = 'force-dynamic';
+async function handle(request: Request) {
+  const { env } = await getCloudflareContext({ async: true });
+  return contactWorker.fetch(request, env);
 }
+export { handle as GET, handle as POST, handle as DELETE, handle as PUT, handle as PATCH, handle as OPTIONS };

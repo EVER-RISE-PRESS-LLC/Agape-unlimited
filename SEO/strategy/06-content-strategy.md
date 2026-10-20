@@ -36,7 +36,7 @@ Choose the next guides using search data, reader feedback, and the time reviewer
 
 ### Local collection
 
-Once geography is confirmed, build one excellent local resource page if a responsible owner can maintain it. Add official providers and explain inclusion criteria. A clear directory with a last-checked date is preferable to several neighborhood pages with identical lists.
+Georgia, United States is confirmed as of 21 October 2026. Once a specific service locality, provider information, and responsible maintainer are confirmed, build one useful local resource page. Add official providers and explain inclusion criteria. A clear directory with a last-checked date is preferable to several neighborhood pages with identical lists.
 
 ## Reusable article structure
 

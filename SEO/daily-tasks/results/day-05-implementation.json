@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-20",
+  "status": "integrated-with-payload-cms-locally",
+  "current_evidence": "../../../docs/cms-implementation.md",
+  "code_only_catalog_removed": true,
+  "tracking_installed": false,
+  "published_real_articles": 0,
+  "committed": false,
+  "pushed": false,
+  "deployed": false,
+  "validation": {
+    "production_build": "passed",
+    "typecheck": "passed",
+    "lint": "passed",
+    "public_contact_tests_passed": 17,
+    "cms_workflow_tests_passed": 1,
+    "migration_setup_and_repeat": "passed"
+  }
+}

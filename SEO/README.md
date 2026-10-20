@@ -2,7 +2,7 @@
 
 Prepared 15 October 2026; execution schedule updated 16 October 2026. The current schedule is [ten daily tasks](daily-tasks/README.md), with one main task per day. Record actual start and completion dates as you work. The original 90-day roadmap remains a reference for longer-term measurement and maintenance.
 
-Help people find the right Agape first. Then publish a few useful guides with tools people can use. Add local service pages once the foundation confirms where it works and which programs are active. The goal is to reach the right people and give them a clear next step.
+Help people find the right Agape first. Then publish a few useful articles with tools people can use. The client confirmed **Georgia, United States** and a **community-driven** approach on 21 October 2026. Use this service area in existing identity copy and future keyword validation. Specific local service pages still need confirmed program availability and city/county coverage. The goal is to reach the right people and give them a clear next step.
 
 ## Start with these decisions
 
@@ -12,7 +12,9 @@ Day 1's [baseline and results](daily-tasks/results/day-01-results.md) were compl
 
 At the user's request, [Day 4 technical implementation](daily-tasks/results/day-04-results.md) was completed out of order on 16 October. The production build and all 17 local tests passed. The changes were pushed and deployed through the existing Cloudflare integration; 23 public release checks and all four live SEO tests passed. See the [release evidence](daily-tasks/results/release-2026-10-16.json). Days 2 and 3 retain their recorded status.
 
-1. Review the unresolved facts in [NEEDS-YOUR-REVIEW.md](../NEEDS-YOUR-REVIEW.md), especially the service area, active programs, and organizational identity. The [facts intake template](templates/foundation-facts-and-intake.md) supports that shared checklist.
+[Day 5](daily-tasks/results/day-05-results.md) was implemented locally on 20 October: Payload CMS posts/pages, native editable sections, accessible worksheets, and [measurement handoff](measurement/event-specification.md) are ready. No guide is published and no analytics is installed. See [publishing instructions](../docs/cms-editor-guide.md) before writing or releasing a guide.
+
+1. Review the unresolved facts in [NEEDS-YOUR-REVIEW.md](../NEEDS-YOUR-REVIEW.md), especially active programs, city/county coverage, and exact legal identity/status. State and country are answered under R01; see [the 21 October client record](../docs/client-information-2026-10-21.md). The [facts intake template](templates/foundation-facts-and-intake.md) supports that shared checklist.
 2. Decide whether the current Workers address is the permanent public domain. A custom domain is a trust and ownership recommendation, not a requirement for Google indexing.
 3. Establish search measurement and fix discovery gaps, especially the missing sitemap.
 4. Improve the existing pages before opening ten separate program pages.

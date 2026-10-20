@@ -11,3 +11,5 @@ out/
 .DS_Store
 playwright-report/
 test-results/
+.open-next/
+public/opengraph-image

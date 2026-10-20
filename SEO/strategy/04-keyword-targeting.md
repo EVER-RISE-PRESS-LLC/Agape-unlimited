@@ -75,7 +75,7 @@ Examples:
 
 ### Establish the market
 
-Ask for country, service region, and language. Separate service users from donors who may live elsewhere. Do not use the developer's country as the search market.
+The client confirmed Georgia, United States on 21 October 2026 (R01). Use that service market for future validation. Specific cities/counties, audience priorities, additional languages, and donor markets remain open under R10/R17/R20. English remains the working language. Existing search observations have not been rerun with Georgia localization, and no volume or ranking figures have been added. Keep city placeholders until actual coverage is known; do not substitute Atlanta or infer statewide program availability. Separate service users from donors who may live elsewhere.
 
 ### Obtain a keyword export
 

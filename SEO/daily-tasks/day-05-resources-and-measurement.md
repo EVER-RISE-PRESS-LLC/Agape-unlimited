@@ -5,20 +5,20 @@
 ## Read first
 
 - [Content strategy](../strategy/06-content-strategy.md), [technical architecture](../strategy/07-technical-seo-roadmap.md), and [measurement definitions](../strategy/09-measurement-and-reporting.md).
-- [Publishing checklist](../templates/publishing-checklist.md) and installed Next.js static-content guides.
+- [Publishing checklist](../templates/publishing-checklist.md) and installed Next.js and Payload documentation.
 
 ## Checklist
 
-- [ ] Build a reusable article template with heading, summary, truthful author/editor information, dates, sources, tools, related pages, and review details.
-- [ ] Build the Resources hub and a content model that exports only finished published articles.
-- [ ] Keep an empty hub or preview article out of public navigation and sitemap until a real guide is ready.
-- [ ] Support usable HTML worksheets, readable mobile tables, print styles, and keyboard access.
-- [ ] Ensure article metadata, canonicals, and appropriate visible-content schema come from the same source record.
-- [ ] Document the analytics ownership and data/consent requirements under A06 without opening accounts or sign-in flows.
-- [ ] Save the event specification and manual setup dependencies for the superadmin; do not install tracking as part of this general daily task.
-- [ ] Check resource/tool engagement events and exclude private form text, names, emails, and payment information.
-- [ ] Keep contact and donation completion events unavailable while their real connections remain deferred.
-- [ ] Test the template locally with a clearly identified unpublished fixture and keep that fixture out of the release.
+- [x] Build a reusable article template with heading, summary, actual author information, dates, sources, editable sections, related posts, and a publication approval check.
+- [x] Build the Resources hub and a Payload CMS content model that serves only published articles.
+- [x] Keep an empty hub or preview article out of public navigation and sitemap until a real guide is ready.
+- [x] Support usable HTML worksheets, responsive article content, print styles, and keyboard access.
+- [x] Ensure article metadata, canonicals, and appropriate visible-content schema come from the same source record.
+- [x] Document the analytics ownership and data/consent requirements under A06 without opening accounts or sign-in flows.
+- [x] Save the event specification and manual setup dependencies for the superadmin; do not install tracking as part of this general daily task.
+- [x] Check resource/tool engagement events and exclude private form text, names, emails, and payment information.
+- [x] Keep contact and donation completion events unavailable while their real connections remain deferred.
+- [x] Test draft isolation, authenticated preview, publishing/unpublishing, uploads, roles, and revisions with temporary local records.
 
 ## Output and finish conditions
 
@@ -30,4 +30,10 @@ Finish the content system and event specification without installing unapproved 
 
 ## Prompt for this day
 
-> Complete Day 5 of the ten-day SEO plan. Build the reusable static resource system, article presentation, published-only hub, and accessible HTML/print tools. Finish the measurement specification and manual setup handoff for the superadmin; do not open accounts or install tracking. Follow installed Next.js docs, exclude drafts and private data, preserve deferred giving/contact, and update Day 5's progress.
+> Complete Day 5 of the ten-day SEO plan. Use Payload CMS to build the reusable publishing system, article presentation, published-only hub, and accessible HTML/print tools. Finish the measurement specification and manual setup handoff for the superadmin; do not open accounts or install tracking. Follow installed Next.js docs, exclude drafts and private data, preserve deferred giving/contact, and update Day 5's progress.
+
+## Execution record
+
+Completed in source and local checks on 20 October 2026. See [results and limits](results/day-05-results.md), [publishing instructions](../../docs/cms-editor-guide.md), and [the event specification](../measurement/event-specification.md). No guide, analytics integration, account setup, push, or production release is implied by these completed implementation checkboxes.
+
+On 20 October the user replaced the code-only approach with Payload CMS and native section editing. The route generator and fixture-only preview were removed. The current CMS results supersede earlier static-export test counts. Existing page replacements remain drafts pending visual review; external rollout is A11.

@@ -4,6 +4,8 @@ The authoritative open-question list is the root [Items for your review](../../N
 
 ## Organization and geography
 
+Latest supplied answers, 21 October 2026: **Georgia, United States** is the service area, and the approach is **community-driven**. **Agape Unlimited Foundation, Inc.** is a working legal name; the client's **501(c)(3)** reference leaves approved-versus-pending status unclear. Read [the dated source record](../../docs/client-information-2026-10-21.md) and the root checklist before collecting further information. No active-program list or application process was supplied.
+
 Map answers to R01-R04, R08-R09, R15, and R17. Record the approved public name, legal identity where applicable, service country and area, actual audience, responsible leadership, approved biography, and the public domain decision. Keep a source and date for each answer.
 
 ## Program record

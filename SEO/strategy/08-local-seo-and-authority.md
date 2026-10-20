@@ -1,10 +1,10 @@
 # Local visibility and authority development
 
-The local SEO branch stays conditional until the foundation confirms its service area and operational model. A location token in a keyword spreadsheet is not a reason to create a location page, directory listing, map profile, or office address.
+The client confirmed Georgia, United States as the service area on 21 October 2026. State/country identity copy and planning can use that answer. Specific local service content, listings, and profiles still depend on confirmed operations and coverage. A location token in a keyword spreadsheet is not a reason to create a location page, directory listing, map profile, or office address.
 
 ## Facts required for local work
 
-Confirm the service country, region, city or counties, whether help is direct or referred, whether the foundation meets people in person, whether an office is public, maintained hours if relevant, and the appropriate public contact route. Distinguish a mailing address from a visitor-facing location.
+With the state and country answered under R01, confirm cities/counties, whether help is direct or referred, whether the foundation meets people in person, whether an office is public, maintained hours if relevant, and the appropriate public contact route. Distinguish a mailing address from a visitor-facing location. The broad “assist with everything” direction does not establish any of these operational details.
 
 The foundation may serve one location and accept support from elsewhere. These are different audiences. A donor's location should not automatically become a claimed service area.
 

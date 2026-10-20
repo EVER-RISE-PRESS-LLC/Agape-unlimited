@@ -1,0 +1,3578 @@
+[
+  {
+    "title": "Unlimited love. Unlimited possibilities.",
+    "slug": "home",
+    "intro": "Every child deserves to feel valued. Every family deserves the opportunity to thrive. Together, we can help make that possible.",
+    "layout": [
+      {
+        "blockType": "text",
+        "content": {
+          "root": {
+            "type": "root",
+            "version": 1,
+            "children": [
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "A little support can",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  },
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "open a world of possibility.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h2"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "We’re here to help children and families move forward.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Agape Unlimited Foundation is a community-driven foundation serving children and families in Georgia, United States. Our mission brings together education, mentorship, practical resources, and community connections to help people move forward.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "We believe every child deserves to feel valued, every family deserves an opportunity to thrive, and every community deserves access to hope and support.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "The future we believe in",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h3"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Stronger communities where every child has the opportunity to reach their full potential and every family has the support needed to create a better future.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Many ways to care.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  },
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "One shared purpose.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h2"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Meeting people where they are.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  },
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Helping them see what could be next.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  },
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Explore the areas that guide our work.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Education & academic support",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h3"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Creating room to learn, grow, and discover what comes next through access to educational resources and academic support.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Scholarships & career opportunities",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h3"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Opening pathways to continued education and career exploration so that financial barriers do not define a young person’s future.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Family assistance & support",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h3"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Connecting families with supportive resources and meaningful relationships that help them move toward greater stability.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Youth mentorship",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h3"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Building caring connections that help young people feel seen, discover their strengths, and imagine new possibilities.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Food & basic needs assistance",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h3"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Helping connect children and families with food and essential resources, with dignity and respect at every step.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Housing & community resources",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h3"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Connecting families with housing information and community resources that may help address barriers to a stable home.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Workforce & life-skills development",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h3"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Supporting practical skills, confidence, and preparation for work and everyday life.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Accessibility & inclusion",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h3"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Working toward opportunities and supportive spaces where people of different abilities can participate and belong.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Youth leadership & empowerment",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h3"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Encouraging young people to use their voices, build confidence, and take an active role in their communities.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Community partnerships & outreach",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h3"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Bringing people and organizations together to share resources, build relationships, and strengthen community support.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "These are areas our programs and initiatives may include. Availability will depend on resources and community partnerships.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "We don’t simply",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  },
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "want to help.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  },
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "We want to create",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  },
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "possibilities.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h2"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "We work to identify barriers affecting underserved children and families and connect them with meaningful resources, relationships, and opportunities that can change the trajectory of their lives.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "We may not be able to change every circumstance, but we can help change what is possible.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Agape means",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  },
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "love without limits.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h2"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "It’s more than our name.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  },
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "It’s how we choose to show up.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Compassion",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h3"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "We serve people with dignity, respect, and understanding.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Empowerment",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h3"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "We don’t just help people get through today; we help them prepare for tomorrow.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Opportunity",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h3"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "We believe access can change a life.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Integrity",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h3"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "We lead with honesty, accountability, and transparency.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Inclusion",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h3"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Every child, family, and individual deserves to be seen, heard, and valued.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Community",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h3"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Lasting change happens when we work together.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "When a child is given an opportunity,",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  },
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "a family is given hope.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "There’s a place for you",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  },
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "in this work.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h2"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "We will continue to show up, serve with love, build meaningful partnerships, and create opportunities for children and families who too often find themselves overlooked.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Share your time & talents",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h3"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Bring your care, experience, and perspective to our mission.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Become a community partner",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h3"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Connect resources and opportunities with the people who need them.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Support the possibilities",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h3"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Help make education, connection, and everyday support more accessible.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Stronger, together.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h2"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "For questions, partnership ideas, or ways to get involved, let’s connect.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              }
+            ],
+            "direction": null,
+            "format": "",
+            "indent": 0
+          }
+        }
+      }
+    ],
+    "seo": {
+      "description": "Community-driven support for children and families in Georgia, United States, through education, mentorship, resources, and local connections."
+    },
+    "approved": false,
+    "_status": "draft"
+  },
+  {
+    "title": "Care is where possibility begins.",
+    "slug": "about",
+    "intro": "We believe every child deserves to feel valued, every family deserves an opportunity to thrive, and every community deserves access to hope and support.",
+    "layout": [
+      {
+        "blockType": "text",
+        "content": {
+          "root": {
+            "type": "root",
+            "version": 1,
+            "children": [
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Helping people move forward.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h2"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Agape Unlimited Foundation is a community-driven foundation serving children and families in Georgia, United States. Our mission brings together education, mentorship, practical resources, and community connections to help people move forward.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Our work starts with listening to community needs. We aim to connect children and families with resources, relationships, and opportunities, guided by the support and partnerships available.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "The future we believe in.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h2"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Stronger communities where every child has the opportunity to reach their full potential and every family has the support needed to create a better future.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Love without limits.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  },
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Support with purpose.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h2"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Agape means love without limits. That belief shapes how we serve: with compassion, dignity, and a commitment to seeing the potential in every person.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "We don’t simply want to help. We want to create possibilities. Our work brings together education, everyday support, and community relationships to help children and families look toward a stronger tomorrow.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "We may not be able to change every circumstance,",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  },
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "but we can help change what is possible.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "A stronger community starts with connection.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h2"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Bring your questions, your ideas, and your willingness to help. There’s room for you here.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              }
+            ],
+            "direction": null,
+            "format": "",
+            "indent": 0
+          }
+        }
+      }
+    ],
+    "seo": {
+      "description": "Learn how our community-driven mission brings education, mentorship, and practical support together for children and families in Georgia, United States."
+    },
+    "approved": false,
+    "_status": "draft"
+  },
+  {
+    "title": "Many ways to care. One shared purpose.",
+    "slug": "programs",
+    "intro": "Community needs guide our work with children and families in Georgia, United States. These focus areas shape the programs and partnerships we seek to build.",
+    "layout": [
+      {
+        "blockType": "text",
+        "content": {
+          "root": {
+            "type": "root",
+            "version": 1,
+            "children": [
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Room to learn.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  },
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Children & youth",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Support to move forward.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  },
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Families & everyday needs",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Connection to grow.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  },
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Community & opportunity",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Explore our program areas.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h2"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Choose an area. Open a topic to learn more.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Education & academic support",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h3"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Creating room to learn, grow, and discover what comes next through access to educational resources and academic support.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Scholarships & career opportunities",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h3"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Opening pathways to continued education and career exploration so that financial barriers do not define a young person’s future.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Family assistance & support",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h3"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Connecting families with supportive resources and meaningful relationships that help them move toward greater stability.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Youth mentorship",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h3"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Building caring connections that help young people feel seen, discover their strengths, and imagine new possibilities.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Food & basic needs assistance",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h3"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Helping connect children and families with food and essential resources, with dignity and respect at every step.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Housing & community resources",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h3"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Connecting families with housing information and community resources that may help address barriers to a stable home.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Workforce & life-skills development",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h3"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Supporting practical skills, confidence, and preparation for work and everyday life.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Accessibility & inclusion",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h3"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Working toward opportunities and supportive spaces where people of different abilities can participate and belong.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Youth leadership & empowerment",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h3"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Encouraging young people to use their voices, build confidence, and take an active role in their communities.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Community partnerships & outreach",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h3"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Bringing people and organizations together to share resources, build relationships, and strengthen community support.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "These are areas our programs and initiatives may include. Availability will depend on resources and community partnerships.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Looking for support",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  },
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "or a way to help?",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h2"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Tell us what you’re looking for, or share a resource your organization can offer. A conversation helps us understand where a connection may be possible.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Program availability depends on resources and community partnerships. Contact the foundation to ask about current opportunities.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Your skills could open a door.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h2"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Share your time, connect a resource, or explore a partnership that supports children and families.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              }
+            ],
+            "direction": null,
+            "format": "",
+            "indent": 0
+          }
+        }
+      }
+    ],
+    "seo": {
+      "description": "Explore our focus areas for children and families in Georgia, United States, from education and mentoring to everyday needs and community support."
+    },
+    "approved": false,
+    "_status": "draft"
+  },
+  {
+    "title": "Love without limits. In everything we do.",
+    "slug": "values",
+    "intro": "Agape is more than our name. It’s how we choose to show up for children, families, and one another.",
+    "layout": [
+      {
+        "blockType": "text",
+        "content": {
+          "root": {
+            "type": "root",
+            "version": 1,
+            "children": [
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Compassion",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h2"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "We serve people with dignity, respect, and understanding.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Care begins with listening. We aim to meet children and families where they are, with kindness and respect for their experiences.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Empowerment",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h2"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "We don’t just help people get through today; we help them prepare for tomorrow.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Support should make room for confidence, skills, and independence. Our purpose is to help people see and pursue possibilities for their own futures.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Opportunity",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h2"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "We believe access can change a life.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Education, mentorship, and meaningful resources can open doors. We work to connect people with opportunities that might otherwise feel out of reach.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Integrity",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h2"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "We lead with honesty, accountability, and transparency.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Trust matters in every relationship. We are committed to communicating honestly about our work, our resources, and what is possible.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Inclusion",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h2"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Every child, family, and individual deserves to be seen, heard, and valued.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Belonging should not depend on background or ability. Accessibility and respect for each person guide the opportunities and relationships we seek to build.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Community",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h2"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Lasting change happens when we work together.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Families, volunteers, and community partners each bring something valuable. Strong relationships help turn individual acts of care into shared possibility.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "People at the heart",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  },
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "of possibility.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h2"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "When a child is given an opportunity, a family is given hope. And when families become stronger, communities become stronger.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Put care into action.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h2"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Bring your compassion, your experience, and your ideas. Together, we can make room for possibility.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              }
+            ],
+            "direction": null,
+            "format": "",
+            "indent": 0
+          }
+        }
+      }
+    ],
+    "seo": {
+      "description": "Compassion, empowerment, opportunity, integrity, inclusion, and community guide how Agape Unlimited Foundation serves children and families."
+    },
+    "approved": false,
+    "_status": "draft"
+  },
+  {
+    "title": "There’s a place for you in this work.",
+    "slug": "get-involved",
+    "intro": "A little time. A meaningful connection. A willingness to help. There are many ways to stand alongside children and families.",
+    "layout": [
+      {
+        "blockType": "text",
+        "content": {
+          "root": {
+            "type": "root",
+            "version": 1,
+            "children": [
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Share your time & talents.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h2"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Your care, experience, and perspective can help create new possibilities. Tell us about your interests, skills, and the time you would like to share.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Mentorship, educational support, outreach, and practical skills are all ways to start a conversation.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Build a community partnership.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h2"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Are you part of a school, business, community group, or organization? Explore how your resources and relationships could connect with our mission.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Bring an idea, share a resource, or explore an opportunity to work together.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Support the possibilities.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h2"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Giving can help make education, connection, and everyday support more accessible to children and families.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Explore online giving, or contact us to discuss a gift of resources or other support.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Start with",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  },
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "a conversation.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h2"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "You don’t need to have everything figured out. Tell us a little about yourself, what drew you to Agape, and how you hope to contribute.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Opportunities depend on current needs, available resources, and community partnerships. The foundation can help you explore what may be a good fit.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Care takes many forms.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h2"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Learn more about the mission and values that bring our work together.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              }
+            ],
+            "direction": null,
+            "format": "",
+            "indent": 0
+          }
+        }
+      }
+    ],
+    "seo": {
+      "description": "Share your time and talents, explore a community partnership, or support Agape Unlimited Foundation’s mission through giving."
+    },
+    "approved": false,
+    "_status": "draft"
+  },
+  {
+    "title": "Good things begin with a conversation.",
+    "slug": "contact",
+    "intro": "A question about our work in Georgia, United States, an idea for a partnership, or a wish to help. We’d love to hear what’s on your mind.",
+    "layout": [
+      {
+        "blockType": "text",
+        "content": {
+          "root": {
+            "type": "root",
+            "version": 1,
+            "children": [
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Let’s connect.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h2"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Use the form to introduce yourself and tell us how we can help. Choose a topic so your message has a little context.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Serving with care.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  },
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Connecting with purpose.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Find your next step.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h3"
+              }
+            ],
+            "direction": null,
+            "format": "",
+            "indent": 0
+          }
+        }
+      }
+    ],
+    "seo": {
+      "description": "Ask about our community work in Georgia, United States, or share a question about programs, volunteering, partnerships, or giving."
+    },
+    "approved": false,
+    "_status": "draft"
+  },
+  {
+    "title": "Give with love. Make room for possibility.",
+    "slug": "donate",
+    "intro": "Help build a future where children feel valued, families find support, and communities grow stronger together.",
+    "layout": [
+      {
+        "blockType": "text",
+        "content": {
+          "root": {
+            "type": "root",
+            "version": 1,
+            "children": [
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Support that sees",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  },
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "the whole person.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h2"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Our mission brings together education, mentorship, practical resources, and community connections. Giving supports the possibilities we seek to create across these areas.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Learning and opportunities for children and youth.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Resources and relationships that strengthen families.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Accessible, inclusive community connections.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "A little more",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  },
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "about giving.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h2"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Still have a question?",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  },
+                  {
+                    "type": "link",
+                    "version": 3,
+                    "children": [
+                      {
+                        "type": "text",
+                        "version": 1,
+                        "text": "Let’s talk",
+                        "format": 0,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ],
+                    "direction": null,
+                    "format": "",
+                    "indent": 0,
+                    "fields": {
+                      "linkType": "custom",
+                      "url": "/contact?topic=donation",
+                      "newTab": false
+                    }
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Online giving is being set up. Contact the foundation to discuss ways to give and ask about current donation arrangements.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Contact us with a description of what you would like to contribute. Acceptance depends on current needs and the foundation’s ability to use the resources.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Use the contact form and choose “Donations & giving.” For an existing gift, include the date and the name of the donation provider. Please keep card numbers and payment details out of your message.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Yes. Explore volunteering and community partnerships on our ",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  },
+                  {
+                    "type": "link",
+                    "version": 3,
+                    "children": [
+                      {
+                        "type": "text",
+                        "version": 1,
+                        "text": "Get Involved page",
+                        "format": 0,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ],
+                    "direction": null,
+                    "format": "",
+                    "indent": 0,
+                    "fields": {
+                      "linkType": "custom",
+                      "url": "/get-involved",
+                      "newTab": false
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": ". Your time, talents, and connections can also support our mission.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Every connection holds possibility.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h2"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Share your time, bring your ideas, or explore a community partnership.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              }
+            ],
+            "direction": null,
+            "format": "",
+            "indent": 0
+          }
+        }
+      }
+    ],
+    "seo": {
+      "description": "Support Agape Unlimited Foundation’s mission to create opportunities for children and families. Explore online giving and other ways to help."
+    },
+    "approved": false,
+    "_status": "draft"
+  },
+  {
+    "title": "Your message, handled with care.",
+    "slug": "privacy",
+    "intro": "Here’s what happens to the information you share through this website.",
+    "layout": [
+      {
+        "blockType": "text",
+        "content": {
+          "root": {
+            "type": "root",
+            "version": 1,
+            "children": [
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Contact messages",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h2"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "The contact form asks for your name, email address, a topic, and a message. You can also provide an organization name. When message delivery is available, this information is sent to the foundation’s configured email inbox through Resend, an email delivery service.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "This website does not save contact messages to a website database. Messages that are sent may remain in the foundation’s inbox and the email provider’s systems. If you prepare a message but do not send it, the form does not submit that information.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Spam protection and technical information",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h2"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "The form includes an automated spam check and limits repeated requests. Hosting services may process technical information, including your IP address and request details, to operate the website and prevent abuse. Contact message text is not intentionally written to application logs.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Donations",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h2"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Online donation links take you to the foundation’s configured donation provider. Payment information is entered on that provider’s website and handled under its own privacy practices. This website does not collect card numbers or process payments.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "What to include in a message",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h2"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Please share only what we need to understand your question. Avoid sending passwords, payment information, or sensitive records through the form.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              },
+              {
+                "type": "heading",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": "Questions about your information",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "tag": "h2"
+              },
+              {
+                "type": "paragraph",
+                "version": 1,
+                "children": [
+                  {
+                    "type": "link",
+                    "version": 3,
+                    "children": [
+                      {
+                        "type": "text",
+                        "version": 1,
+                        "text": "Contact the foundation",
+                        "format": 0,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ],
+                    "direction": null,
+                    "format": "",
+                    "indent": 0,
+                    "fields": {
+                      "linkType": "custom",
+                      "url": "/contact",
+                      "newTab": false
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "version": 1,
+                    "text": " to ask about a message you have sent or request help with your information.",
+                    "format": 0,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0
+              }
+            ],
+            "direction": null,
+            "format": "",
+            "indent": 0
+          }
+        }
+      }
+    ],
+    "seo": {
+      "description": "Learn what information the Agape website contact form sends and how the website handles contact messages and donations."
+    },
+    "approved": false,
+    "_status": "draft"
+  }
+]

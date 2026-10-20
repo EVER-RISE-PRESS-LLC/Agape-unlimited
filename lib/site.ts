@@ -17,7 +17,7 @@ function approvedDonationUrl(value: string | undefined) {
 }
 export const site = {
   name: "Agape Unlimited Foundation",
-  description: "Empowering underserved children and families through education, mentorship, resources, and opportunities that strengthen communities.",
+  description: "Community-driven support for children and families in Georgia, United States, through education, mentorship, resources, and local connections.",
   email: email && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email) ? email : null,
   donationUrl: approvedDonationUrl(donationUrl),
   url: publicUrl.origin,

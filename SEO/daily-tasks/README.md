@@ -1,6 +1,6 @@
 # Ten-day SEO action plan
 
-Updated 16 October 2026. This is the current execution schedule, replacing the earlier 12-week publishing schedule. Complete one main task each day, in order. Day 1 is the day you choose to start; record actual dates below.
+Updated 20 October 2026. This is the current execution schedule, replacing the earlier 12-week publishing schedule. Complete one main task each day, in order. Day 1 is the day you choose to start; record actual dates below.
 
 The ten tasks cover the SEO setup, existing page improvements, resource publishing system, four initial guides, local and authority preparation, and release checks. Every task in the original 32-item backlog has an assigned day. All twelve content briefs are considered: four are the first writing assignments, and eight receive a publish, develop later, or hold decision. Producing all twelve finished pages is not the ten-day target.
 
@@ -81,7 +81,7 @@ Assignment to a day is not a claim that every backlog item's final outcome can h
 | 2 | Not started | — | — | — |
 | 3 | Not started | — | — | — |
 | 4 | Complete: deployed and verified | 16 October 2026 | [Results, tests and performance](results/day-04-results.md); [release evidence](results/release-2026-10-16.json) | Admin setup remains with superadmin; field performance and remaining content work stay open |
-| 5 | Not started | — | — | — |
+| 5 | Complete locally: Payload publishing and measurement specification | 20 October 2026 | [Results and checks](results/day-05-results.md) | First article and reviewers pending; Payload rollout A11 and tracking deferred; source not yet released |
 | 6 | Not started | — | — | — |
 | 7 | Not started | — | — | — |
 | 8 | Not started | — | — | — |

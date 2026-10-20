@@ -24,6 +24,11 @@ export const organizationGraph = {
       "@id": `${site.url}/#organization`,
       name: site.name,
       description: site.description,
+      areaServed: {
+        "@type": "State",
+        name: "Georgia",
+        containedInPlace: { "@type": "Country", name: "United States" },
+      },
       url: site.url,
       logo: canonicalUrl("/images/agape-seal-186.png"),
     },
