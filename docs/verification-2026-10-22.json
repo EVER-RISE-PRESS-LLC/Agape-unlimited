@@ -36,5 +36,28 @@
   "typecheck": "passed",
   "lint": "passed",
   "wrangler_dry_run": "passed",
-  "worker_gzip_kib": 1.95
+  "worker_gzip_kib": 1.95,
+  "live_tests": {
+    "base_url": "https://agape-unlimited.everrisepressdev.workers.dev",
+    "passed": 17,
+    "failed": 0,
+    "scope": "Browser/API checks against production, plus isolated mocked contact Worker unit tests"
+  },
+  "deployment": {
+    "implementation_commit": "90a7e29d01df29dc70fbb395d8c151c5ca23289a",
+    "branch": "main",
+    "cloudflare_build_id": "07d91461-d806-4e2b-8e65-bed3ef500db7",
+    "application_version": "47bf3080-538e-481c-a772-ac9f0fb90dac",
+    "post_secret_cleanup_version": "d8752af1-d690-40ac-9334-b4e28a42eae0",
+    "automatic_git_deployment_verified": true
+  },
+  "cleanup": {
+    "temporary_d1_deleted": true,
+    "temporary_kv_deleted": true,
+    "cms_secret_deleted": true,
+    "local_admin_handoff_removed": true,
+    "old_preview_urls_return_404": true,
+    "r2_enabled": false,
+    "billing_enabled": false
+  }
 }

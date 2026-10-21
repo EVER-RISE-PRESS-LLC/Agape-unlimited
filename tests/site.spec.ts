@@ -117,6 +117,9 @@ test("mobile menu, focus return, layout and reduced motion", async ({
     .getByRole("link", { name: "What we do" })
     .click();
   await expect(page).toHaveURL(/\/programs$/);
+  // The URL changes before Next finishes loading the destination metadata.
+  await expect(page).toHaveTitle("Our programs | Agape Unlimited Foundation");
+  await expect(page.getByRole("heading", { level: 1 })).toContainText("Many ways to care.");
   await expect(menu).toHaveAttribute("aria-expanded", "false");
   expect(
     await page.evaluate(
