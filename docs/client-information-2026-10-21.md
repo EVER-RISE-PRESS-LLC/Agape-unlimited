@@ -1,5 +1,7 @@
 # Client information received on 21 October 2026
 
+> Historical record from 21 October. On 22 October the user removed the CMS and chose repository-managed content. The confirmed client facts below remain in the static pages. The CMS setup and editing references below describe the earlier implementation, not current instructions.
+
 Source: WhatsApp messages attributed to Mr. McLeod at 01:50:18 and 01:51:43 on 21 October 2026, relayed by the user in this chat. This is a record of the supplied information, not independent registry verification. Keep remaining questions in [NEEDS-YOUR-REVIEW.md](../NEEDS-YOUR-REVIEW.md) under the existing IDs.
 
 | Topic | Supplied wording | Current use | Remaining detail |

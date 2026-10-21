@@ -81,7 +81,7 @@ Assignment to a day is not a claim that every backlog item's final outcome can h
 | 2 | Not started | — | — | — |
 | 3 | Not started | — | — | — |
 | 4 | Complete: deployed and verified | 16 October 2026 | [Results, tests and performance](results/day-04-results.md); [release evidence](results/release-2026-10-16.json) | Admin setup remains with superadmin; field performance and remaining content work stay open |
-| 5 | Complete locally: Payload publishing and measurement specification | 20 October 2026 | [Results and checks](results/day-05-results.md) | First article and reviewers pending; Payload rollout A11 and tracking deferred; source not yet released |
+| 5 | Measurement specification retained; CMS publishing retired by user | 22 October 2026 | [Results and current scope](results/day-05-results.md) | Future articles through the repository; no hub or guide published; reviewers and tracking still pending |
 | 6 | Not started | — | — | — |
 | 7 | Not started | — | — | — |
 | 8 | Not started | — | — | — |

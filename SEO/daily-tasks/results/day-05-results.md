@@ -1,22 +1,21 @@
-# Publishing system and measurement: current implementation
+# Publishing preparation and measurement: current status
 
-Work date: 20 October 2026. The user explicitly replaced the original code-only article system with **Payload CMS**. That earlier implementation was never deployed. Its route generator, TypeScript article catalog, and fixture preview harness were removed.
+Updated **22 October 2026**. The user explicitly chose **“Drop the CMS and keep the website managed through the repository.”** The prior Payload publishing implementation is retired. It was tested locally and on a temporary preview, but was not promoted to the production website.
 
-## Retained and integrated
+## What remains useful
 
-- Published-only article listing and sitemap, titles/descriptions/canonicals, Article and Breadcrumb structured data.
-- Responsive article presentation, actual authorship, sources, related posts, and a publication approval check.
-- Printable worksheets, now editable through Payload's native Blocks fields. Visitor entries remain private page memory.
-- The measurement event specification and superadmin handoff, with no analytics installed.
+- SEO keyword research, page mapping, article briefs, the editorial calendar, and the publishing checklist.
+- The [measurement specification](../../measurement/event-specification.md), including event meanings, privacy exclusions, QA cases, and manual superadmin setup steps. Tracking remains uninstalled.
+- The existing eight designed pages, their metadata, canonical URLs, sitemap, organization/breadcrumb data, and client-confirmed Georgia content.
 
-## Added through Payload
+## What was removed
 
-Pages, Posts, Media, Users, native rich text and editable section blocks, drafts/autosave, revisions, and authenticated previews. No custom Elementor-style editor was built. The user can write and publish through `/admin` without editing code.
+Payload, OpenNext, the admin editor and account routes, database schema/migrations, media upload integrations, dynamic page/article routes, private previews, and the CMS-only worksheet components were removed. There is no published guide or Resources hub. The earlier code-only article catalog and generator were not restored; future approved content can be implemented directly through repository changes.
 
-The eight existing designed pages remain fallback templates. Existing public copy was imported into eight simpler CMS drafts. The user subsequently required the existing design to stay unchanged. These drafts are interim content sources and must remain unpublished; connecting native CMS fields to the original designed components and comparing desktop/mobile output remain pending under R26.
+The previous requirement to make pages editable in Payload is superseded, not left as unfinished CMS work. Their desktop and mobile design must remain unchanged. See [the editing guide](../../../docs/repository-editing-guide.md) and [the 22 October release record](../../../docs/release-2026-10-22.md).
 
-See [CMS implementation and verification](../../../docs/cms-implementation.md), [editor instructions](../../../docs/cms-editor-guide.md), and [measurement specification](../../measurement/event-specification.md). Earlier 23-test static-export evidence does not describe the current CMS implementation.
+## Historical validation and current limits
 
-## Release boundaries
+The local checks recorded on 20 October applied to the retired CMS implementation. They do not prove that a CMS is available today. The original CMS login failed on the deployed Cloudflare runtime during the 22 October attempt; password hashing was not weakened to work around it. The user then chose CMS removal.
 
-No genuine article was published, no production content was changed, and no push/deploy or external setup occurred. Temporary local test records are removed after testing. D1, R2, production secret, first administrator, and recovery email are superadmin follow-ups under A11 / R24-R26. Contact delivery and donation checkout remain deferred. All search metrics remain unknown.
+Current production build, public-site testing, deployment, and temporary-resource cleanup evidence belongs in the dated release record. Contact delivery, donation checkout, named reviewers, and external analytics setup remain deferred. Search traffic and ranking metrics remain unknown.

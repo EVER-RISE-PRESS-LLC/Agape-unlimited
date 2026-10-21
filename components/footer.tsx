@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 
-export function Footer({ showResources = false }: { showResources?: boolean }) {
+export function Footer() {
   return (
     <footer className="site-footer section-shell">
       <div className="footer-main">
@@ -18,7 +18,6 @@ export function Footer({ showResources = false }: { showResources?: boolean }) {
         <Link href="/programs">Our programs</Link>
         <Link href="/values">Our values</Link>
         <Link href="/get-involved">Get involved</Link>
-        {showResources && <Link href="/resources">Resources</Link>}
         <Link href="/contact">Contact</Link>
         <Link href="/donate">Donate</Link>
         <Link href="/privacy">Privacy</Link>

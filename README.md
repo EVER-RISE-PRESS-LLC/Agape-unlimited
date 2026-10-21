@@ -1,85 +1,87 @@
 # Agape Unlimited Foundation
 
-Next.js 16, React 19, Payload CMS 3, TypeScript, and Cloudflare Workers via OpenNext. Payload provides the native `/admin` editor, authentication, rich text, reusable content sections, media library, drafts, autosave, revisions, and private previews.
+Next.js 16, React 19, TypeScript, and Cloudflare Workers. Pages are generated as static HTML and assets; a small Worker handles the contact endpoint. Content is managed in this repository.
 
-## Local setup
+On **22 October 2026**, the user explicitly chose to remove the CMS and keep hosting fully free. Payload, OpenNext, database storage, upload storage, administrator accounts, and CMS publishing routes are no longer part of the application. Preserve the existing desktop and mobile design when editing content.
 
-Use Node **24.18.0** (`.node-version`) and npm.
+## Local development
+
+Use Node **24.18.0** (`.node-version`) and npm:
 
 ```sh
 npm ci
-npm run cms:setup
 npm run dev
 ```
 
-Open http://localhost:3000/admin and create your own first administrator account. `cms:setup` generates an ignored local secret when absent, generates Payload types/imports, and seeds eight existing-page **drafts**, without overwriting existing records. It uses local D1/R2 emulators and does not require a Cloudflare login. The first user is automatically an administrator. Do not commit `.env.local`, `.dev.vars`, or `.wrangler/`.
+Open `http://127.0.0.1:3000`. Next's development server shows the site; its contact status intentionally reports unavailable. Test the real Worker with the production preview below. No CMS setup or login is needed.
 
-The existing designed pages must retain their appearance when made editable in Payload. Starter drafts are interim content sources, not approved visual replacements; do not publish their simpler layout over a current page. The field-to-design integration remains pending under R26. Read [the editor guide](docs/cms-editor-guide.md) and the latest instructions in `AGENTS.md`.
+## Where to edit content
 
-The client confirmed **Georgia, United States** and a **community-driven** approach on 21 October 2026. The supplied working legal name and 501(c)(3) reference still need clarification. See [the client information record](docs/client-information-2026-10-21.md) and [the shared review checklist](NEEDS-YOUR-REVIEW.md).
+| Content | Source |
+| --- | --- |
+| Homepage | `app/page.tsx` |
+| About, Programs, Values, Get Involved, Contact, Donate, Privacy | `app/<page>/page.tsx` |
+| Ten program areas shared by the homepage and Programs | `components/programs.tsx` |
+| Six core values | `lib/values.ts` |
+| Header and footer | `components/header.tsx`, `components/footer.tsx` |
+| Layout and visual styling | `app/layout.tsx`, `app/globals.css` |
+| Brand description and public configuration | `lib/site.ts` |
+| Page metadata and published sitemap entries | `lib/metadata.ts`, `lib/seo.ts`, `app/sitemap.ts` |
+| Images | `public/images/`, `components/foundation-photo.tsx` |
+| Contact form and delivery handler | `components/contact-form.tsx`, `worker/index.ts` |
 
-## Content
+Follow [the repository editing guide](docs/repository-editing-guide.md). Future articles remain planned under `SEO/`; no resource hub or article is currently published. Add actual reviewed content through repository changes when requested, rather than recreating an empty CMS or publishing placeholders.
 
-- `cms/collections.ts` and `cms/blocks.ts`: Pages, Posts, Media, Users, and native Payload field definitions.
-- `payload.config.ts`: database, R2, rich text, and admin configuration.
-- `app/(payload)`: Payload's admin and REST routes, isolated from site styles.
-- `app/(website)`: public pages, article listing, and authenticated preview routes.
-- `components/foundation-pages`: original designed page fallbacks.
-- `components/cms`: frontend rendering for the native CMS sections and the printable worksheet.
-- `cms/starter-pages.json`: existing public copy used only for initial draft seeding.
-- `lib/cms.ts`: request-scoped CMS reads; public reads enforce published-only access.
-- `cms/migrations`: checked-in database migrations for production schema changes.
+The client confirmed **Georgia, United States** and a **community-driven** approach on 21 October. The working legal name and 501(c)(3) reference still need clarification. See [the client information record](docs/client-information-2026-10-21.md) and [the review checklist](NEEDS-YOUR-REVIEW.md).
 
-There is no parallel code-based article registry, generated route script, or custom editor. A published CMS post immediately appears at `/resources/<slug>` and in the published-only sitemap. New CMS pages use `/<slug>`. Metadata, canonical URLs, Article/Breadcrumb markup, and optional sources/related posts derive from the same CMS document. Admin, API, and private preview routes carry noindex directives. No analytics or Search Console setup was performed.
-
-## Development and checks
+## Build and verify
 
 ```sh
-npm run cms:types
-npm run cms:importmap
-npm run lint
+npm run build
 npm run typecheck
-npm run build:cloudflare
+npm run lint
+npx wrangler deploy --dry-run
+npm run test:e2e
+```
+
+`build` generates Worker binding types, the branded social image, and the static site in `out/`. The social image uses local fonts and brand tokens and is served at `/opengraph-image`. Do not edit generated files in `out/` or `.next/`.
+
+`test:e2e` builds and starts a local Cloudflare preview on port 8789 unless `PLAYWRIGHT_BASE_URL` is supplied. It checks desktop/mobile accessibility, navigation, images, metadata, sitemap, form behavior, and contact endpoint protections. Email-provider responses are mocked; tests send no real messages or payments.
+
+For a persistent local preview:
+
+```sh
+npm run build
 npm run preview -- --port 8794
-PLAYWRIGHT_BASE_URL=http://127.0.0.1:8794 npm run test:e2e
 ```
 
-`build:cloudflare` performs the production Next build and packages `.open-next/worker.js` plus assets. `build` alone checks Next; it does not create the final deployable Worker. The former static `out/` export is obsolete and is not deployed.
+## Cloudflare deployment
 
-`test:e2e` checks the public website and contact service. `test:cms` checks the actual CMS API/editor with temporary test records. It **requires an empty local Users collection**, refuses non-loopback origins, and cleans up only its own accounts/content. Never run it against an installation with a real owner. To run it before creating your local account:
+- Repository: `EVER-RISE-PRESS-LLC/Agape-unlimited`; production branch: `main`.
+- Worker: `agape-unlimited`; account: `4bb86ba631de88ebffab0709d3e09c19`.
+- Production: <https://agape-unlimited.everrisepressdev.workers.dev>.
+- Workers Builds build command: `npm run build`.
+- Workers Builds deploy command: `npx wrangler deploy`.
+- Static asset directory: `out/`; Worker entrypoint: `worker/index.ts`.
+- Version preview URLs are disabled to retire the experimental CMS preview.
+
+For an explicitly authorized manual release, use the correct account even if the shell has a different inherited account ID:
 
 ```sh
-PLAYWRIGHT_BASE_URL=http://127.0.0.1:8794 npm run test:cms
+CLOUDFLARE_ACCOUNT_ID=4bb86ba631de88ebffab0709d3e09c19 npm run deploy
 ```
 
-Database migrations can be tested without touching your working local database:
+`deploy` builds before running the project-local Wrangler. The static application requires no D1, KV, R2, or CMS secrets. Do not enable billing or paid services. Cloudflare's free plan still has service limits; static asset requests are free, while contact Worker requests use the Workers Free allowance. See [Cloudflare static asset pricing](https://developers.cloudflare.com/workers/static-assets/billing-and-limitations/) and [Workers limits](https://developers.cloudflare.com/workers/platform/limits/).
 
-```sh
-PAYLOAD_LOCAL_STATE=.wrangler/cms-migration-test NODE_ENV=production npm run cms:migrate:local
-```
+## Deferred contact and donations
 
-Normal development uses Payload's schema push. Production uses the versioned migrations. After a schema change, generate and review a migration with `npm run cms:migration:create -- descriptive-name`. Remote migration is disabled by default; superadmin setup documents the explicit opt-in.
+Contact delivery and donation checkout remain intentionally unconfigured. The public pages explain that setup is pending.
 
-## Deferred contact, donations, and accounts
+- Private Worker secrets for later contact delivery: `RESEND_API_KEY`, `CONTACT_TO_EMAIL`, `CONTACT_FROM_EMAIL`.
+- Optional public build settings: `NEXT_PUBLIC_CONTACT_EMAIL`, `NEXT_PUBLIC_DONATION_URL`, `NEXT_PUBLIC_SITE_URL`.
+- Public settings require a rebuild. The canonical URL remains the existing Workers origin until an approved domain is supplied.
+- Copy `.dev.vars.example` only for local Worker tests; keep actual secrets in ignored files or Cloudflare secrets. Never commit them.
 
-Contact email and donation checkout remain unconfigured. Approved private contact runtime settings are `RESEND_API_KEY`, `CONTACT_TO_EMAIL`, and `CONTACT_FROM_EMAIL`. Optional public build settings are `NEXT_PUBLIC_CONTACT_EMAIL`, `NEXT_PUBLIC_DONATION_URL`, and `NEXT_PUBLIC_SITE_URL`. Public values need a rebuild; CMS content changes do not.
+The Worker retains validation, same-origin checks, body limits, honeypot checks, rate limiting, and clear delivery feedback. Payment details will be handled by the approved external provider after its URL is configured.
 
-`app/api/contact/route.ts` now delegates to the existing contact handler in `worker/index.ts`, preserving validation, same-origin checks, body limits, honeypot, rate limiting, and truthful delivery feedback. Contact messages are not stored in the CMS. The donor enters payment details on the configured provider's website, once approved. No message or payment was sent during testing.
-
-CMS account email is separate and intentionally unavailable until configured. Its disabled adapter raises an error without logging email contents or reset tokens. Do not assume password-reset email works.
-
-## Production handoff
-
-**Do not deploy until A11 in [SUPERADMIN-SETUP.md](SUPERADMIN-SETUP.md) is complete.** The CMS requires a real D1 database, R2 bucket, runtime/build secret, migrated schema, and an administrator created before public exposure. `wrangler.jsonc` contains a clearly invalid production D1 placeholder and `npm run deploy` refuses it. External provisioning remains the superadmin's task; nothing was provisioned or deployed here.
-
-Workers Builds settings must become `npm run build:cloudflare` for build and `npm run deploy` for deploy. Do not use the previous static deployment command. Use the existing correct Git-connected Cloudflare account; the locally authenticated account was previously found to be different. Never run a direct production deploy without checking the target.
-
-The site defaults to the existing Workers canonical URL until an approved domain is supplied. The existing social image is generated by `scripts/generate-social-image.tsx` before each build from the brand tokens, local fonts, and supplied seal. It is served as a static asset at `/opengraph-image` and does not read local files in the Worker. Images and typography preserve the original site's design. Editable CMS replacements use the simpler section layout shown in their previews.
-
-Unanswered facts remain in [NEEDS-YOUR-REVIEW.md](NEEDS-YOUR-REVIEW.md). The measurement specification is retained in [SEO/measurement/event-specification.md](SEO/measurement/event-specification.md); no tracking adapter is installed.
-
-## Dependencies
-
-Payload packages are pinned together at 3.91.0. Next was updated from 16.3.8 to 16.4.2 to meet OpenNext 1.20.12's supported peer range. No forced peer-dependency installation was used.
-
-The npm audit reports transitive advisories in the current upstream dependency tree (including build tooling and Payload dependencies); see [CMS implementation notes](docs/cms-implementation.md). Do not apply npm's suggested incompatible major downgrades automatically. Reassess these advisories before public rollout.
+Search Console, analytics, domain changes, and the remaining manual setup stay with the superadmin under [SUPERADMIN-SETUP.md](SUPERADMIN-SETUP.md). The [measurement specification](SEO/measurement/event-specification.md) remains a plan; tracking is not installed.

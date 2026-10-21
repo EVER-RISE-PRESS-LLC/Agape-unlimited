@@ -90,32 +90,37 @@ external administrative setup for themselves as superadmin.
   verification, tracking installation, and service configuration. Keep pending
   integrations and unknown search metrics explicit.
 
-## Payload CMS and native editing
+## Repository-managed content and design preservation
 
-On 20 October 2026, the user chose Payload CMS, explicitly excluded Sanity, and
-requested native editable sections without building a custom Elementor clone.
+On 22 October 2026, the user explicitly chose: **“Drop the CMS and keep the
+website managed through the repository.”** This supersedes the earlier Payload
+and editable-section requirements.
 
-- Pages and posts belong in Payload, not a parallel TypeScript content registry.
-- Use Payload's built-in Blocks, rich text, drafts, versions, and preview controls.
-  Do not build a bespoke drag-and-drop editor or visual editing canvas.
-- On 20 October 2026, the user explicitly required existing pages to remain
-  visually unchanged when made editable in Payload. This supersedes the earlier
-  plan to publish simpler CMS section layouts as replacements.
-- Next work session (planned for 21 October 2026): connect Payload fields to the
-  existing designed page components. Preserve their layout, typography, colors,
-  spacing, images, responsive behavior, and interactions while making their
-  content editable. Use native Payload editing controls, without building a
-  custom visual editor. Compare desktop and mobile output with the existing
-  designs before considering this migration complete.
-- The simpler seeded page drafts are interim content sources, not approved
-  visual replacements. Do not publish them over the existing pages. The user
-  deferred this implementation until the next work session; recording this
-  instruction does not mean the design-preserving integration is complete.
-- Keep public CMS reads access-controlled and published-only. Private previews
-  require an authenticated user and must remain noindex and uncacheable.
-- The project now uses OpenNext on Cloudflare with D1 and R2. Static export
-  scripts and the former `out/` directory are obsolete.
-- Production provisioning and first administrator bootstrap are pending in
-  SUPERADMIN-SETUP.md A11. Do not deploy placeholders or auto-provision services.
-- Never run the disposable CMS integration test against an installation that
-  has a real user. It is guarded for a fresh loopback installation.
+- Edit content directly in `app/`, shared components, and `lib/`. Follow
+  `docs/repository-editing-guide.md`. Do not reinstall Payload, another CMS, or
+  a custom editor without a new explicit request.
+- Preserve the existing desktop and mobile design: layout, typography, colors,
+  spacing, imagery, responsive behavior, and interactions. Compare affected
+  pages at both widths when changing templates or hosting architecture.
+- The site uses Next.js static export (`out/`) and a small Cloudflare contact
+  Worker. OpenNext, CMS routes, database migrations, and CMS storage are retired.
+- Keep the SEO plans and approved client facts. Resource articles remain future
+  work; do not expose empty indexes, draft content, or invented author details.
+- The user explicitly authorized pushing to main and deploying the site with
+  Wrangler on 22 October. That authorization does not include unrelated Search
+  Console, analytics, DNS, contact delivery, or donation configuration.
+- Use the Agape Cloudflare account `4bb86ba631de88ebffab0709d3e09c19` and Worker
+  `agape-unlimited`. Check for an inherited conflicting account environment
+  variable before remote commands. Record release evidence in the repository.
+
+## Free hosting requirement
+
+On 22 October 2026 the user required fully free hosting and rejected R2 activation.
+
+- Do not enable R2, billing, paid plans, subscriptions, or billable overages.
+- The current site requires only static assets and the existing contact Worker.
+  Do not provision a CMS database, upload bucket, KV namespace, or admin account.
+- Cloudflare free quotas still apply. Document limits honestly; if future work
+  exceeds them, propose a free alternative before requesting a paid service.
+- Keep all private contact credentials in ignored files or Cloudflare secrets.
+  There are no CMS credentials to maintain or hand off.

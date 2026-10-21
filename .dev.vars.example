@@ -3,6 +3,3 @@
 RESEND_API_KEY=
 CONTACT_TO_EMAIL=
 CONTACT_FROM_EMAIL=
-
-# CMS secret: npm run cms:setup prepares the local value privately.
-PAYLOAD_SECRET=

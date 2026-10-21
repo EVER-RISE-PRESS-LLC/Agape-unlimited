@@ -1,6 +1,6 @@
 # Superadmin setup handoff
 
-Prepared 16 October 2026; measurement handoff updated 20 October 2026. **Owner: the user, acting as superadmin.** The user has chosen to perform Search Console and other external administrative setup themselves. This document records the steps for later; it does not authorize an assistant to execute them.
+Prepared 16 October 2026; updated 22 October 2026. **Owner: the user, acting as superadmin.** The user has chosen to perform Search Console and other external administrative setup themselves. This document records the steps for later; it does not authorize an assistant to execute them.
 
 The source of unresolved foundation facts is [NEEDS-YOUR-REVIEW.md](NEEDS-YOUR-REVIEW.md). Refer to its R IDs when recording answers. Keep passwords, private API keys, participant information, and account recovery details out of this file and chat.
 
@@ -17,7 +17,7 @@ The source of unresolved foundation facts is [NEEDS-YOUR-REVIEW.md](NEEDS-YOUR-R
 | A07 | Identify the factual approver and specialist reviewers | R18 | Names and assignments pending |
 | A08 | Configure contact email delivery when ready | R05, R06; approved private sender/recipient/key | Intentionally deferred by the user |
 | A09 | Configure the approved donation checkout when ready | R07; approved HTTPS provider URL | Intentionally deferred by the user |
-| A11 | Provision and launch Payload CMS | R24-R26; correct Cloudflare account, storage, secrets, protected first-user setup | Local implementation complete; external setup and release pending |
+| A11 | Retired CMS setup; repository-managed website | R24-R26 superseded by the user on 22 October | CMS removed; static build/deployment and resource cleanup recorded in the release note |
 | A10 | Consider Bing and an eligible local profile only when useful | R01, R16, R20; accurate operations | Optional later admin work; not created or claimed |
 
 Unchecked setup work remains open even if a daily audit or handoff task is complete. Record the actual completion date and non-sensitive evidence for each action when performed.
@@ -57,7 +57,7 @@ Record the submission result and later inspection findings. Keep indexing, impre
 
 ## A06: Approve measurement
 
-Choose whether to use a measurement platform, identify the account owner, and review data/consent requirements for the actual jurisdiction and practices. Use the [measurement plan](SEO/strategy/09-measurement-and-reporting.md) for reporting context and the [implementation event specification](SEO/measurement/event-specification.md) for triggers, permitted parameters, privacy exclusions, deduplication, disabled outcomes, QA cases, and the manual installation sequence. The resource system is functional without analytics; no SDK, tracking tag, queue, or analytics event adapter has been installed.
+Choose whether to use a measurement platform, identify the account owner, and review data/consent requirements for the actual jurisdiction and practices. Use the [measurement plan](SEO/strategy/09-measurement-and-reporting.md) for reporting context and the [implementation event specification](SEO/measurement/event-specification.md) for triggers, permitted parameters, privacy exclusions, deduplication, disabled outcomes, QA cases, and the manual installation sequence. No SDK, tracking tag, queue, or analytics event adapter has been installed. Resource-specific events remain proposed until actual articles and tools are implemented through the repository.
 
 If you approve implementation, arrange that task explicitly. Verify collection with known test activity and record when reliable production collection starts. Review a full 28-day period only after it exists. A lack of observed page tags does not prove no server-side or hosting analytics exist.
 
@@ -81,19 +81,21 @@ These are documented later actions. No contact credentials, donation URL, real m
 
 When you complete an action, record its ID, actual date, result, non-sensitive evidence, and remaining dependency in a dated note. Update the related R item only with a confirmed answer. Do not mark A03-A06 complete simply because this handoff exists.
 
-## A11: Launch Payload CMS (R24-R26)
+## A11: CMS setup retired; repository-managed website (R24-R26)
 
-**Status: repository implementation and local testing only. No production database, bucket, owner account, deployment, or remote migration was created by the assistant.** The site now needs a running Next.js/Cloudflare application with a database; the prior static export deployment instructions are superseded.
+On **22 October 2026**, the user explicitly chose **“Drop the CMS and keep the website managed through the repository.”** This supersedes the earlier Payload provisioning, account, recovery-email, and editable-page tasks. Do not ask the superadmin to create a CMS account, enable R2, or configure a CMS database.
 
-1. **Choose the correct hosting account.** Use the existing Git-connected Agape Cloudflare account. Earlier work established that the locally authenticated Wrangler account was different. Confirm account, Worker, domain, paid-plan/runtime limits, and resource names before any remote command. Review current dependency advisories in `docs/cms-implementation.md` before public rollout.
-2. **Provision storage yourself.** Create a D1 database and an R2 bucket in that account. Replace the all-zero D1 ID in `wrangler.jsonc`, confirm the database name and bucket name, and retain the `D1` and `R2` binding names. The repository intentionally has no real production database ID. Do not copy the local test database into production.
-3. **Prepare private secrets.** Generate a strong, separate production `PAYLOAD_SECRET`. Store it privately in the build environment and Worker runtime. Keep it stable across releases; changing it invalidates existing sessions and can affect encrypted data. Never paste it into chat or source. Contact credentials remain deferred and are not prerequisites for CMS content editing.
-4. **Build the correct artifact.** Workers Builds must use `npm run build:cloudflare` and `npm run deploy`. The first command produces `.open-next/worker.js` and `.open-next/assets`; `out/` is obsolete. Use Node 24.18.0. Review a protected staging deployment before replacing production.
-5. **Migrate the production schema deliberately.** Back up any existing database first. Payload's migration files are in `cms/migrations`. Ordinary CLI commands force local bindings. For an explicitly authorized remote migration, temporarily set `remote: true` on the **D1 binding only**, verify the actual database ID/account, then run `PAYLOAD_MIGRATE_REMOTE=1 NODE_ENV=production npm run cms:migrate:local`. Despite the script's conservative name, both that explicit environment flag and the D1 remote setting are required to reach production. Restore the D1 remote setting to absent/false immediately afterward. Run the same explicit command a second time to verify no migrations remain. Do not pass a force flag to bypass development-schema warnings; production should begin with migrations on a clean database.
-6. **Protect initial account creation.** Before exposing the CMS publicly, restrict the staging/application hostname to the superadmin (for example using your chosen Cloudflare access controls). Create your own first user at `/admin`; Payload grants that first user the administrator role. Confirm that a second anonymous user cannot register. Do not expose an empty CMS with the first-user form available to everyone. Create any client users as editors. Keep the correct admin recovery process privately.
-7. **Add the starter drafts if wanted.** Under the same explicit, temporary D1 remote setting, `PAYLOAD_MIGRATE_REMOTE=1 NODE_ENV=production npm run cms:seed` adds eight draft pages only when their slugs do not exist. It never creates a user or publishes pages. Restore local-only settings afterward. Alternatively create pages manually through the CMS. Keep the eight starter drafts unpublished: the user requires the existing design to be preserved, and the native field integration with those designs remains pending under R26.
-8. **Arrange CMS recovery email.** Configure an approved Payload email adapter as a separately authorized implementation, or document a secure administrator recovery procedure before client access. The current adapter deliberately fails instead of logging reset emails/tokens. This is separate from contact-form delivery under A08.
-9. **Verify storage and publishing on staging.** Save a draft, inspect its private preview, publish a temporary approved page, confirm its HTML/canonical/sitemap entry, save a newer draft and verify visitors still see the published version, then unpublish. Verify image upload/retrieval, editor permissions, a failed anonymous write, private previews, contact/donation setup-pending states, and backups. Remove staging test content before launch. Do not enable analytics as part of this checklist.
-10. **Record evidence and release.** Record the target account/Worker identifiers, migration names, build result, owner role (not credentials), storage checks, backup/recovery owner, and date here. Complete R24-R26 only with the user's actual answers. Production push/deploy remains a separate authorized action.
+The application uses Next.js static export again. The approved existing page designs and Georgia content remain. Content changes follow [the repository editing guide](docs/repository-editing-guide.md).
 
-Official references: [Payload installation](https://payloadcms.com/docs/getting-started/installation), [native Blocks](https://payloadcms.com/docs/fields/blocks), [drafts and versions](https://payloadcms.com/docs/versions/drafts), [Payload's Cloudflare template](https://github.com/payloadcms/payload/tree/main/templates/with-cloudflare-d1), and [OpenNext Cloudflare](https://opennext.js.org/cloudflare/get-started). The implementation uses the installed package APIs; upstream templates may differ from the published version.
+The user separately authorized pushing to `main` and deploying via Wrangler. That does not authorize Search Console, analytics, DNS changes, contact delivery, or donation setup. Contact and donations remain deferred under A08-A09.
+
+### Current build settings
+
+- Account: `4bb86ba631de88ebffab0709d3e09c19`; Worker: `agape-unlimited`.
+- GitHub repository: `EVER-RISE-PRESS-LLC/Agape-unlimited`; production branch: `main`.
+- Node: `24.18.0`; install: `npm ci`; build: `npm run build`; deploy: `npx wrangler deploy`.
+- Static assets: `out/`; Worker entrypoint: `worker/index.ts`.
+- No D1, KV, R2, CMS build secrets, or CMS runtime secrets are required.
+- The earlier CMS version preview is retired; version preview URLs are disabled in source.
+
+The dated [22 October release record](docs/release-2026-10-22.md) records the real build, deployment, checks, and cleanup results. Do not treat a setting documented here as evidence that a remote action succeeded. The former CMS setup instructions are intentionally removed so they cannot be followed accidentally.

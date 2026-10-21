@@ -1,5 +1,7 @@
 # Measurement implementation handoff
 
+> Updated scope, 22 October 2026: the CMS and article routes were removed at the user’s request. Resource and worksheet events below are specifications for future repository-managed articles, not currently implemented features or collected data.
+
 Prepared 20 October 2026, Asia/Dhaka. Owner: the user as superadmin. **Status: specification complete; provider selection, privacy review, installation, collection, and provider-level QA pending.** This document is not an analytics installation or evidence of recorded visitor activity.
 
 Dependencies: [A06 in the superadmin handoff](../../SUPERADMIN-SETUP.md), R03/R16/R23 in [the shared checklist](../../NEEDS-YOUR-REVIEW.md), and real delivery/checkout configuration under R05/R07. The article system works without analytics. Resource fixtures must never be counted as public visits.
@@ -29,7 +31,7 @@ Use a positive allowlist. Reject unknown events, keys, and unregistered values b
 
 | Parameter | Allowed value | Rule |
 | --- | --- | --- |
-| `page_path` | One existing canonical core path or approved published resource path | Match core routes or the published CMS records. Strip query/fragment before matching; reject unknown paths rather than recording them |
+| `page_path` | One existing canonical core path or approved published resource path | Match core routes or reviewed published article paths in the repository. Strip query/fragment before matching; reject unknown paths rather than recording them |
 | `resource_id` | Registered public guide slug | Published guides only, never arbitrary path text or a fixture slug |
 | `tool_id` | Registered tool ID in that published guide | Existing worksheet/checklist ID, never a typed field value |
 | `action` | `first_edit`, `print_request`, or `download_click` | Explicit user action; use only where that feature exists |

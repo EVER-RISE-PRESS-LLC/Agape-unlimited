@@ -101,7 +101,7 @@ test("error, query and API metadata preserve correct crawl behavior and private 
   expect(availability.headers()["x-robots-tag"]).toBe("noindex");
   expect(availability.headers()["cache-control"]).toBe("no-store");
   expect(await availability.json()).toEqual({ available: false });
-  for (const path of ["/AGENTS.md", "/NEEDS-YOUR-REVIEW.md", "/SUPERADMIN-SETUP.md", "/SEO/README.md", "/.env"]) {
+  for (const path of ["/AGENTS.md", "/NEEDS-YOUR-REVIEW.md", "/SUPERADMIN-SETUP.md", "/SEO/README.md", "/.env", "/admin", "/admin/create-first-user", "/api/users", "/api/pages", "/resources", "/preview/pages/1"]) {
     expect((await request.get(path)).status()).toBe(404);
   }
 });

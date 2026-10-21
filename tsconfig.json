@@ -26,9 +26,6 @@
     "paths": {
       "@/*": [
         "./*"
-      ],
-      "@payload-config": [
-        "./payload.config.ts"
       ]
     }
   },
@@ -40,7 +37,6 @@
     ".next/dev/types/**/*.ts"
   ],
   "exclude": [
-    "node_modules",
-    ".open-next"
+    "node_modules"
   ]
 }

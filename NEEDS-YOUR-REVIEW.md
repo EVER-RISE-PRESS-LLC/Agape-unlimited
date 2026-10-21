@@ -1,6 +1,6 @@
 # Items for your review
 
-Updated 21 October 2026. This is the shared list of facts and decisions to check when convenient. Unchecked items remain unknown, partly answered, or intentionally deferred. Their presence does not block planning or unrelated work. The latest answers and their publication limits are recorded in [the 21 October client update](docs/client-information-2026-10-21.md).
+Updated 22 October 2026. This is the shared list of facts and decisions to check when convenient. Unchecked items remain unknown, partly answered, or intentionally deferred. Their presence does not block planning or unrelated work. The latest answers and their publication limits are recorded in [the 21 October client update](docs/client-information-2026-10-21.md).
 
 At the start of a new AI conversation or work session, the assistant should briefly link to this checklist, mention the relevant pending items, and continue with the recorded assumptions. Add new material questions here instead of repeatedly asking them in chat.
 
@@ -32,47 +32,33 @@ At the start of a new AI conversation or work session, the assistant should brie
 
 - [ ] **R16 Search and analytics ownership.** Confirm the foundation-managed accounts and property roles for Search Console, any analytics platform, and Bing Webmaster Tools if used. Needed for indexing and performance baselines. Confirmed workflow owner: the user as superadmin will perform external setup themselves, per 16 October instruction. Actual property ownership, verification, and metrics remain unconfirmed; use [SUPERADMIN-SETUP.md](SUPERADMIN-SETUP.md), A03-A06 and A10. Do not open sign-in/setup flows or configure these services as part of general SEO work. On 20 October, the resource event specification was completed in `SEO/measurement/event-specification.md`; selection, ownership, installation, and real collection remain pending.
 - [ ] **R17 Target audiences and language.** Confirm the priority between families, volunteers, donors, and partners; languages; and whether service and donor markets differ. Needed to finalize keyword demand and content priorities. Since 21 October, use Georgia, United States as the confirmed service market under R01. English remains the planning language; audience priorities, additional languages, and donor markets are unconfirmed. Existing search observations have not been re-run as Georgia-localized results.
-- [ ] **R18 Editorial and specialist reviewers.** Name the people who can approve organizational facts and review safeguarding, education, accessibility, and local resources. Needed before publishing new resource guides. Day 1 records the required roles and related facts; no names or qualifications have been supplied. The user's superadmin role does not establish a foundation governance or specialist-review role. On 20 October, the article workflow was integrated with Payload CMS, with actual author fields and a publication approval checkbox; no reviewer has been invented or assigned.
+- [ ] **R18 Editorial and specialist reviewers.** Name the people who can approve organizational facts and review safeguarding, education, accessibility, and local resources. Needed before publishing new resource guides. Day 1 records the required roles and related facts; no names or qualifications have been supplied. The user's superadmin role does not establish a foundation governance or specialist-review role. The earlier CMS workflow was retired by the user on 22 October. Future articles will be reviewed and published through the repository; no reviewer has been invented or assigned.
 - [ ] **R19 Content capacity and distribution.** Confirm available daily time, writers, reviewers, developer capacity, and approved social/newsletter channels. Needed to execute the requested ten-day sequence at a sustainable pace. Current decision: the user will complete one main SEO task per day. The plan estimates 37-59 active hours across ten sessions; staffing, spending, and outside review turnaround remain unconfirmed.
 - [ ] **R20 Local presence and profile eligibility.** Confirm specific cities/counties, in-person service model, whether a public staffed location exists, accurate visitor hours, and whether an existing Business Profile belongs to this foundation. Needed before local profile work. Georgia, United States is confirmed as the service area on 21 October; it does not confirm an office location, address, hours, or profile eligibility.
 - [ ] **R21 Local provider verification.** Confirm service-market contacts, which providers may be listed, and who will check their information monthly. Needed for a maintainable local resource directory. Current assumption: no local directory is ready to publish.
 - [ ] **R22 Keyword platform data.** If available, provide a market-specific export or account workflow for volume, trends, and organic difficulty. Needed to validate the initial query shortlist. Current assumption: metric cells stay blank; qualitative priority is not measured difficulty.
 - [ ] **R23 Privacy and measurement review.** Confirm who can assess analytics, consent, form information, and donation attribution for the actual jurisdiction and practices. Needed before installing or changing measurement. Current assumption: no tracking or privacy-policy change is authorized by the SEO planning request. The 20 October event handoff specifies data exclusions and manual review steps; it does not resolve jurisdiction, consent, retention, or account decisions.
 
-## CMS rollout
+## Retired CMS decisions
 
-- [ ] **R24 Payload production hosting and administrator.** Payload was explicitly selected on 20 October 2026. Confirm the correct Cloudflare account, D1 database, R2 bucket, production secret handling, backup/recovery owner, first administrator, and whether/when to deploy. Needed for a persistent production CMS. Current status: local CMS implemented; remote resources and administrator setup remain with the superadmin under A11. No real CMS account was created by the assistant. The prior static hosting workflow needs the documented OpenNext build settings.
-- [ ] **R25 CMS account email and recovery.** Choose an approved sending setup and owner for CMS password resets/invitations, or document a secure administrative recovery process. Needed before client handoff. Current assumption: CMS email is disabled and raises an error without logging reset tokens; the contact-form Resend configuration remains independently deferred under R05.
-- [ ] **R26 Existing-page editing with the current design.** Decision confirmed by the user on 20 October 2026: existing pages must become editable in Payload while keeping their current appearance. Implementation is deferred to the next work session, planned for 21 October. Connect native CMS fields to the existing page components and verify desktop/mobile visual consistency. The simpler seeded drafts are interim content sources and must not be published as visual replacements. The design decision is resolved; this item stays open until the integration and comparison are complete. Header/footer navigation currently stays curated in code.
+These stable IDs are retained for history. They are no longer outstanding setup requests.
 
-## Program status to complete under R02
-
-The 21 October community-driven direction applies to the overall mission. No individual program status, eligibility, schedule, or application route was supplied; the rows below therefore remain unconfirmed.
-
-| Area | Current confirmed status | Facts to add |
-| --- | --- | --- |
-| Education and academic support | Unconfirmed | Delivery, audience, geography, availability, owner |
-| Scholarships and career opportunities | Unconfirmed | Whether awards exist, dates, terms, process, owner |
-| Family assistance and support | Unconfirmed | Direct support versus referral, scope, owner |
-| Youth mentorship | Unconfirmed | Model, audience, policies, availability, owner |
-| Food and basic needs assistance | Unconfirmed | Actual provision, accepted items, logistics, owner |
-| Housing and community resources | Unconfirmed | Information/referral versus housing provision, owner |
-| Workforce and life-skills development | Unconfirmed | Activities, audience, schedule, owner |
-| Accessibility and inclusion | Unconfirmed | Supported participation and specific arrangements, owner |
-| Youth leadership and empowerment | Unconfirmed | Activities, audience, dates, owner |
-| Community partnerships and outreach | Unconfirmed | Actual arrangements, permissions, scope, owner |
+- [x] **R24 Payload production hosting and administrator — superseded.** On 22 October 2026, after authorizing a production attempt, the user chose “Drop the CMS and keep the website managed through the repository.” No CMS hosting or administrator handoff is required. Restore the static Cloudflare build and retire the temporary CMS resources. See A11 and the dated release record for actual cleanup evidence.
+- [x] **R25 CMS account email and recovery — superseded.** The user removed the CMS on 22 October 2026. No CMS account, password reset service, or recovery email is needed. This does not resolve the separate contact delivery requirements R05-R06.
+- [x] **R26 Make existing pages editable without changing their design — superseded.** The user removed CMS editing on 22 October 2026. Preserve the existing desktop/mobile design and manage content through source changes instead. Design comparison remains part of the release checks, not a pending CMS migration.
 
 ## Resolved decisions
 
 | Date | Decision | Consequence |
 | --- | --- | --- |
-| 21 October 2026 | Client confirms Georgia, United States and a community-driven focus | Update public copy, CMS drafts, and SEO planning; retain open legal-status and program-detail questions under R02, R04, R09, and R10 |
+| 22 October 2026 | Drop the CMS and manage content through the repository; hosting must remain fully free | Remove Payload/OpenNext and CMS storage; preserve desktop/mobile design and Georgia content; restore static Cloudflare deployment |
+| 21 October 2026 | Client confirms Georgia, United States and a community-driven focus | Update public copy and SEO planning (the interim CMS drafts were retired on 22 October); retain open legal-status and program-detail questions under R02, R04, R09, and R10 |
 | 14 October 2026 | Contact email delivery and donation checkout will be configured later | Keep setup-pending messages; do not fabricate success |
 | 15 October 2026 | Record unknowns in a Markdown checklist for later review | Add questions here and remind at the start of future sessions |
 | 15 October 2026 | Create an extensive SEO plan in a repository subdirectory | Planning files live in `SEO/`; no live SEO implementation or account changes implied |
 | 16 October 2026 | Reorganize the SEO work into ten daily tasks, one to complete each day | `SEO/daily-tasks/README.md` is the current execution schedule; earlier weekly dates are reference only; later data reviews remain separate |
 | 16 October 2026 | The user will perform Search Console and other external admin setup themselves | Assistants document manual steps in `SUPERADMIN-SETUP.md`; general SEO day requests do not authorize account/sign-in flows or setup |
-| 20 October 2026 | Use Payload CMS with native editable sections; do not build an Elementor clone | Replace the code-only article workflow, keep useful SEO and worksheet features, and prepare production setup for the superadmin |
+| 20 October 2026 | Use Payload CMS with native editable sections; do not build an Elementor clone | Historical decision, superseded by the explicit CMS removal on 22 October |
 | 16 October 2026 | Start SEO Day 1 with a public baseline and manual admin handoff | Save dated live evidence and fact gaps; account configuration remains a separate superadmin action |
 
 When an item is answered, check it, retain its stable ID, and record the answer and date. If an answer changes, preserve enough context to explain the new decision without storing sensitive information.

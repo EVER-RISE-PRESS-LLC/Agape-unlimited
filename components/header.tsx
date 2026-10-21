@@ -11,11 +11,8 @@ const links = [
   ["Get involved", "/get-involved"],
   ["Contact", "/contact"],
 ] as const;
-export function Header({ showResources = false }: { showResources?: boolean }) {
+export function Header() {
   const pathname = usePathname();
-  const navigationLinks: readonly (readonly [string, string])[] = showResources
-    ? [...links.slice(0, -1), ["Resources", "/resources"], links[links.length - 1]]
-    : links;
   const [open, setOpen] = useState(false);
   const trigger = useRef<HTMLButtonElement>(null);
   const header = useRef<HTMLElement>(null);
@@ -69,7 +66,7 @@ export function Header({ showResources = false }: { showResources?: boolean }) {
           </span>
         </Link>
         <nav className="desktop-nav" aria-label="Main navigation">
-          {navigationLinks.map(([label, href]) => (
+          {links.map(([label, href]) => (
             <Link key={href} href={href} aria-current={pathname === href ? "page" : undefined} onClick={() => setOpen(false)}>
               {label}
             </Link>
@@ -96,7 +93,7 @@ export function Header({ showResources = false }: { showResources?: boolean }) {
         inert={!open}
         aria-label="Mobile navigation"
       >
-        {navigationLinks.map(([label, href]) => (
+        {links.map(([label, href]) => (
           <Link key={href} href={href} aria-current={pathname === href ? "page" : undefined} onClick={() => setOpen(false)}>
             {label}
           </Link>

@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-22",
+  "baseline": "Existing designed pages captured before the CMS integration attempt, including the 21 October client copy",
+  "viewports": [
+    1440,
+    390
+  ],
+  "pages": [
+    "/",
+    "/about",
+    "/programs",
+    "/values",
+    "/get-involved",
+    "/contact",
+    "/donate",
+    "/privacy"
+  ],
+  "main_html_identical": true,
+  "all_titles_and_descriptions_identical": true,
+  "desktop_changed_pixels": 0,
+  "mobile_comparison": {
+    "layout_and_content": "unchanged",
+    "image_candidate_difference": "A fresh mobile browser selects the existing 480w WebP; the saved baseline used the existing 768w WebP. Same srcset, source assets, crops, CSS, and markup. Comparisons using the same 768w candidate eliminate those pixel differences.",
+    "same_candidate_changed_pixels": {
+      "home": 0,
+      "about": 0,
+      "values": 0
+    },
+    "contact_capture": "All 2481 baseline rows match. Full-page screenshot includes 24 extra pixels of trailing background."
+  },
+  "local_tests": {
+    "passed": 17,
+    "failed": 0
+  },
+  "build": "passed",
+  "typecheck": "passed",
+  "lint": "passed",
+  "wrangler_dry_run": "passed",
+  "worker_gzip_kib": 1.95
+}

@@ -12,7 +12,7 @@ export const contentType = "image/png";
 
 async function OpenGraphImage() {
   const [stylesheet, logo, displayFont, bodyFont] = await Promise.all([
-    readFile(join(process.cwd(), "app/(website)/globals.css"), "utf8"),
+    readFile(join(process.cwd(), "app/globals.css"), "utf8"),
     readFile(join(process.cwd(), "public/images/agape-seal.png"), "base64"),
     readFile(join(process.cwd(), "assets/fonts/Montserrat-SemiBold.ttf")),
     readFile(join(process.cwd(), "assets/fonts/SourceSans3-SemiBold.ttf")),

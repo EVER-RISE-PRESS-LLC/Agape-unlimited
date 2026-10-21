@@ -1,7 +1,7 @@
 {
   "date": "2026-10-20",
-  "status": "integrated-with-payload-cms-locally",
-  "current_evidence": "../../../docs/cms-implementation.md",
+  "status": "cms-implementation-retired-by-user-2026-10-22",
+  "current_evidence": "../../../docs/release-2026-10-22.md",
   "code_only_catalog_removed": true,
   "tracking_installed": false,
   "published_real_articles": 0,
@@ -15,5 +15,9 @@
     "public_contact_tests_passed": 17,
     "cms_workflow_tests_passed": 1,
     "migration_setup_and_repeat": "passed"
-  }
+  },
+  "validation_scope": "Historical local CMS validation on 2026-10-20; not current release evidence",
+  "current_publishing_workflow": "repository-managed static pages",
+  "superseded_on": "2026-10-22",
+  "resource_hub_published": false
 }

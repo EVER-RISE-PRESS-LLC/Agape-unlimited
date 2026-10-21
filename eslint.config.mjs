@@ -6,9 +6,6 @@ export default defineConfig([
   ...nextTs,
   globalIgnores([
     ".next/**",
-    ".open-next/**",
-    "payload-types.ts",
-    "app/(payload)/admin/importMap.js",
     ".wrangler/**",
     "out/**",
     "worker-configuration.d.ts",
